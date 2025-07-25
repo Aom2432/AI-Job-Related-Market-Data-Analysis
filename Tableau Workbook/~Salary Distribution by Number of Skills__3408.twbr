@@ -1,0 +1,2698 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0520.1026                               -->
+<workbook original-version='18.1' source-build='2025.1.2 (20251.25.0520.1026)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='job_requirement_dataset+' inline='true' name='federated.15f7ri50uvc0su144bpm41krlc8u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='job_requirement_dataset' name='textscan.0w0o3an0t32ilh149w0ev1062aos'>
+            <connection class='textscan' directory='C:/Users/natta/Desktop/AI-Powered Job Market Insights/dataset' filename='job_requirement_dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='textscan.0w0o3an0t32ilh149w0ev1062aos' name='ai_job_dataset_cleaned.csv' table='[ai_job_dataset_cleaned#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='ID_cleaned' ordinal='0' />
+              <column datatype='string' name='job_title' ordinal='1' />
+              <column datatype='integer' name='salary_usd' ordinal='2' />
+              <column datatype='string' name='salary_distribution_usd' ordinal='3' />
+              <column datatype='string' name='experience_level_cleaned' ordinal='4' />
+              <column datatype='string' name='employment_type_cleaned' ordinal='5' />
+              <column datatype='string' name='company_location' ordinal='6' />
+              <column datatype='string' name='company_size_cleaned' ordinal='7' />
+              <column datatype='string' name='employee_residence' ordinal='8' />
+              <column datatype='string' name='education_required' ordinal='9' />
+              <column datatype='integer' name='years_experience' ordinal='10' />
+              <column datatype='string' name='industry' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0w0o3an0t32ilh149w0ev1062aos' name='job_requirement_dataset.csv' table='[job_requirement_dataset#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='ID_cleaned' ordinal='0' />
+              <column datatype='integer' name='AWS' ordinal='1' />
+              <column datatype='integer' name='Azure' ordinal='2' />
+              <column datatype='integer' name='Docker' ordinal='3' />
+              <column datatype='integer' name='GCP' ordinal='4' />
+              <column datatype='integer' name='Git' ordinal='5' />
+              <column datatype='integer' name='Hadoop' ordinal='6' />
+              <column datatype='integer' name='Java' ordinal='7' />
+              <column datatype='integer' name='Kubernetes' ordinal='8' />
+              <column datatype='integer' name='MLOps' ordinal='9' />
+              <column datatype='integer' name='NLP' ordinal='10' />
+              <column datatype='integer' name='PyTorch' ordinal='11' />
+              <column datatype='integer' name='Python' ordinal='12' />
+              <column datatype='integer' name='R' ordinal='13' />
+              <column datatype='integer' name='SQL' ordinal='14' />
+              <column datatype='integer' name='Scala' ordinal='15' />
+              <column datatype='integer' name='Pyspark' ordinal='16' />
+              <column datatype='integer' name='Tableau' ordinal='17' />
+              <column datatype='integer' name='TensorFlow' ordinal='18' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0w0o3an0t32ilh149w0ev1062aos' name='salary_by_skills.csv' table='[salary_by_skills#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='ID_cleaned' ordinal='0' />
+              <column datatype='string' name='job_title' ordinal='1' />
+              <column datatype='integer' name='AWS' ordinal='2' />
+              <column datatype='integer' name='Azure' ordinal='3' />
+              <column datatype='integer' name='Docker' ordinal='4' />
+              <column datatype='integer' name='GCP' ordinal='5' />
+              <column datatype='integer' name='Git' ordinal='6' />
+              <column datatype='integer' name='Hadoop' ordinal='7' />
+              <column datatype='integer' name='Java' ordinal='8' />
+              <column datatype='integer' name='Kubernetes' ordinal='9' />
+              <column datatype='integer' name='MLOps' ordinal='10' />
+              <column datatype='string' name='NLP' ordinal='11' />
+              <column datatype='integer' name='PyTorch' ordinal='12' />
+              <column datatype='integer' name='Python' ordinal='13' />
+              <column datatype='integer' name='R' ordinal='14' />
+              <column datatype='integer' name='SQL' ordinal='15' />
+              <column datatype='integer' name='Scala' ordinal='16' />
+              <column datatype='integer' name='PySpark' ordinal='17' />
+              <column datatype='integer' name='Tableau' ordinal='18' />
+              <column datatype='integer' name='Tensorflow' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0w0o3an0t32ilh149w0ev1062aos' name='time_table_dataset.csv' table='[time_table_dataset#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='ID_cleaned' ordinal='0' />
+              <column datatype='date' name='posting_date' ordinal='1' />
+              <column datatype='date' name='application_deadline' ordinal='2' />
+              <column datatype='integer' name='application_period_days' ordinal='3' />
+              <column datatype='integer' name='days_subtraction_period' ordinal='4' />
+              <column datatype='string' name='F6' ordinal='5' />
+              <column datatype='string' name='F7' ordinal='6' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[AWS (salary_by_skills.csv)]' value='[salary_by_skills.csv].[AWS]' />
+          <map key='[AWS]' value='[job_requirement_dataset.csv].[AWS]' />
+          <map key='[Azure (salary_by_skills.csv)]' value='[salary_by_skills.csv].[Azure]' />
+          <map key='[Azure]' value='[job_requirement_dataset.csv].[Azure]' />
+          <map key='[Docker (salary_by_skills.csv)]' value='[salary_by_skills.csv].[Docker]' />
+          <map key='[Docker]' value='[job_requirement_dataset.csv].[Docker]' />
+          <map key='[F6]' value='[time_table_dataset.csv].[F6]' />
+          <map key='[F7]' value='[time_table_dataset.csv].[F7]' />
+          <map key='[GCP (salary_by_skills.csv)]' value='[salary_by_skills.csv].[GCP]' />
+          <map key='[GCP]' value='[job_requirement_dataset.csv].[GCP]' />
+          <map key='[Git (salary_by_skills.csv)]' value='[salary_by_skills.csv].[Git]' />
+          <map key='[Git]' value='[job_requirement_dataset.csv].[Git]' />
+          <map key='[Hadoop (salary_by_skills.csv)]' value='[salary_by_skills.csv].[Hadoop]' />
+          <map key='[Hadoop]' value='[job_requirement_dataset.csv].[Hadoop]' />
+          <map key='[ID_cleaned (job_requirement_dataset.csv)]' value='[job_requirement_dataset.csv].[ID_cleaned]' />
+          <map key='[ID_cleaned (salary_by_skills.csv)]' value='[salary_by_skills.csv].[ID_cleaned]' />
+          <map key='[ID_cleaned (time_table_dataset.csv)]' value='[time_table_dataset.csv].[ID_cleaned]' />
+          <map key='[ID_cleaned]' value='[ai_job_dataset_cleaned.csv].[ID_cleaned]' />
+          <map key='[Java (salary_by_skills.csv)]' value='[salary_by_skills.csv].[Java]' />
+          <map key='[Java]' value='[job_requirement_dataset.csv].[Java]' />
+          <map key='[Kubernetes (salary_by_skills.csv)]' value='[salary_by_skills.csv].[Kubernetes]' />
+          <map key='[Kubernetes]' value='[job_requirement_dataset.csv].[Kubernetes]' />
+          <map key='[MLOps (salary_by_skills.csv)]' value='[salary_by_skills.csv].[MLOps]' />
+          <map key='[MLOps]' value='[job_requirement_dataset.csv].[MLOps]' />
+          <map key='[NLP (salary_by_skills.csv)]' value='[salary_by_skills.csv].[NLP]' />
+          <map key='[NLP]' value='[job_requirement_dataset.csv].[NLP]' />
+          <map key='[PySpark]' value='[salary_by_skills.csv].[PySpark]' />
+          <map key='[PyTorch (salary_by_skills.csv)]' value='[salary_by_skills.csv].[PyTorch]' />
+          <map key='[PyTorch]' value='[job_requirement_dataset.csv].[PyTorch]' />
+          <map key='[Pyspark]' value='[job_requirement_dataset.csv].[Pyspark]' />
+          <map key='[Python (salary_by_skills.csv)]' value='[salary_by_skills.csv].[Python]' />
+          <map key='[Python]' value='[job_requirement_dataset.csv].[Python]' />
+          <map key='[R (salary_by_skills.csv)]' value='[salary_by_skills.csv].[R]' />
+          <map key='[R]' value='[job_requirement_dataset.csv].[R]' />
+          <map key='[SQL (salary_by_skills.csv)]' value='[salary_by_skills.csv].[SQL]' />
+          <map key='[SQL]' value='[job_requirement_dataset.csv].[SQL]' />
+          <map key='[Scala (salary_by_skills.csv)]' value='[salary_by_skills.csv].[Scala]' />
+          <map key='[Scala]' value='[job_requirement_dataset.csv].[Scala]' />
+          <map key='[Tableau (salary_by_skills.csv)]' value='[salary_by_skills.csv].[Tableau]' />
+          <map key='[Tableau]' value='[job_requirement_dataset.csv].[Tableau]' />
+          <map key='[TensorFlow]' value='[job_requirement_dataset.csv].[TensorFlow]' />
+          <map key='[Tensorflow]' value='[salary_by_skills.csv].[Tensorflow]' />
+          <map key='[application_deadline]' value='[time_table_dataset.csv].[application_deadline]' />
+          <map key='[application_period_days]' value='[time_table_dataset.csv].[application_period_days]' />
+          <map key='[company_location]' value='[ai_job_dataset_cleaned.csv].[company_location]' />
+          <map key='[company_size_cleaned]' value='[ai_job_dataset_cleaned.csv].[company_size_cleaned]' />
+          <map key='[days_subtraction_period]' value='[time_table_dataset.csv].[days_subtraction_period]' />
+          <map key='[education_required]' value='[ai_job_dataset_cleaned.csv].[education_required]' />
+          <map key='[employee_residence]' value='[ai_job_dataset_cleaned.csv].[employee_residence]' />
+          <map key='[employment_type_cleaned]' value='[ai_job_dataset_cleaned.csv].[employment_type_cleaned]' />
+          <map key='[experience_level_cleaned]' value='[ai_job_dataset_cleaned.csv].[experience_level_cleaned]' />
+          <map key='[industry]' value='[ai_job_dataset_cleaned.csv].[industry]' />
+          <map key='[job_title (salary_by_skills.csv)]' value='[salary_by_skills.csv].[job_title]' />
+          <map key='[job_title]' value='[ai_job_dataset_cleaned.csv].[job_title]' />
+          <map key='[posting_date]' value='[time_table_dataset.csv].[posting_date]' />
+          <map key='[salary_distribution_usd]' value='[ai_job_dataset_cleaned.csv].[salary_distribution_usd]' />
+          <map key='[salary_usd]' value='[ai_job_dataset_cleaned.csv].[salary_usd]' />
+          <map key='[years_experience]' value='[ai_job_dataset_cleaned.csv].[years_experience]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[time_table_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID_cleaned</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID_cleaned]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>ID_cleaned</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job_title]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>job_title</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salary_usd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[salary_usd]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>salary_usd</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salary_distribution_usd</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[salary_distribution_usd]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>salary_distribution_usd</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>experience_level_cleaned</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[experience_level_cleaned]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>experience_level_cleaned</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employment_type_cleaned</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[employment_type_cleaned]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>employment_type_cleaned</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company_location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[company_location]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>company_location</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company_size_cleaned</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[company_size_cleaned]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>company_size_cleaned</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employee_residence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[employee_residence]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>employee_residence</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>education_required</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[education_required]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>education_required</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>years_experience</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[years_experience]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>years_experience</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[industry]</local-name>
+            <parent-name>[ai_job_dataset_cleaned.csv]</parent-name>
+            <remote-alias>industry</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID_cleaned</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID_cleaned (job_requirement_dataset.csv)]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>ID_cleaned</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AWS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AWS]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>AWS</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Azure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Azure]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>Azure</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Docker</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Docker]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>Docker</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GCP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GCP]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>GCP</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Git</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Git]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>Git</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hadoop</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hadoop]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>Hadoop</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Java</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Java]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>Java</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kubernetes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kubernetes]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>Kubernetes</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MLOps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MLOps]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>MLOps</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NLP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NLP]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>NLP</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PyTorch</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PyTorch]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>PyTorch</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Python</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Python]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>Python</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[R]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>R</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SQL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SQL]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>SQL</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Scala</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Scala]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>Scala</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pyspark</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pyspark]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>Pyspark</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tableau</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tableau]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>Tableau</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TensorFlow</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TensorFlow]</local-name>
+            <parent-name>[job_requirement_dataset.csv]</parent-name>
+            <remote-alias>TensorFlow</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID_cleaned</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID_cleaned (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>ID_cleaned</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job_title (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>job_title</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AWS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AWS (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>AWS</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Azure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Azure (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>Azure</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Docker</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Docker (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>Docker</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GCP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GCP (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>GCP</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Git</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Git (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>Git</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hadoop</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hadoop (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>Hadoop</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Java</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Java (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>Java</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kubernetes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kubernetes (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>Kubernetes</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MLOps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MLOps (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>MLOps</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NLP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NLP (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>NLP</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PyTorch</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PyTorch (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>PyTorch</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Python</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Python (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>Python</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>R</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[R (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>R</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SQL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SQL (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>SQL</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Scala</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Scala (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>Scala</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PySpark</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PySpark]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>PySpark</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tableau</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tableau (salary_by_skills.csv)]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>Tableau</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tensorflow</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tensorflow]</local-name>
+            <parent-name>[salary_by_skills.csv]</parent-name>
+            <remote-alias>Tensorflow</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID_cleaned</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID_cleaned (time_table_dataset.csv)]</local-name>
+            <parent-name>[time_table_dataset.csv]</parent-name>
+            <remote-alias>ID_cleaned</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>posting_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[posting_date]</local-name>
+            <parent-name>[time_table_dataset.csv]</parent-name>
+            <remote-alias>posting_date</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>application_deadline</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[application_deadline]</local-name>
+            <parent-name>[time_table_dataset.csv]</parent-name>
+            <remote-alias>application_deadline</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>application_period_days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[application_period_days]</local-name>
+            <parent-name>[time_table_dataset.csv]</parent-name>
+            <remote-alias>application_period_days</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>days_subtraction_period</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[days_subtraction_period]</local-name>
+            <parent-name>[time_table_dataset.csv]</parent-name>
+            <remote-alias>days_subtraction_period</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[time_table_dataset.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[time_table_dataset.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='AWS (salary by skills.csv)' datatype='integer' name='[AWS (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='Azure (salary by skills.csv)' datatype='integer' name='[Azure (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='Docker (salary by skills.csv)' datatype='integer' name='[Docker (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='GCP (salary by skills.csv)' datatype='integer' name='[GCP (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='Git (salary by skills.csv)' datatype='integer' name='[Git (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='Hadoop (salary by skills.csv)' datatype='integer' name='[Hadoop (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='ID cleaned (job requirement dataset.csv)' datatype='integer' name='[ID_cleaned (job_requirement_dataset.csv)]' role='dimension' type='ordinal' />
+      <column caption='ID cleaned (salary by skills.csv)' datatype='integer' name='[ID_cleaned (salary_by_skills.csv)]' role='dimension' type='ordinal' />
+      <column caption='ID cleaned (time table dataset.csv)' datatype='integer' name='[ID_cleaned (time_table_dataset.csv)]' role='dimension' type='ordinal' />
+      <column caption='ID cleaned' datatype='integer' name='[ID_cleaned]' role='dimension' type='ordinal' />
+      <column caption='Java (salary by skills.csv)' datatype='integer' name='[Java (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='Kubernetes (salary by skills.csv)' datatype='integer' name='[Kubernetes (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='MLOps (salary by skills.csv)' datatype='integer' name='[MLOps (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='ML Ops' datatype='integer' name='[MLOps]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='NLP (salary by skills.csv)' datatype='integer' datatype-customized='true' name='[NLP (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='Py Spark' datatype='integer' name='[PySpark]' role='measure' type='quantitative' />
+      <column caption='PyTorch (salary by skills.csv)' datatype='integer' name='[PyTorch (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='Py Torch' datatype='integer' name='[PyTorch]' role='measure' type='quantitative' />
+      <column caption='Python (salary by skills.csv)' datatype='integer' name='[Python (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='R (salary by skills.csv)' datatype='integer' name='[R (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='SQL (salary by skills.csv)' datatype='integer' name='[SQL (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='Scala (salary by skills.csv)' datatype='integer' name='[Scala (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='Tableau (salary by skills.csv)' datatype='integer' name='[Tableau (salary_by_skills.csv)]' role='measure' type='quantitative' />
+      <column caption='Tensor Flow' datatype='integer' name='[TensorFlow]' role='measure' type='quantitative' />
+      <column caption='ai_job_dataset_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]' role='measure' type='quantitative' />
+      <column caption='job_requirement_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]' role='measure' type='quantitative' />
+      <column caption='salary_by_skills.csv' datatype='table' name='[__tableau_internal_object_id__].[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]' role='measure' type='quantitative' />
+      <column caption='time_table_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]' role='measure' type='quantitative' />
+      <column caption='Application Deadline' datatype='date' name='[application_deadline]' role='dimension' type='ordinal' />
+      <column caption='Application Period Days' datatype='integer' name='[application_period_days]' role='measure' type='quantitative' />
+      <column caption='Company Location' datatype='string' name='[company_location]' role='dimension' type='nominal' />
+      <column caption='Company Size Cleaned' datatype='string' name='[company_size_cleaned]' role='dimension' type='nominal' />
+      <column caption='Education Required' datatype='string' name='[education_required]' role='dimension' type='nominal' />
+      <column caption='Employee Residence' datatype='string' name='[employee_residence]' role='dimension' type='nominal' />
+      <column caption='Employment Type Cleaned' datatype='string' name='[employment_type_cleaned]' role='dimension' type='nominal' />
+      <column caption='Experience Level Cleaned' datatype='string' name='[experience_level_cleaned]' role='dimension' type='nominal' />
+      <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+      <column caption='Job Title (Salary By Skills.Csv)' datatype='string' name='[job_title (salary_by_skills.csv)]' role='dimension' type='nominal' />
+      <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+      <column caption='Posting Date' datatype='date' name='[posting_date]' role='dimension' type='ordinal' />
+      <column caption='Salary Distribution Usd' datatype='string' name='[salary_distribution_usd]' role='dimension' type='nominal' />
+      <column caption='Salary Usd' datatype='integer' name='[salary_usd]' role='measure' type='quantitative' />
+      <column caption='Years Experience' datatype='integer' name='[years_experience]' role='measure' type='quantitative' />
+      <column-instance column='[salary_distribution_usd]' derivation='None' name='[none:salary_distribution_usd:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/natta/AppData/Local/Temp/TableauTemp/#TableauTemp_17j7gmn0md72hm11awpvn1hbeffa.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/03/2025 12:43:13 PM' username='tableau_internal_user'>
+          <relation type='collection'>
+            <relation name='ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66' table='[Extract].[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]' type='table' />
+            <relation name='job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C' table='[Extract].[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]' type='table' />
+            <relation name='salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD' table='[Extract].[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]' type='table' />
+            <relation name='time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E' table='[Extract].[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]' type='table' />
+          </relation>
+          <cols>
+            <map key='[AWS (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[AWS]' />
+            <map key='[AWS]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[AWS]' />
+            <map key='[Azure (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[Azure]' />
+            <map key='[Azure]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[Azure]' />
+            <map key='[Docker (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[Docker]' />
+            <map key='[Docker]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[Docker]' />
+            <map key='[F6]' value='[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E].[F6]' />
+            <map key='[F7]' value='[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E].[F7]' />
+            <map key='[GCP (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[GCP]' />
+            <map key='[GCP]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[GCP]' />
+            <map key='[Git (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[Git]' />
+            <map key='[Git]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[Git]' />
+            <map key='[Hadoop (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[Hadoop]' />
+            <map key='[Hadoop]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[Hadoop]' />
+            <map key='[ID_cleaned (job_requirement_dataset.csv)]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[ID_cleaned]' />
+            <map key='[ID_cleaned (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[ID_cleaned]' />
+            <map key='[ID_cleaned (time_table_dataset.csv)]' value='[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E].[ID_cleaned]' />
+            <map key='[ID_cleaned]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[ID_cleaned]' />
+            <map key='[Java (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[Java]' />
+            <map key='[Java]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[Java]' />
+            <map key='[Kubernetes (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[Kubernetes]' />
+            <map key='[Kubernetes]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[Kubernetes]' />
+            <map key='[MLOps (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[MLOps]' />
+            <map key='[MLOps]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[MLOps]' />
+            <map key='[NLP (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[NLP]' />
+            <map key='[NLP]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[NLP]' />
+            <map key='[PySpark]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[PySpark]' />
+            <map key='[PyTorch (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[PyTorch]' />
+            <map key='[PyTorch]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[PyTorch]' />
+            <map key='[Pyspark]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[Pyspark]' />
+            <map key='[Python (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[Python]' />
+            <map key='[Python]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[Python]' />
+            <map key='[R (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[R]' />
+            <map key='[R]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[R]' />
+            <map key='[SQL (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[SQL]' />
+            <map key='[SQL]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[SQL]' />
+            <map key='[Scala (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[Scala]' />
+            <map key='[Scala]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[Scala]' />
+            <map key='[Tableau (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[Tableau]' />
+            <map key='[Tableau]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[Tableau]' />
+            <map key='[TensorFlow]' value='[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C].[TensorFlow]' />
+            <map key='[Tensorflow]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[Tensorflow]' />
+            <map key='[application_deadline]' value='[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E].[application_deadline]' />
+            <map key='[application_period_days]' value='[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E].[application_period_days]' />
+            <map key='[company_location]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[company_location]' />
+            <map key='[company_size_cleaned]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[company_size_cleaned]' />
+            <map key='[days_subtraction_period]' value='[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E].[days_subtraction_period]' />
+            <map key='[education_required]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[education_required]' />
+            <map key='[employee_residence]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[employee_residence]' />
+            <map key='[employment_type_cleaned]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[employment_type_cleaned]' />
+            <map key='[experience_level_cleaned]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[experience_level_cleaned]' />
+            <map key='[industry]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[industry]' />
+            <map key='[job_title (salary_by_skills.csv)]' value='[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD].[job_title]' />
+            <map key='[job_title]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[job_title]' />
+            <map key='[posting_date]' value='[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E].[posting_date]' />
+            <map key='[salary_distribution_usd]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[salary_distribution_usd]' />
+            <map key='[salary_usd]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[salary_usd]' />
+            <map key='[years_experience]' value='[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66].[years_experience]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ID_cleaned</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ID_cleaned]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>ID_cleaned</remote-alias>
+              <ordinal>0</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>job_title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[job_title]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>job_title</remote-alias>
+              <ordinal>1</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>salary_usd</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[salary_usd]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>salary_usd</remote-alias>
+              <ordinal>2</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11109</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>salary_distribution_usd</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[salary_distribution_usd]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>salary_distribution_usd</remote-alias>
+              <ordinal>3</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>experience_level_cleaned</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[experience_level_cleaned]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>experience_level_cleaned</remote-alias>
+              <ordinal>4</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>employment_type_cleaned</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[employment_type_cleaned]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>employment_type_cleaned</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>company_location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[company_location]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>company_location</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>company_size_cleaned</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[company_size_cleaned]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>company_size_cleaned</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>employee_residence</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[employee_residence]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>employee_residence</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>education_required</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[education_required]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>education_required</remote-alias>
+              <ordinal>9</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>years_experience</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[years_experience]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>years_experience</remote-alias>
+              <ordinal>10</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>industry</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[industry]</local-name>
+              <parent-name>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</parent-name>
+              <remote-alias>industry</remote-alias>
+              <ordinal>11</ordinal>
+              <family>ai_job_dataset_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ID_cleaned</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ID_cleaned (job_requirement_dataset.csv)]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>ID_cleaned</remote-alias>
+              <ordinal>12</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AWS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AWS]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>AWS</remote-alias>
+              <ordinal>13</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Azure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Azure]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>Azure</remote-alias>
+              <ordinal>14</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Docker</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Docker]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>Docker</remote-alias>
+              <ordinal>15</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GCP</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[GCP]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>GCP</remote-alias>
+              <ordinal>16</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Git</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Git]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>Git</remote-alias>
+              <ordinal>17</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hadoop</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Hadoop]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>Hadoop</remote-alias>
+              <ordinal>18</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Java</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Java]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>Java</remote-alias>
+              <ordinal>19</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Kubernetes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Kubernetes]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>Kubernetes</remote-alias>
+              <ordinal>20</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MLOps</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MLOps]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>MLOps</remote-alias>
+              <ordinal>21</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NLP</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NLP]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>NLP</remote-alias>
+              <ordinal>22</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PyTorch</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PyTorch]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>PyTorch</remote-alias>
+              <ordinal>23</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Python</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Python]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>Python</remote-alias>
+              <ordinal>24</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>R</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[R]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>R</remote-alias>
+              <ordinal>25</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SQL</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SQL]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>SQL</remote-alias>
+              <ordinal>26</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Scala</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Scala]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>Scala</remote-alias>
+              <ordinal>27</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pyspark</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Pyspark]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>Pyspark</remote-alias>
+              <ordinal>28</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tableau</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tableau]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>Tableau</remote-alias>
+              <ordinal>29</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TensorFlow</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TensorFlow]</local-name>
+              <parent-name>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</parent-name>
+              <remote-alias>TensorFlow</remote-alias>
+              <ordinal>30</ordinal>
+              <family>job_requirement_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ID_cleaned</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ID_cleaned (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>ID_cleaned</remote-alias>
+              <ordinal>31</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>job_title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[job_title (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>job_title</remote-alias>
+              <ordinal>32</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AWS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AWS (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>AWS</remote-alias>
+              <ordinal>33</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2327</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Azure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Azure (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>Azure</remote-alias>
+              <ordinal>34</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3539</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Docker</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Docker (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>Docker</remote-alias>
+              <ordinal>35</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3759</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GCP</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[GCP (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>GCP</remote-alias>
+              <ordinal>36</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4099</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Git</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Git (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>Git</remote-alias>
+              <ordinal>37</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3866</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hadoop</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Hadoop (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>Hadoop</remote-alias>
+              <ordinal>38</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3971</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Java</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Java (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>Java</remote-alias>
+              <ordinal>39</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2915</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Kubernetes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Kubernetes (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>Kubernetes</remote-alias>
+              <ordinal>40</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5322</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MLOps</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MLOps (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>MLOps</remote-alias>
+              <ordinal>41</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3595</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NLP</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NLP (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>NLP</remote-alias>
+              <ordinal>42</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PyTorch</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PyTorch (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>PyTorch</remote-alias>
+              <ordinal>43</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2964</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Python</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Python (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>Python</remote-alias>
+              <ordinal>44</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6818</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>R</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[R (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>R</remote-alias>
+              <ordinal>45</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2386</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SQL</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SQL (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>SQL</remote-alias>
+              <ordinal>46</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4287</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Scala</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Scala (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>Scala</remote-alias>
+              <ordinal>47</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5007</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PySpark</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PySpark]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>PySpark</remote-alias>
+              <ordinal>48</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3219</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tableau</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tableau (salary_by_skills.csv)]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>Tableau</remote-alias>
+              <ordinal>49</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3866</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tensorflow</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tensorflow]</local-name>
+              <parent-name>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</parent-name>
+              <remote-alias>Tensorflow</remote-alias>
+              <ordinal>50</ordinal>
+              <family>salary_by_skills.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3105</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ID_cleaned</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ID_cleaned (time_table_dataset.csv)]</local-name>
+              <parent-name>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</parent-name>
+              <remote-alias>ID_cleaned</remote-alias>
+              <ordinal>51</ordinal>
+              <family>time_table_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>posting_date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[posting_date]</local-name>
+              <parent-name>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</parent-name>
+              <remote-alias>posting_date</remote-alias>
+              <ordinal>52</ordinal>
+              <family>time_table_dataset.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>767</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>application_deadline</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[application_deadline]</local-name>
+              <parent-name>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</parent-name>
+              <remote-alias>application_deadline</remote-alias>
+              <ordinal>53</ordinal>
+              <family>time_table_dataset.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>875</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>application_period_days</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[application_period_days]</local-name>
+              <parent-name>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</parent-name>
+              <remote-alias>application_period_days</remote-alias>
+              <ordinal>54</ordinal>
+              <family>time_table_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>days_subtraction_period</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[days_subtraction_period]</local-name>
+              <parent-name>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</parent-name>
+              <remote-alias>days_subtraction_period</remote-alias>
+              <ordinal>55</ordinal>
+              <family>time_table_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>767</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F6</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F6]</local-name>
+              <parent-name>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</parent-name>
+              <remote-alias>F6</remote-alias>
+              <ordinal>56</ordinal>
+              <family>time_table_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F7</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F7]</local-name>
+              <parent-name>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</parent-name>
+              <remote-alias>F7</remote-alias>
+              <ordinal>57</ordinal>
+              <family>time_table_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:salary_distribution_usd:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;40,000 - 60,000 USD&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;120,000 - 140,000 USD&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;100,000 - 120,000 USD&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;More than 180,000 USD&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;160,000 - 180,000 USD&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;80,000 - 100,000 USD&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;140,000 - 160,000 USD&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;60,000 - 80,000 USD&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Less than 40,000 USD&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Thailand&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='ai_job_dataset_cleaned.csv' id='ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66'>
+            <properties context=''>
+              <relation connection='textscan.0w0o3an0t32ilh149w0ev1062aos' name='ai_job_dataset_cleaned.csv' table='[ai_job_dataset_cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='ID_cleaned' ordinal='0' />
+                  <column datatype='string' name='job_title' ordinal='1' />
+                  <column datatype='integer' name='salary_usd' ordinal='2' />
+                  <column datatype='string' name='salary_distribution_usd' ordinal='3' />
+                  <column datatype='string' name='experience_level_cleaned' ordinal='4' />
+                  <column datatype='string' name='employment_type_cleaned' ordinal='5' />
+                  <column datatype='string' name='company_location' ordinal='6' />
+                  <column datatype='string' name='company_size_cleaned' ordinal='7' />
+                  <column datatype='string' name='employee_residence' ordinal='8' />
+                  <column datatype='string' name='education_required' ordinal='9' />
+                  <column datatype='integer' name='years_experience' ordinal='10' />
+                  <column datatype='string' name='industry' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66' table='[Extract].[ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66]' type='table' />
+            </properties>
+          </object>
+          <object caption='job_requirement_dataset.csv' id='job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C'>
+            <properties context=''>
+              <relation connection='textscan.0w0o3an0t32ilh149w0ev1062aos' name='job_requirement_dataset.csv' table='[job_requirement_dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='ID_cleaned' ordinal='0' />
+                  <column datatype='integer' name='AWS' ordinal='1' />
+                  <column datatype='integer' name='Azure' ordinal='2' />
+                  <column datatype='integer' name='Docker' ordinal='3' />
+                  <column datatype='integer' name='GCP' ordinal='4' />
+                  <column datatype='integer' name='Git' ordinal='5' />
+                  <column datatype='integer' name='Hadoop' ordinal='6' />
+                  <column datatype='integer' name='Java' ordinal='7' />
+                  <column datatype='integer' name='Kubernetes' ordinal='8' />
+                  <column datatype='integer' name='MLOps' ordinal='9' />
+                  <column datatype='integer' name='NLP' ordinal='10' />
+                  <column datatype='integer' name='PyTorch' ordinal='11' />
+                  <column datatype='integer' name='Python' ordinal='12' />
+                  <column datatype='integer' name='R' ordinal='13' />
+                  <column datatype='integer' name='SQL' ordinal='14' />
+                  <column datatype='integer' name='Scala' ordinal='15' />
+                  <column datatype='integer' name='Pyspark' ordinal='16' />
+                  <column datatype='integer' name='Tableau' ordinal='17' />
+                  <column datatype='integer' name='TensorFlow' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C' table='[Extract].[job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C]' type='table' />
+            </properties>
+          </object>
+          <object caption='salary_by_skills.csv' id='salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD'>
+            <properties context=''>
+              <relation connection='textscan.0w0o3an0t32ilh149w0ev1062aos' name='salary_by_skills.csv' table='[salary_by_skills#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='ID_cleaned' ordinal='0' />
+                  <column datatype='string' name='job_title' ordinal='1' />
+                  <column datatype='integer' name='AWS' ordinal='2' />
+                  <column datatype='integer' name='Azure' ordinal='3' />
+                  <column datatype='integer' name='Docker' ordinal='4' />
+                  <column datatype='integer' name='GCP' ordinal='5' />
+                  <column datatype='integer' name='Git' ordinal='6' />
+                  <column datatype='integer' name='Hadoop' ordinal='7' />
+                  <column datatype='integer' name='Java' ordinal='8' />
+                  <column datatype='integer' name='Kubernetes' ordinal='9' />
+                  <column datatype='integer' name='MLOps' ordinal='10' />
+                  <column datatype='string' name='NLP' ordinal='11' />
+                  <column datatype='integer' name='PyTorch' ordinal='12' />
+                  <column datatype='integer' name='Python' ordinal='13' />
+                  <column datatype='integer' name='R' ordinal='14' />
+                  <column datatype='integer' name='SQL' ordinal='15' />
+                  <column datatype='integer' name='Scala' ordinal='16' />
+                  <column datatype='integer' name='PySpark' ordinal='17' />
+                  <column datatype='integer' name='Tableau' ordinal='18' />
+                  <column datatype='integer' name='Tensorflow' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD' table='[Extract].[salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD]' type='table' />
+            </properties>
+          </object>
+          <object caption='time_table_dataset.csv' id='time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E'>
+            <properties context=''>
+              <relation connection='textscan.0w0o3an0t32ilh149w0ev1062aos' name='time_table_dataset.csv' table='[time_table_dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='ID_cleaned' ordinal='0' />
+                  <column datatype='date' name='posting_date' ordinal='1' />
+                  <column datatype='date' name='application_deadline' ordinal='2' />
+                  <column datatype='integer' name='application_period_days' ordinal='3' />
+                  <column datatype='integer' name='days_subtraction_period' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='F7' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E' table='[Extract].[time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[ID_cleaned]' />
+              <expression op='[ID_cleaned (job_requirement_dataset.csv)]' />
+            </expression>
+            <first-end-point object-id='ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66' />
+            <second-end-point object-id='job_requirement_dataset.csv_2CF3A5227DBA423285FCAD25E09F797C' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[ID_cleaned]' />
+              <expression op='[ID_cleaned (salary_by_skills.csv)]' />
+            </expression>
+            <first-end-point object-id='ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66' />
+            <second-end-point object-id='salary_by_skills.csv_1DA9097F37E840C79934B3087C2B81DD' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[ID_cleaned]' />
+              <expression op='[ID_cleaned (time_table_dataset.csv)]' />
+            </expression>
+            <first-end-point object-id='ai_job_dataset_cleaned.csv_13442BFAAFD14194ACAF294F0130CA66' />
+            <second-end-point object-id='time_table_dataset.csv_F1EA362265B34057A0ABC28E98A3B98E' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Salary Distribution by Number of Skills'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Tableau Bold' fontsize='22'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='job_requirement_dataset+' name='federated.15f7ri50uvc0su144bpm41krlc8u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15f7ri50uvc0su144bpm41krlc8u'>
+            <column datatype='integer' name='[AWS]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Azure]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Docker]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[GCP]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Git]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Hadoop]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Java]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Kubernetes]' role='measure' type='quantitative' />
+            <column caption='ML Ops' datatype='integer' name='[MLOps]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[NLP]' role='measure' type='quantitative' />
+            <column caption='Py Torch' datatype='integer' name='[PyTorch]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Pyspark]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Python]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[R]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[SQL]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Scala]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tableau]' role='measure' type='quantitative' />
+            <column caption='Tensor Flow' datatype='integer' name='[TensorFlow]' role='measure' type='quantitative' />
+            <column-instance column='[salary_distribution_usd]' derivation='None' name='[none:salary_distribution_usd:nk]' pivot='key' type='nominal' />
+            <column caption='Salary Distribution Usd' datatype='string' name='[salary_distribution_usd]' role='dimension' type='nominal' />
+            <column-instance column='[AWS]' derivation='Sum' name='[sum:AWS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Azure]' derivation='Sum' name='[sum:Azure:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Docker]' derivation='Sum' name='[sum:Docker:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GCP]' derivation='Sum' name='[sum:GCP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Git]' derivation='Sum' name='[sum:Git:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hadoop]' derivation='Sum' name='[sum:Hadoop:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Java]' derivation='Sum' name='[sum:Java:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Kubernetes]' derivation='Sum' name='[sum:Kubernetes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MLOps]' derivation='Sum' name='[sum:MLOps:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NLP]' derivation='Sum' name='[sum:NLP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PyTorch]' derivation='Sum' name='[sum:PyTorch:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pyspark]' derivation='Sum' name='[sum:Pyspark:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Python]' derivation='Sum' name='[sum:Python:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[R]' derivation='Sum' name='[sum:R:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SQL]' derivation='Sum' name='[sum:SQL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Scala]' derivation='Sum' name='[sum:Scala:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tableau]' derivation='Sum' name='[sum:Tableau:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TensorFlow]' derivation='Sum' name='[sum:TensorFlow:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15f7ri50uvc0su144bpm41krlc8u].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:AWS:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Azure:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Docker:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:GCP:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Git:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Hadoop:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Java:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Kubernetes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:MLOps:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:NLP:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:PyTorch:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Pyspark:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Python:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:R:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:SQL:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Scala:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Tableau:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:TensorFlow:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:salary_distribution_usd:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Less than 40,000 USD&quot;</bucket>
+              <bucket>&quot;40,000 - 60,000 USD&quot;</bucket>
+              <bucket>&quot;60,000 - 80,000 USD&quot;</bucket>
+              <bucket>&quot;80,000 - 100,000 USD&quot;</bucket>
+              <bucket>&quot;100,000 - 120,000 USD&quot;</bucket>
+              <bucket>&quot;120,000 - 140,000 USD&quot;</bucket>
+              <bucket>&quot;140,000 - 160,000 USD&quot;</bucket>
+              <bucket>&quot;160,000 - 180,000 USD&quot;</bucket>
+              <bucket>&quot;More than 180,000 USD&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.15f7ri50uvc0su144bpm41krlc8u].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.15f7ri50uvc0su144bpm41krlc8u].[:Measure Names]' value='69' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.15f7ri50uvc0su144bpm41krlc8u].[:Measure Names]' value='12' />
+            <format attr='font-weight' field='[federated.15f7ri50uvc0su144bpm41krlc8u].[:Measure Names]' value='bold' />
+            <format attr='text-orientation' field='[federated.15f7ri50uvc0su144bpm41krlc8u].[:Measure Names]' value='-90' />
+            <format attr='font-size' field='[federated.15f7ri50uvc0su144bpm41krlc8u].[Multiple Values]' value='11' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:salary_distribution_usd:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='12' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15f7ri50uvc0su144bpm41krlc8u].[Multiple Values]</rows>
+        <cols>[federated.15f7ri50uvc0su144bpm41krlc8u].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{7DD6B3D8-56D3-4AFB-A0DE-7D20D2E5F21A}' />
+    </worksheet>
+    <worksheet name='Salary by Skills'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='job_requirement_dataset+' name='federated.15f7ri50uvc0su144bpm41krlc8u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15f7ri50uvc0su144bpm41krlc8u'>
+            <column caption='AWS (salary by skills.csv)' datatype='integer' name='[AWS (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='Azure (salary by skills.csv)' datatype='integer' name='[Azure (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='Docker (salary by skills.csv)' datatype='integer' name='[Docker (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='GCP (salary by skills.csv)' datatype='integer' name='[GCP (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='Git (salary by skills.csv)' datatype='integer' name='[Git (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='Hadoop (salary by skills.csv)' datatype='integer' name='[Hadoop (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='ID cleaned (salary by skills.csv)' datatype='integer' name='[ID_cleaned (salary_by_skills.csv)]' role='dimension' type='ordinal' />
+            <column caption='Java (salary by skills.csv)' datatype='integer' name='[Java (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='Kubernetes (salary by skills.csv)' datatype='integer' name='[Kubernetes (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='MLOps (salary by skills.csv)' datatype='integer' name='[MLOps (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='NLP (salary by skills.csv)' datatype='integer' datatype-customized='true' name='[NLP (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='Py Spark' datatype='integer' name='[PySpark]' role='measure' type='quantitative' />
+            <column caption='PyTorch (salary by skills.csv)' datatype='integer' name='[PyTorch (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='Python (salary by skills.csv)' datatype='integer' name='[Python (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='R (salary by skills.csv)' datatype='integer' name='[R (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='SQL (salary by skills.csv)' datatype='integer' name='[SQL (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='Scala (salary by skills.csv)' datatype='integer' name='[Scala (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column caption='Tableau (salary by skills.csv)' datatype='integer' name='[Tableau (salary_by_skills.csv)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tensorflow]' role='measure' type='quantitative' />
+            <column-instance column='[AWS (salary_by_skills.csv)]' derivation='Avg' name='[avg:AWS (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NLP (salary_by_skills.csv)]' derivation='Avg' name='[avg:NLP (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column caption='Job Title (Salary By Skills.Csv)' datatype='string' name='[job_title (salary_by_skills.csv)]' role='dimension' type='nominal' />
+            <column-instance column='[ID_cleaned (salary_by_skills.csv)]' derivation='None' name='[none:ID_cleaned (salary_by_skills.csv):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[job_title (salary_by_skills.csv)]' derivation='None' name='[none:job_title (salary_by_skills.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[AWS (salary_by_skills.csv)]' derivation='Sum' name='[sum:AWS (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Azure (salary_by_skills.csv)]' derivation='Sum' name='[sum:Azure (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Docker (salary_by_skills.csv)]' derivation='Sum' name='[sum:Docker (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GCP (salary_by_skills.csv)]' derivation='Sum' name='[sum:GCP (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Git (salary_by_skills.csv)]' derivation='Sum' name='[sum:Git (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hadoop (salary_by_skills.csv)]' derivation='Sum' name='[sum:Hadoop (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Java (salary_by_skills.csv)]' derivation='Sum' name='[sum:Java (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Kubernetes (salary_by_skills.csv)]' derivation='Sum' name='[sum:Kubernetes (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MLOps (salary_by_skills.csv)]' derivation='Sum' name='[sum:MLOps (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PySpark]' derivation='Sum' name='[sum:PySpark:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PyTorch (salary_by_skills.csv)]' derivation='Sum' name='[sum:PyTorch (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Python (salary_by_skills.csv)]' derivation='Sum' name='[sum:Python (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[R (salary_by_skills.csv)]' derivation='Sum' name='[sum:R (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SQL (salary_by_skills.csv)]' derivation='Sum' name='[sum:SQL (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Scala (salary_by_skills.csv)]' derivation='Sum' name='[sum:Scala (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tableau (salary_by_skills.csv)]' derivation='Sum' name='[sum:Tableau (salary_by_skills.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tensorflow]' derivation='Sum' name='[sum:Tensorflow:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' direction='DESC' using='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:AWS (salary_by_skills.csv):qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='220' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[avg:AWS (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[avg:AWS (salary_by_skills.csv):qk]' z-order='1' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Azure (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Azure (salary_by_skills.csv):qk]' z-order='2' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:PyTorch (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline10' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:PyTorch (salary_by_skills.csv):qk]' z-order='11' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Python (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline11' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Python (salary_by_skills.csv):qk]' z-order='12' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:R (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline12' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:R (salary_by_skills.csv):qk]' z-order='13' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:SQL (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline13' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:SQL (salary_by_skills.csv):qk]' z-order='14' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Scala (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline14' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Scala (salary_by_skills.csv):qk]' z-order='15' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Tableau (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline15' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Tableau (salary_by_skills.csv):qk]' z-order='16' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Tensorflow:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline16' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Tensorflow:qk]' z-order='17' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Docker (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline2' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Docker (salary_by_skills.csv):qk]' z-order='3' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:GCP (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline3' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:GCP (salary_by_skills.csv):qk]' z-order='4' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Git (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline4' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Git (salary_by_skills.csv):qk]' z-order='5' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Hadoop (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline5' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Hadoop (salary_by_skills.csv):qk]' z-order='6' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Java (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline6' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Java (salary_by_skills.csv):qk]' z-order='7' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Kubernetes (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline7' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Kubernetes (salary_by_skills.csv):qk]' z-order='8' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:MLOps (salary_by_skills.csv):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline8' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:MLOps (salary_by_skills.csv):qk]' z-order='9' />
+            <reference-line axis-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:PySpark:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline9' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:PySpark:qk]' z-order='10' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='629' />
+                <format attr='maxheight' value='629' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[avg:AWS (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:ID_cleaned (salary_by_skills.csv):ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Azure (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Docker (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:GCP (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Git (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Hadoop (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Java (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Kubernetes (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:MLOps (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:PySpark:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:PyTorch (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='12' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Python (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='13' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:R (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='14' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:SQL (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='15' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Scala (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='16' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Tableau (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='17' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Tensorflow:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='18' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15f7ri50uvc0su144bpm41krlc8u].[avg:NLP (salary_by_skills.csv):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:job_title (salary_by_skills.csv):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='629' />
+                <format attr='maxheight' value='629' />
+                <format attr='minwidth' value='60' />
+                <format attr='maxwidth' value='60' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.15f7ri50uvc0su144bpm41krlc8u].[avg:AWS (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[avg:NLP (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Azure (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Docker (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:GCP (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Git (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Hadoop (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Java (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Kubernetes (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:MLOps (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:PySpark:qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:PyTorch (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Python (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:R (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:SQL (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Scala (salary_by_skills.csv):qk] + ([federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Tableau (salary_by_skills.csv):qk] + [federated.15f7ri50uvc0su144bpm41krlc8u].[sum:Tensorflow:qk])))))))))))))))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{9D123DAA-CDA3-4597-8678-7807D2B2DF20}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Salary Distribution by Number of Skills Screenshot'>
+      <style />
+      <size maxheight='1080' maxwidth='1920' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='100000' id='9' name='Salary Distribution by Number of Skills' w='100000' x='0' y='0'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone h='33294' id='8' param='horz' type-v2='layout-flow' w='13751' x='9421' y='23832'>
+          <zone h='24065' id='11' name='Salary Distribution by Number of Skills' pane-specification-id='0' param='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:salary_distribution_usd:nk]' type-v2='color' w='13751' x='9421' y='23832'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='12' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
+                <zone fixed-size='280' h='100000' id='9' is-fixed='true' name='Salary Distribution by Number of Skills' w='100000' x='0' y='0'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='24065' id='11' name='Salary Distribution by Number of Skills' pane-specification-id='0' param='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:salary_distribution_usd:nk]' type-v2='color' w='13751' x='9421' y='23832'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E478C6B0-7F63-469A-BF85-75FC55E921D9}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Salary Distribution by Number of Skills'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.15f7ri50uvc0su144bpm41krlc8u].[none:salary_distribution_usd:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CC077A50-EAA7-4508-A610-F7813EFA159C}' />
+    </window>
+    <window class='dashboard' name='Salary Distribution by Number of Skills Screenshot'>
+      <viewpoints>
+        <viewpoint name='Salary Distribution by Number of Skills'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F2E37125-2F28-4961-B18D-ABC77C6905F5}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Salary by Skills'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6638B952-E969-46FC-9A9F-A04D42D63590}' />
+    </window>
+  </windows>
+</workbook>

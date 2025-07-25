@@ -1,0 +1,1001 @@
+id_cleaned,job_title,years_experience,salary_usd
+11154,"Autonomous Systems Engineer",0,33172
+1239,"AI Specialist",0,34317
+9927,"Machine Learning Engineer",0,35784
+4642,"Data Analyst",0,36947
+10723,"AI Research Scientist",0,37048
+6482,"Data Engineer",0,37053
+6648,"Machine Learning Engineer",0,37236
+3475,"Data Engineer",0,37356
+9026,"AI Architect",0,38163
+245,"Research Scientist",0,38497
+14686,"AI Consultant",0,38584
+5140,"NLP Engineer",0,39991
+2637,"Data Scientist",0,40050
+13379,"Research Scientist",0,40697
+13283,"Machine Learning Engineer",0,41606
+14786,"AI Software Engineer",0,42034
+1204,"Head of AI",0,42268
+7585,"Deep Learning Engineer",0,43222
+1421,"AI Research Scientist",0,44236
+11102,"Autonomous Systems Engineer",0,44275
+7747,"Autonomous Systems Engineer",0,44838
+4597,"Deep Learning Engineer",0,45451
+5245,"AI Product Manager",0,45669
+5856,"Deep Learning Engineer",0,45865
+5711,"AI Consultant",0,45876
+4229,"Machine Learning Researcher",0,45890
+1980,"Machine Learning Researcher",0,45999
+10406,"AI Research Scientist",0,46025
+7366,"Machine Learning Researcher",0,46444
+1504,"NLP Engineer",0,46498
+13963,"AI Specialist",0,46673
+10391,"ML Ops Engineer",0,46826
+14742,"Machine Learning Researcher",0,47320
+6943,"Principal Data Scientist",0,47400
+4578,"Data Engineer",0,48211
+3572,"Head of AI",0,48714
+10761,"AI Software Engineer",0,48880
+210,"Data Analyst",0,48892
+4853,"AI Consultant",0,49461
+7691,"Head of AI",0,49785
+14833,"Deep Learning Engineer",0,50806
+10344,"Machine Learning Researcher",0,51135
+5617,"Head of AI",0,51272
+9614,"AI Research Scientist",0,51570
+75,"Data Engineer",0,51920
+6792,"Autonomous Systems Engineer",0,51979
+10819,"ML Ops Engineer",0,52008
+5558,"Data Engineer",0,52032
+3346,"Machine Learning Engineer",0,52192
+8364,"AI Software Engineer",0,52742
+759,"Autonomous Systems Engineer",0,53057
+393,"Research Scientist",0,53318
+7517,"AI Product Manager",0,53558
+1673,"Data Scientist",0,54272
+1642,"Machine Learning Researcher",0,55694
+13096,"Principal Data Scientist",0,55879
+7898,"Research Scientist",0,56120
+713,"AI Research Scientist",0,57025
+13605,"Head of AI",0,57367
+8230,"AI Specialist",0,57577
+14333,"AI Specialist",0,58735
+218,"NLP Engineer",0,59644
+6872,"AI Research Scientist",0,59763
+7952,"Autonomous Systems Engineer",0,59811
+969,"Machine Learning Researcher",0,60171
+4769,"Computer Vision Engineer",0,61307
+11447,"NLP Engineer",0,62320
+10864,"Machine Learning Researcher",0,62689
+9318,"Data Analyst",0,63046
+2138,"Machine Learning Researcher",0,63213
+6275,"Deep Learning Engineer",0,63242
+13199,"Computer Vision Engineer",0,63444
+12498,"Machine Learning Engineer",0,63767
+12173,"Computer Vision Engineer",0,63933
+1067,"Autonomous Systems Engineer",0,64276
+306,"Data Analyst",0,64384
+508,"AI Architect",0,64826
+536,"Data Scientist",0,65226
+6106,"AI Architect",0,65352
+12853,"Head of AI",0,65752
+5057,"AI Research Scientist",0,66011
+13126,"AI Consultant",0,66780
+9801,"Head of AI",0,66824
+5831,"AI Consultant",0,66992
+5214,"Data Scientist",0,67537
+9339,"AI Product Manager",0,67970
+3244,"AI Specialist",0,69068
+3228,"Robotics Engineer",0,69942
+6441,"AI Specialist",0,71168
+8609,"NLP Engineer",0,71642
+4682,"Deep Learning Engineer",0,71824
+4428,"Principal Data Scientist",0,71848
+2314,"Deep Learning Engineer",0,73885
+9432,"Computer Vision Engineer",0,75675
+6686,"Data Analyst",0,76935
+13520,"NLP Engineer",0,77113
+7462,"Data Scientist",0,77330
+6907,"Robotics Engineer",0,78557
+16,"AI Product Manager",0,78846
+3377,"Data Scientist",0,80618
+12246,"Computer Vision Engineer",0,81193
+6781,"NLP Engineer",0,81308
+328,"AI Research Scientist",0,81908
+9198,"AI Research Scientist",0,82439
+5350,"Machine Learning Researcher",0,82471
+290,"Computer Vision Engineer",0,85328
+5623,"NLP Engineer",0,86191
+7082,"Autonomous Systems Engineer",0,86273
+11983,"Machine Learning Researcher",0,86275
+13110,"Computer Vision Engineer",0,86552
+10956,"Machine Learning Engineer",0,88463
+9182,"Robotics Engineer",0,88816
+11811,"ML Ops Engineer",0,89670
+10674,"AI Research Scientist",0,90973
+4188,"AI Architect",0,91073
+8953,"AI Research Scientist",0,93642
+14123,"Machine Learning Engineer",0,93842
+12100,"AI Consultant",0,104709
+10007,"AI Software Engineer",0,105730
+12987,"Principal Data Scientist",0,105831
+8582,"Principal Data Scientist",0,106604
+2173,"NLP Engineer",0,110672
+7687,"Data Scientist",0,111306
+7162,"Principal Data Scientist",0,118508
+6044,"Research Scientist",1,34179
+9209,"AI Architect",1,34457
+8472,"Robotics Engineer",1,34551
+12676,"Principal Data Scientist",1,34678
+1246,"Principal Data Scientist",1,35937
+950,"Autonomous Systems Engineer",1,36197
+5600,"AI Product Manager",1,36357
+6317,"NLP Engineer",1,37895
+8679,"Head of AI",1,37919
+8552,"AI Research Scientist",1,38104
+11445,"Principal Data Scientist",1,39930
+3045,"ML Ops Engineer",1,39961
+6812,"Robotics Engineer",1,42004
+8514,"Robotics Engineer",1,42135
+5957,"Data Analyst",1,42445
+4904,"Machine Learning Researcher",1,43999
+5785,"Data Scientist",1,44975
+10724,"Autonomous Systems Engineer",1,45088
+13387,"AI Consultant",1,45161
+4414,"Machine Learning Engineer",1,45330
+13570,"Principal Data Scientist",1,46233
+4985,"Data Analyst",1,46291
+12115,"Data Analyst",1,46371
+1649,"AI Specialist",1,47257
+3470,"Research Scientist",1,48226
+12110,"Data Scientist",1,48365
+4050,"Machine Learning Researcher",1,48453
+4953,"AI Specialist",1,48584
+9121,"Autonomous Systems Engineer",1,49118
+2529,"AI Research Scientist",1,49600
+2675,"Computer Vision Engineer",1,50741
+7623,"Autonomous Systems Engineer",1,51318
+2432,"Autonomous Systems Engineer",1,51367
+7697,"AI Architect",1,51502
+13051,"Research Scientist",1,52162
+2961,"Machine Learning Engineer",1,52452
+1042,"AI Software Engineer",1,52483
+7999,"Autonomous Systems Engineer",1,53110
+4470,"Machine Learning Researcher",1,53350
+4751,"AI Software Engineer",1,53421
+12531,"AI Software Engineer",1,53797
+844,"Machine Learning Engineer",1,54146
+3418,"Data Engineer",1,54421
+13563,"AI Architect",1,54532
+6579,"AI Consultant",1,54616
+8997,"AI Specialist",1,54740
+5563,"Machine Learning Engineer",1,55049
+7963,"NLP Engineer",1,56117
+11479,"Machine Learning Engineer",1,56224
+11608,"AI Specialist",1,57234
+155,"Machine Learning Researcher",1,57388
+1647,"AI Product Manager",1,57458
+10952,"ML Ops Engineer",1,57629
+342,"Machine Learning Researcher",1,58899
+10323,"AI Research Scientist",1,59223
+130,"AI Software Engineer",1,59405
+12140,"Machine Learning Researcher",1,60067
+5708,"Machine Learning Researcher",1,61291
+1177,"Computer Vision Engineer",1,61301
+368,"AI Architect",1,61374
+9547,"Data Scientist",1,61460
+820,"AI Consultant",1,61684
+133,"Autonomous Systems Engineer",1,61893
+14989,"Principal Data Scientist",1,63121
+2340,"AI Specialist",1,63490
+792,"Head of AI",1,64180
+12080,"AI Consultant",1,64276
+8284,"Research Scientist",1,64377
+4590,"Data Analyst",1,64661
+14864,"AI Consultant",1,65097
+12767,"NLP Engineer",1,65341
+3384,"Robotics Engineer",1,65587
+13097,"AI Architect",1,66469
+14315,"Principal Data Scientist",1,67144
+5886,"Head of AI",1,67262
+11891,"Machine Learning Researcher",1,67285
+8336,"AI Architect",1,67511
+12814,"AI Architect",1,68041
+1005,"AI Specialist",1,68130
+14270,"AI Consultant",1,68777
+14967,"Computer Vision Engineer",1,68830
+4463,"AI Specialist",1,68853
+2280,"Head of AI",1,69507
+12936,"Principal Data Scientist",1,69727
+8197,"ML Ops Engineer",1,70190
+7877,"Head of AI",1,70667
+14548,"Data Engineer",1,72358
+9557,"Principal Data Scientist",1,72880
+3098,"Head of AI",1,73172
+1621,"Robotics Engineer",1,73714
+7958,"Data Analyst",1,73964
+2178,"Autonomous Systems Engineer",1,75835
+8760,"AI Specialist",1,75866
+5355,"AI Research Scientist",1,76264
+11232,"AI Product Manager",1,76390
+12306,"Data Engineer",1,76502
+8416,"Robotics Engineer",1,77543
+8003,"AI Product Manager",1,78922
+1628,"Machine Learning Researcher",1,80355
+2747,"Machine Learning Engineer",1,80627
+6691,"Robotics Engineer",1,82514
+12240,"Deep Learning Engineer",1,83895
+6515,"Computer Vision Engineer",1,88193
+10609,"ML Ops Engineer",1,90099
+9711,"Machine Learning Researcher",1,91909
+5712,"AI Specialist",1,92282
+1144,"Data Analyst",1,93842
+3459,"Data Engineer",1,94493
+13497,"Research Scientist",1,94503
+2571,"AI Research Scientist",1,94728
+10639,"Data Scientist",1,94734
+3463,"AI Product Manager",1,95269
+7574,"Data Analyst",1,98269
+614,"Data Scientist",1,99041
+9137,"Research Scientist",1,101595
+1375,"Data Analyst",1,103040
+4760,"AI Product Manager",1,105361
+6755,"AI Research Scientist",1,105530
+816,"Research Scientist",1,107720
+7622,"AI Architect",1,110484
+9556,"Data Analyst",1,112018
+522,"Head of AI",2,48920
+1966,"Research Scientist",2,48949
+1351,"AI Software Engineer",2,49339
+2946,"NLP Engineer",2,50574
+2565,"ML Ops Engineer",2,51713
+163,"AI Software Engineer",2,51898
+10419,"NLP Engineer",2,53302
+9777,"Data Scientist",2,53855
+12792,"AI Research Scientist",2,54645
+5795,"Machine Learning Engineer",2,58275
+14574,"Data Scientist",2,59838
+9674,"Data Engineer",2,61778
+106,"NLP Engineer",2,62171
+10510,"AI Software Engineer",2,62438
+7130,"Principal Data Scientist",2,62825
+13111,"NLP Engineer",2,63563
+12487,"Data Engineer",2,64053
+444,"AI Architect",2,64832
+7262,"Machine Learning Researcher",2,65378
+1269,"AI Consultant",2,66172
+12824,"AI Product Manager",2,67729
+4717,"Principal Data Scientist",2,68167
+8871,"Machine Learning Researcher",2,68263
+5934,"AI Product Manager",2,69644
+13336,"ML Ops Engineer",2,69898
+4313,"AI Architect",2,70438
+7504,"ML Ops Engineer",2,70831
+3763,"Machine Learning Researcher",2,71240
+1028,"Computer Vision Engineer",2,73263
+1465,"AI Software Engineer",2,73530
+5605,"AI Research Scientist",2,74065
+14226,"Data Analyst",2,74112
+7075,"NLP Engineer",2,74394
+7215,"AI Software Engineer",2,75284
+6223,"Robotics Engineer",2,76613
+2856,"AI Product Manager",2,78501
+8570,"AI Product Manager",2,79520
+8077,"AI Consultant",2,81402
+1638,"AI Architect",2,81688
+3819,"Computer Vision Engineer",2,83562
+13705,"Head of AI",2,84621
+13693,"AI Architect",2,85327
+5898,"Research Scientist",2,85992
+6576,"Machine Learning Researcher",2,87167
+8597,"Deep Learning Engineer",2,89166
+2768,"AI Specialist",2,90241
+3708,"Autonomous Systems Engineer",2,91502
+756,"Machine Learning Engineer",2,92628
+3425,"Deep Learning Engineer",2,94569
+3987,"AI Consultant",2,94741
+5978,"Data Analyst",2,95031
+8381,"ML Ops Engineer",2,95032
+5718,"Deep Learning Engineer",2,96531
+5638,"AI Software Engineer",2,96954
+3835,"AI Research Scientist",2,97285
+603,"AI Consultant",2,97370
+7822,"Robotics Engineer",2,98077
+14225,"AI Product Manager",2,98127
+1073,"AI Consultant",2,104706
+10914,"AI Research Scientist",2,104769
+5264,"Machine Learning Researcher",2,105065
+12119,"Autonomous Systems Engineer",2,107122
+10750,"Principal Data Scientist",2,108150
+11759,"Machine Learning Engineer",2,108198
+4026,"Autonomous Systems Engineer",2,108449
+1812,"AI Specialist",2,109417
+12179,"Machine Learning Engineer",2,110318
+6208,"Research Scientist",2,111197
+11243,"AI Consultant",2,112843
+4238,"Computer Vision Engineer",2,114523
+4172,"Head of AI",2,115701
+12983,"ML Ops Engineer",2,118745
+13891,"Machine Learning Engineer",2,118982
+4232,"AI Software Engineer",2,124750
+2723,"AI Specialist",2,124817
+11202,"Data Scientist",2,129319
+5179,"Data Analyst",2,132353
+7434,"AI Architect",2,138250
+611,"AI Architect",2,140104
+12205,"ML Ops Engineer",2,140303
+1198,"AI Software Engineer",2,143215
+12331,"ML Ops Engineer",2,151184
+1952,"Machine Learning Engineer",2,155889
+9853,"Principal Data Scientist",3,48642
+3334,"AI Consultant",3,49922
+3639,"Data Analyst",3,51333
+12681,"Machine Learning Researcher",3,52075
+10546,"Research Scientist",3,53254
+4626,"Data Scientist",3,53597
+14695,"AI Software Engineer",3,54249
+9698,"Data Analyst",3,55450
+788,"Autonomous Systems Engineer",3,56723
+9574,"Computer Vision Engineer",3,56763
+10850,"Autonomous Systems Engineer",3,57134
+10569,"AI Specialist",3,59021
+433,"AI Consultant",3,59227
+12562,"Principal Data Scientist",3,59556
+12271,"AI Architect",3,60579
+13590,"Autonomous Systems Engineer",3,62578
+10227,"Principal Data Scientist",3,63382
+7092,"AI Software Engineer",3,63841
+6500,"Deep Learning Engineer",3,64403
+14527,"AI Architect",3,65866
+1845,"AI Product Manager",3,65940
+11897,"Autonomous Systems Engineer",3,66241
+13493,"AI Software Engineer",3,66382
+7126,"NLP Engineer",3,66872
+5378,"AI Software Engineer",3,67886
+6693,"Principal Data Scientist",3,69202
+13977,"Autonomous Systems Engineer",3,69607
+4435,"AI Product Manager",3,69642
+13485,"Data Analyst",3,69724
+6201,"Machine Learning Researcher",3,70552
+2338,"AI Research Scientist",3,71196
+10887,"ML Ops Engineer",3,71593
+4481,"Data Engineer",3,71674
+8166,"Research Scientist",3,72424
+7660,"AI Architect",3,73839
+5739,"AI Architect",3,74353
+5321,"Data Analyst",3,74375
+1026,"Data Engineer",3,76655
+4641,"Machine Learning Researcher",3,78028
+7310,"Deep Learning Engineer",3,78353
+3553,"AI Research Scientist",3,78980
+11613,"AI Specialist",3,79081
+6153,"ML Ops Engineer",3,79416
+11850,"Research Scientist",3,80474
+3024,"Principal Data Scientist",3,80728
+13714,"Robotics Engineer",3,82028
+10885,"Data Analyst",3,83359
+4887,"Data Scientist",3,83976
+698,"NLP Engineer",3,84547
+1328,"Research Scientist",3,89183
+7534,"AI Software Engineer",3,89670
+3485,"Machine Learning Researcher",3,90174
+11522,"Machine Learning Researcher",3,91555
+5778,"AI Research Scientist",3,92080
+10779,"NLP Engineer",3,92385
+9979,"AI Software Engineer",3,93218
+13481,"AI Software Engineer",3,95298
+1975,"Computer Vision Engineer",3,96552
+10560,"Data Analyst",3,97335
+11887,"Robotics Engineer",3,97365
+9373,"Principal Data Scientist",3,97624
+5618,"Data Engineer",3,97773
+6140,"Robotics Engineer",3,98044
+1099,"AI Architect",3,99360
+11830,"Data Scientist",3,99642
+6216,"AI Software Engineer",3,99989
+4566,"Principal Data Scientist",3,100373
+5837,"ML Ops Engineer",3,102142
+5023,"AI Architect",3,104098
+14914,"Robotics Engineer",3,108512
+3968,"Computer Vision Engineer",3,109156
+7291,"AI Research Scientist",3,109242
+9360,"AI Research Scientist",3,110209
+4996,"AI Specialist",3,110450
+4179,"Data Engineer",3,110554
+7879,"AI Product Manager",3,118293
+2606,"Data Engineer",3,119490
+12415,"Head of AI",3,119537
+5071,"Deep Learning Engineer",3,124242
+14020,"AI Consultant",3,124742
+6683,"Research Scientist",3,126912
+11002,"Deep Learning Engineer",3,128302
+3125,"Data Analyst",3,128650
+8170,"NLP Engineer",3,131409
+4779,"AI Consultant",3,140613
+11641,"AI Consultant",3,144466
+1235,"AI Consultant",3,146156
+12324,"Computer Vision Engineer",4,46205
+3919,"Data Engineer",4,48428
+12939,"AI Architect",4,58147
+2137,"Deep Learning Engineer",4,58338
+13920,"AI Product Manager",4,59695
+11603,"Research Scientist",4,61007
+13546,"AI Product Manager",4,61849
+7980,"Robotics Engineer",4,63242
+11813,"AI Specialist",4,63305
+4363,"AI Architect",4,63531
+5613,"Research Scientist",4,63809
+1954,"Data Analyst",4,64859
+10893,"ML Ops Engineer",4,66540
+12918,"Computer Vision Engineer",4,66838
+5287,"AI Architect",4,67473
+12358,"Data Analyst",4,68868
+10673,"Robotics Engineer",4,70093
+14901,"Computer Vision Engineer",4,70398
+6425,"Machine Learning Engineer",4,71405
+11194,"Data Scientist",4,71565
+11439,"Research Scientist",4,73703
+139,"AI Consultant",4,73894
+12862,"Robotics Engineer",4,74758
+10298,"Computer Vision Engineer",4,76042
+14632,"Autonomous Systems Engineer",4,76406
+12364,"Research Scientist",4,76658
+878,"Head of AI",4,77510
+666,"Computer Vision Engineer",4,78123
+1942,"ML Ops Engineer",4,79677
+3812,"Autonomous Systems Engineer",4,81949
+3074,"Autonomous Systems Engineer",4,83152
+9236,"Deep Learning Engineer",4,83503
+4485,"Computer Vision Engineer",4,83812
+3088,"AI Software Engineer",4,83913
+6829,"AI Consultant",4,83929
+9630,"Head of AI",4,84016
+6980,"Data Analyst",4,84655
+8476,"Research Scientist",4,85016
+2919,"Data Analyst",4,85465
+6234,"Robotics Engineer",4,86190
+12014,"Principal Data Scientist",4,87163
+5298,"NLP Engineer",4,87834
+14739,"NLP Engineer",4,88970
+9472,"Data Engineer",4,89214
+12697,"AI Product Manager",4,89849
+10030,"Data Engineer",4,89875
+3948,"Robotics Engineer",4,89973
+4863,"AI Product Manager",4,90930
+7592,"ML Ops Engineer",4,92053
+4796,"Autonomous Systems Engineer",4,92724
+10111,"AI Consultant",4,94748
+8462,"AI Architect",4,95255
+8877,"ML Ops Engineer",4,95695
+14101,"Head of AI",4,96191
+2062,"Computer Vision Engineer",4,96824
+8042,"Robotics Engineer",4,98939
+12325,"AI Architect",4,99999
+5822,"Deep Learning Engineer",4,101619
+2658,"AI Research Scientist",4,101820
+9485,"ML Ops Engineer",4,102455
+8926,"AI Architect",4,103437
+11108,"NLP Engineer",4,103919
+7554,"Robotics Engineer",4,109195
+2600,"Data Analyst",4,110885
+4119,"Head of AI",4,110892
+14867,"AI Product Manager",4,111808
+5705,"Data Analyst",4,112500
+423,"AI Software Engineer",4,114667
+10432,"Data Scientist",4,115600
+6267,"Research Scientist",4,115853
+11363,"Computer Vision Engineer",4,117629
+5639,"Computer Vision Engineer",4,118746
+11506,"Data Scientist",4,119155
+13430,"Autonomous Systems Engineer",4,130677
+5501,"Data Scientist",4,131544
+4922,"NLP Engineer",4,134083
+14181,"NLP Engineer",5,65978
+2399,"AI Research Scientist",5,72555
+9681,"AI Software Engineer",5,75146
+5397,"AI Consultant",5,75166
+4326,"Deep Learning Engineer",5,76025
+3507,"Autonomous Systems Engineer",5,78599
+10782,"Machine Learning Researcher",5,80209
+4632,"NLP Engineer",5,80235
+8621,"AI Consultant",5,86269
+9827,"Head of AI",5,88005
+9372,"AI Product Manager",5,88666
+1414,"Data Engineer",5,89494
+12686,"Robotics Engineer",5,90764
+1567,"AI Software Engineer",5,96533
+6849,"AI Specialist",5,98968
+5628,"Machine Learning Engineer",5,99514
+10201,"Data Scientist",5,99738
+1301,"Data Scientist",5,100235
+11485,"Machine Learning Engineer",5,101258
+13985,"Research Scientist",5,102564
+1376,"Machine Learning Engineer",5,102678
+12356,"ML Ops Engineer",5,103584
+1311,"Autonomous Systems Engineer",5,104220
+8956,"AI Software Engineer",5,106449
+12143,"Machine Learning Researcher",5,109988
+5887,"AI Software Engineer",5,112978
+10141,"Principal Data Scientist",5,114877
+10635,"AI Product Manager",5,121140
+14487,"Research Scientist",5,123275
+3148,"AI Architect",5,127293
+10677,"AI Research Scientist",5,129114
+2129,"Data Analyst",5,134006
+5432,"Computer Vision Engineer",5,135751
+14705,"AI Architect",5,136564
+7575,"Machine Learning Researcher",5,137373
+6909,"AI Architect",5,141349
+2289,"Robotics Engineer",5,142978
+9883,"Principal Data Scientist",5,147539
+4389,"AI Research Scientist",5,152444
+10491,"Data Engineer",5,154957
+6668,"Data Engineer",5,157103
+2770,"AI Consultant",5,158684
+3352,"ML Ops Engineer",5,162584
+856,"NLP Engineer",5,167621
+8244,"NLP Engineer",5,181476
+13378,"AI Specialist",5,191632
+127,"AI Product Manager",5,203198
+8145,"Robotics Engineer",5,219984
+4484,"AI Specialist",6,65376
+3521,"Computer Vision Engineer",6,67015
+11653,"Head of AI",6,69991
+12596,"AI Architect",6,73629
+11711,"AI Software Engineer",6,75683
+11138,"Robotics Engineer",6,79368
+4601,"Research Scientist",6,81106
+1113,"Autonomous Systems Engineer",6,82330
+11390,"Head of AI",6,89657
+4815,"Data Scientist",6,93513
+14052,"NLP Engineer",6,93679
+726,"Computer Vision Engineer",6,98449
+11769,"Data Analyst",6,100429
+460,"ML Ops Engineer",6,101624
+13108,"AI Software Engineer",6,102994
+14235,"Research Scientist",6,107084
+1741,"Data Scientist",6,111609
+4129,"AI Consultant",6,112532
+3214,"Head of AI",6,113608
+14594,"AI Specialist",6,117820
+9646,"AI Consultant",6,120790
+5987,"Head of AI",6,121734
+379,"Machine Learning Engineer",6,122069
+6978,"Data Engineer",6,123743
+5223,"Head of AI",6,125237
+8453,"AI Software Engineer",6,132701
+9613,"Machine Learning Engineer",6,135857
+11308,"AI Product Manager",6,136450
+4886,"Machine Learning Researcher",6,138387
+8018,"AI Product Manager",6,139029
+7612,"Robotics Engineer",6,145088
+7016,"AI Consultant",6,145267
+6583,"AI Product Manager",6,151317
+7454,"Head of AI",6,155430
+7611,"Research Scientist",6,155938
+13818,"AI Product Manager",6,156230
+3855,"Autonomous Systems Engineer",6,156765
+12491,"AI Product Manager",6,158112
+5653,"Deep Learning Engineer",6,164181
+9205,"Autonomous Systems Engineer",6,175089
+9643,"Data Analyst",6,176476
+13817,"AI Product Manager",6,182369
+418,"Research Scientist",6,182777
+13266,"AI Software Engineer",6,190612
+8454,"Data Scientist",6,190756
+1747,"AI Product Manager",6,200671
+12256,"Principal Data Scientist",6,227085
+8087,"Computer Vision Engineer",7,69039
+2402,"AI Architect",7,76677
+329,"Machine Learning Engineer",7,79556
+2929,"AI Specialist",7,79723
+4,"NLP Engineer",7,80215
+5644,"Data Analyst",7,80885
+276,"Principal Data Scientist",7,81112
+13029,"Data Analyst",7,82552
+448,"AI Consultant",7,84808
+7423,"Robotics Engineer",7,85549
+7505,"Head of AI",7,85892
+627,"Principal Data Scientist",7,90172
+3137,"Head of AI",7,92592
+7062,"Machine Learning Researcher",7,94091
+3598,"AI Consultant",7,94102
+4942,"AI Software Engineer",7,94183
+4130,"Robotics Engineer",7,95066
+13362,"Data Analyst",7,95072
+2716,"AI Architect",7,95754
+3698,"Principal Data Scientist",7,99686
+10088,"Head of AI",7,102930
+13219,"Data Scientist",7,103589
+4060,"NLP Engineer",7,105000
+634,"Machine Learning Researcher",7,109757
+12589,"Data Scientist",7,110717
+13663,"NLP Engineer",7,111571
+4268,"AI Architect",7,111730
+6502,"AI Product Manager",7,113621
+4734,"Data Analyst",7,117356
+11118,"Research Scientist",7,118636
+3692,"Data Engineer",7,120407
+2819,"AI Software Engineer",7,120951
+13647,"AI Research Scientist",7,121041
+7386,"AI Architect",7,122080
+1775,"Data Scientist",7,125319
+5068,"AI Software Engineer",7,127730
+5673,"Autonomous Systems Engineer",7,141807
+14170,"Autonomous Systems Engineer",7,142795
+6245,"Autonomous Systems Engineer",7,143487
+5341,"AI Software Engineer",7,144429
+8076,"Head of AI",7,145872
+6188,"Autonomous Systems Engineer",7,150847
+8155,"Autonomous Systems Engineer",7,155083
+966,"Robotics Engineer",7,155456
+7954,"Head of AI",7,161891
+539,"Data Scientist",7,171571
+898,"Data Engineer",7,175244
+2464,"AI Specialist",7,186024
+4543,"AI Product Manager",7,195397
+8152,"AI Architect",8,73305
+5060,"Machine Learning Engineer",8,74401
+8587,"Computer Vision Engineer",8,78409
+10809,"Robotics Engineer",8,80374
+4959,"Deep Learning Engineer",8,82921
+6910,"AI Architect",8,83994
+5850,"Data Scientist",8,84634
+1406,"Data Scientist",8,86032
+14572,"Data Analyst",8,88481
+10563,"Robotics Engineer",8,88922
+2858,"Data Engineer",8,90683
+3777,"Robotics Engineer",8,92369
+7696,"Data Engineer",8,92558
+5640,"Computer Vision Engineer",8,92583
+13479,"Data Scientist",8,93246
+9930,"AI Product Manager",8,96459
+1618,"AI Software Engineer",8,97159
+4370,"AI Product Manager",8,102336
+12091,"AI Research Scientist",8,104118
+11031,"Research Scientist",8,104584
+5585,"AI Architect",8,104787
+9285,"Machine Learning Researcher",8,106848
+5566,"Data Engineer",8,107305
+2072,"AI Product Manager",8,108151
+6379,"NLP Engineer",8,108677
+12299,"NLP Engineer",8,109071
+322,"Data Scientist",8,112035
+4627,"Deep Learning Engineer",8,112806
+14060,"Data Analyst",8,113188
+11953,"Research Scientist",8,114314
+1853,"AI Specialist",8,115486
+2366,"AI Specialist",8,116556
+10763,"AI Architect",8,117841
+6511,"Machine Learning Researcher",8,118538
+11193,"AI Consultant",8,118997
+2930,"AI Architect",8,119144
+6663,"Computer Vision Engineer",8,124710
+12440,"Principal Data Scientist",8,124943
+13855,"AI Architect",8,125104
+1662,"Machine Learning Researcher",8,125124
+14296,"Data Engineer",8,125939
+13531,"Data Scientist",8,127222
+13457,"AI Software Engineer",8,128209
+13366,"Robotics Engineer",8,129231
+9631,"Deep Learning Engineer",8,130357
+54,"Data Scientist",8,135230
+10624,"ML Ops Engineer",8,140653
+7287,"AI Architect",8,142027
+657,"Data Engineer",8,142309
+2481,"AI Architect",8,146369
+10666,"Computer Vision Engineer",8,147249
+9270,"AI Consultant",8,148286
+4126,"Research Scientist",8,149341
+2381,"AI Software Engineer",8,150043
+35,"Deep Learning Engineer",8,150864
+5881,"AI Software Engineer",8,154100
+6407,"Machine Learning Engineer",8,155917
+11635,"Head of AI",8,161486
+8079,"AI Research Scientist",8,161789
+9535,"NLP Engineer",8,171896
+3369,"Machine Learning Researcher",8,174373
+4940,"Research Scientist",8,214206
+5177,"Principal Data Scientist",8,224790
+1863,"Deep Learning Engineer",9,69092
+6607,"Data Analyst",9,73542
+4704,"AI Architect",9,75091
+13332,"ML Ops Engineer",9,76781
+2373,"Data Analyst",9,78338
+11910,"AI Consultant",9,80051
+1122,"Data Scientist",9,80269
+7509,"AI Software Engineer",9,82721
+3192,"AI Specialist",9,82854
+2371,"Autonomous Systems Engineer",9,83159
+1994,"AI Specialist",9,83776
+6574,"AI Research Scientist",9,84258
+11256,"AI Architect",9,85119
+3838,"Computer Vision Engineer",9,87018
+12986,"AI Product Manager",9,89377
+3705,"Machine Learning Researcher",9,90835
+1586,"AI Architect",9,91668
+4127,"Principal Data Scientist",9,91850
+11355,"Data Analyst",9,92532
+2644,"AI Software Engineer",9,93376
+7237,"Data Engineer",9,93524
+11215,"Principal Data Scientist",9,96602
+11844,"AI Architect",9,97053
+6815,"AI Consultant",9,100128
+11101,"AI Product Manager",9,100445
+1092,"AI Consultant",9,105008
+12104,"AI Product Manager",9,105360
+574,"Head of AI",9,109917
+5081,"Autonomous Systems Engineer",9,112684
+313,"Robotics Engineer",9,114225
+1640,"Machine Learning Researcher",9,117119
+6391,"Autonomous Systems Engineer",9,118514
+4460,"Deep Learning Engineer",9,133950
+5163,"Machine Learning Researcher",9,135936
+4755,"AI Consultant",9,136515
+9161,"Principal Data Scientist",9,137826
+8946,"Research Scientist",9,138852
+5689,"Deep Learning Engineer",9,138975
+1575,"Head of AI",9,139187
+5508,"AI Architect",9,142133
+11089,"Deep Learning Engineer",9,145208
+13782,"NLP Engineer",9,146811
+13168,"AI Research Scientist",9,158264
+510,"AI Software Engineer",9,172271
+5403,"Data Engineer",9,173805
+101,"AI Product Manager",9,193448
+12103,"AI Consultant",9,196203
+4478,"ML Ops Engineer",9,200376
+7027,"AI Specialist",10,115661
+4877,"Autonomous Systems Engineer",10,122734
+2188,"ML Ops Engineer",10,126821
+12416,"Autonomous Systems Engineer",10,145196
+8107,"Principal Data Scientist",10,154476
+1400,"AI Architect",10,156172
+4220,"Machine Learning Engineer",10,166461
+6581,"Autonomous Systems Engineer",10,173653
+8298,"AI Consultant",10,186855
+3225,"NLP Engineer",10,191781
+9589,"AI Product Manager",10,198887
+5333,"Data Engineer",10,201147
+4057,"AI Software Engineer",10,213967
+14410,"Principal Data Scientist",10,215126
+1728,"Research Scientist",10,223202
+1871,"Robotics Engineer",10,236661
+5917,"Autonomous Systems Engineer",10,259915
+14834,"Deep Learning Engineer",10,275213
+9596,"Machine Learning Engineer",10,283959
+7425,"Head of AI",10,287048
+5958,"Machine Learning Researcher",10,338393
+919,"Data Analyst",10,349508
+14565,"AI Software Engineer",11,97875
+3046,"ML Ops Engineer",11,111038
+10366,"Data Engineer",11,117961
+5167,"Research Scientist",11,117976
+14611,"Robotics Engineer",11,119597
+8372,"AI Product Manager",11,121356
+5469,"AI Research Scientist",11,125060
+5393,"Robotics Engineer",11,132878
+5375,"Head of AI",11,135054
+2449,"Autonomous Systems Engineer",11,145351
+10097,"AI Software Engineer",11,148557
+3793,"Deep Learning Engineer",11,158079
+5235,"Data Engineer",11,168953
+8470,"Machine Learning Engineer",11,174577
+8772,"ML Ops Engineer",11,182824
+11411,"AI Software Engineer",11,184304
+7564,"AI Architect",11,189943
+13450,"AI Software Engineer",11,192061
+4118,"AI Research Scientist",11,200801
+7463,"AI Software Engineer",11,203714
+11935,"AI Specialist",11,206139
+5670,"AI Architect",11,207873
+1704,"AI Research Scientist",11,208210
+3270,"AI Product Manager",11,223738
+4420,"Data Engineer",11,243831
+8752,"Autonomous Systems Engineer",11,250614
+14728,"NLP Engineer",11,266010
+7046,"AI Specialist",11,292884
+7471,"ML Ops Engineer",11,304967
+9816,"Head of AI",11,361718
+8782,"Robotics Engineer",12,108738
+10882,"AI Consultant",12,121032
+8114,"NLP Engineer",12,123483
+4900,"ML Ops Engineer",12,131024
+13594,"AI Research Scientist",12,131581
+524,"AI Product Manager",12,134087
+4386,"Machine Learning Researcher",12,135291
+2372,"Principal Data Scientist",12,145170
+7582,"Machine Learning Researcher",12,157339
+14126,"AI Product Manager",12,166876
+11977,"Machine Learning Engineer",12,172136
+1368,"AI Software Engineer",12,186783
+2585,"Research Scientist",12,196014
+4748,"Data Analyst",12,196902
+10451,"Data Engineer",12,215973
+1869,"Data Engineer",12,228323
+14504,"Autonomous Systems Engineer",12,232544
+13395,"Machine Learning Researcher",12,242611
+6041,"Machine Learning Engineer",12,252062
+9093,"Principal Data Scientist",12,252916
+10670,"Deep Learning Engineer",12,258484
+10023,"NLP Engineer",12,269578
+80,"AI Research Scientist",12,284486
+11616,"AI Product Manager",12,292870
+7759,"Principal Data Scientist",12,320915
+8334,"Research Scientist",12,324470
+10817,"ML Ops Engineer",12,336976
+191,"Data Engineer",13,95796
+6436,"Research Scientist",13,100165
+12704,"AI Research Scientist",13,106203
+5251,"ML Ops Engineer",13,127973
+13483,"AI Research Scientist",13,128888
+1724,"AI Software Engineer",13,133565
+13211,"AI Architect",13,140668
+7475,"ML Ops Engineer",13,148826
+13005,"AI Consultant",13,149258
+4618,"NLP Engineer",13,153780
+11280,"Robotics Engineer",13,154198
+10004,"Computer Vision Engineer",13,163720
+10157,"Deep Learning Engineer",13,163815
+5312,"Data Engineer",13,170391
+2509,"AI Product Manager",13,171537
+2459,"AI Consultant",13,176768
+7465,"Principal Data Scientist",13,185958
+6303,"AI Architect",13,188343
+5517,"Machine Learning Researcher",13,190957
+10995,"AI Consultant",13,199482
+11136,"Research Scientist",13,200141
+716,"AI Specialist",13,201387
+2727,"Research Scientist",13,202703
+4629,"AI Consultant",13,205530
+13036,"Principal Data Scientist",13,207144
+1408,"Machine Learning Researcher",13,211142
+1989,"AI Research Scientist",13,219209
+1597,"Research Scientist",13,219333
+10034,"Robotics Engineer",13,243348
+10692,"Computer Vision Engineer",13,261046
+2639,"AI Research Scientist",13,277303
+1806,"Machine Learning Researcher",13,284282
+3981,"Autonomous Systems Engineer",13,290247
+8043,"Machine Learning Engineer",13,315053
+2037,"AI Software Engineer",13,322318
+14432,"AI Research Scientist",13,371087
+7996,"Principal Data Scientist",14,111889
+4970,"Machine Learning Researcher",14,117475
+7391,"Machine Learning Researcher",14,120496
+6009,"Deep Learning Engineer",14,123650
+7667,"AI Specialist",14,137890
+10710,"Machine Learning Researcher",14,142197
+11444,"AI Research Scientist",14,147464
+11218,"Principal Data Scientist",14,151141
+633,"ML Ops Engineer",14,151385
+7782,"ML Ops Engineer",14,153599
+1240,"Machine Learning Researcher",14,158302
+12359,"AI Specialist",14,161082
+10874,"Computer Vision Engineer",14,166629
+7056,"AI Architect",14,168657
+5238,"Deep Learning Engineer",14,170122
+13384,"Research Scientist",14,178868
+7520,"Head of AI",14,178949
+938,"Data Engineer",14,194442
+11917,"Data Analyst",14,232937
+3546,"Data Engineer",14,246407
+3021,"Autonomous Systems Engineer",14,254813
+4033,"ML Ops Engineer",14,261262
+13574,"AI Product Manager",14,273938
+10130,"AI Architect",14,332180
+6325,"Data Scientist",15,117123
+13658,"ML Ops Engineer",15,126501
+7685,"Data Analyst",15,127997
+4628,"Computer Vision Engineer",15,132082
+4705,"Autonomous Systems Engineer",15,136392
+12473,"AI Research Scientist",15,142595
+2655,"Robotics Engineer",15,148491
+10847,"AI Software Engineer",15,155502
+9734,"Data Engineer",15,161483
+4542,"AI Software Engineer",15,166392
+14439,"ML Ops Engineer",15,170461
+13832,"AI Software Engineer",15,172647
+3170,"Head of AI",15,177533
+3844,"NLP Engineer",15,188338
+335,"Principal Data Scientist",15,193149
+8967,"Head of AI",15,197680
+11863,"Deep Learning Engineer",15,205514
+10434,"Data Engineer",15,210532
+11348,"AI Architect",15,223318
+11643,"Machine Learning Researcher",15,231841
+660,"NLP Engineer",15,236175
+9730,"Principal Data Scientist",15,260041
+5921,"Data Scientist",15,284130
+10416,"AI Architect",15,328480
+7977,"Data Scientist",16,115473
+13428,"Head of AI",16,116240
+14516,"Autonomous Systems Engineer",16,128557
+11778,"AI Architect",16,130248
+11274,"AI Product Manager",16,131108
+4523,"Research Scientist",16,134789
+2827,"Head of AI",16,136162
+9719,"AI Architect",16,138353
+6863,"NLP Engineer",16,152491
+6271,"Principal Data Scientist",16,152966
+11598,"Head of AI",16,158414
+8566,"AI Consultant",16,184930
+10063,"Machine Learning Researcher",16,193659
+3319,"Machine Learning Researcher",16,230502
+11547,"AI Specialist",16,232938
+5696,"Head of AI",16,238430
+6522,"AI Architect",16,241126
+5014,"Data Engineer",16,253381
+13185,"Deep Learning Engineer",16,255450
+5500,"AI Research Scientist",16,258814
+4883,"AI Research Scientist",16,268888
+1103,"Data Analyst",16,272477
+11507,"Data Engineer",16,304214
+4741,"AI Software Engineer",17,104524
+11325,"Autonomous Systems Engineer",17,112926
+6877,"Autonomous Systems Engineer",17,121014
+1164,"Deep Learning Engineer",17,121076
+10951,"Data Analyst",17,122071
+5996,"Machine Learning Researcher",17,126033
+8823,"ML Ops Engineer",17,136690
+4866,"Machine Learning Researcher",17,138792
+11171,"AI Consultant",17,138835
+8560,"Autonomous Systems Engineer",17,140346
+10608,"ML Ops Engineer",17,141521
+664,"Head of AI",17,145141
+13439,"NLP Engineer",17,163637
+12202,"Computer Vision Engineer",17,171067
+2814,"Data Engineer",17,175868
+3679,"AI Specialist",17,181070
+5067,"Data Scientist",17,181979
+12723,"Principal Data Scientist",17,186851
+13698,"Data Scientist",17,191997
+7918,"Computer Vision Engineer",17,197244
+9809,"Data Analyst",17,210468
+4548,"Computer Vision Engineer",17,212866
+12200,"AI Consultant",17,214477
+119,"AI Software Engineer",17,231078
+10690,"Principal Data Scientist",17,244234
+12728,"AI Specialist",17,282270
+1079,"Principal Data Scientist",17,283408
+13397,"Deep Learning Engineer",17,284377
+10834,"Robotics Engineer",17,344424
+9588,"Data Scientist",18,123217
+6989,"Data Analyst",18,131397
+9978,"Data Scientist",18,133070
+9044,"AI Consultant",18,133334
+11965,"Data Scientist",18,144527
+1750,"ML Ops Engineer",18,145239
+10969,"Machine Learning Engineer",18,146429
+7869,"Deep Learning Engineer",18,156671
+5669,"ML Ops Engineer",18,163289
+9288,"Data Analyst",18,166659
+10892,"Principal Data Scientist",18,171619
+4191,"AI Software Engineer",18,172757
+8856,"Machine Learning Engineer",18,188281
+14456,"NLP Engineer",18,191229
+5329,"Head of AI",18,195957
+4298,"Autonomous Systems Engineer",18,200850
+10138,"ML Ops Engineer",18,201759
+4700,"Deep Learning Engineer",18,212918
+4437,"AI Software Engineer",18,218860
+9974,"Research Scientist",18,258916
+2817,"AI Software Engineer",18,259158
+2865,"Robotics Engineer",19,100709
+7317,"Research Scientist",19,108250
+9890,"Data Scientist",19,122844
+13871,"Data Engineer",19,131212
+4243,"AI Research Scientist",19,134078
+10606,"Data Scientist",19,135801
+631,"AI Product Manager",19,137181
+2714,"NLP Engineer",19,138149
+6643,"AI Specialist",19,144552
+3345,"Data Engineer",19,145082
+10604,"Deep Learning Engineer",19,148329
+5020,"AI Product Manager",19,148896
+6089,"AI Architect",19,150617
+11453,"ML Ops Engineer",19,158200
+7610,"AI Product Manager",19,158620
+3273,"Machine Learning Engineer",19,161023
+13461,"Data Scientist",19,163656
+10307,"Principal Data Scientist",19,165611

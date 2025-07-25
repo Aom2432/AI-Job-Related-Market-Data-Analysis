@@ -1,0 +1,1001 @@
+id_cleaned,industry,job_title,years_experience,salary_usd
+13338,Media,"Autonomous Systems Engineer",0,33376
+7692,Media,"ML Ops Engineer",0,35504
+144,Media,"Deep Learning Engineer",0,35593
+4858,Media,"AI Specialist",0,36052
+11557,Media,"Deep Learning Engineer",0,36624
+12997,Media,"Autonomous Systems Engineer",0,37110
+9561,Media,"NLP Engineer",0,37559
+11671,Media,"Research Scientist",0,38141
+13861,Media,"Data Analyst",0,38617
+6248,Media,"AI Product Manager",0,38632
+5229,Media,"Data Scientist",0,38873
+1425,Media,"AI Software Engineer",0,39402
+10562,Media,"AI Consultant",0,39515
+3566,Media,"ML Ops Engineer",0,39741
+7371,Media,"Data Engineer",0,40265
+1742,Media,"Research Scientist",0,41596
+7945,Media,"AI Specialist",0,41721
+10775,Media,"AI Product Manager",0,42239
+5008,Media,"Data Analyst",0,42509
+12134,Media,"ML Ops Engineer",0,42773
+132,Media,"AI Software Engineer",0,42835
+2043,Media,"Data Scientist",0,43474
+14163,Media,"Data Analyst",0,43952
+12341,Media,"NLP Engineer",0,45067
+12221,Media,"AI Consultant",0,45073
+5616,Media,"Robotics Engineer",0,45567
+1344,Media,"ML Ops Engineer",0,46095
+4905,Media,"Computer Vision Engineer",0,46121
+3908,Media,"Autonomous Systems Engineer",0,46457
+2224,Media,"AI Product Manager",0,46937
+1410,Media,"Head of AI",0,47057
+6922,Media,"ML Ops Engineer",0,47244
+4132,Media,"Head of AI",0,47273
+14169,Media,"Machine Learning Engineer",0,47552
+8612,Media,"Data Analyst",0,47646
+14862,Media,"Research Scientist",0,47861
+9154,Media,"Head of AI",0,47973
+8191,Media,"NLP Engineer",0,48170
+7734,Media,"Computer Vision Engineer",0,48743
+13178,Media,"Machine Learning Researcher",0,48758
+544,Media,"Research Scientist",0,49162
+12656,Media,"Data Engineer",0,49213
+8923,Media,"Research Scientist",0,49365
+7926,Media,"NLP Engineer",0,49386
+8916,Media,"Research Scientist",0,49518
+468,Media,"AI Consultant",0,49641
+12448,Media,"Head of AI",0,49710
+905,Media,"Principal Data Scientist",0,50008
+965,Media,"Autonomous Systems Engineer",0,50052
+11080,Media,"Machine Learning Engineer",0,50395
+1325,Media,"AI Specialist",0,51178
+13991,Media,"Principal Data Scientist",0,51334
+13925,Media,"Deep Learning Engineer",0,51864
+8864,Media,"AI Research Scientist",0,52418
+6591,Media,"Principal Data Scientist",0,52800
+1588,Media,"AI Consultant",0,53064
+872,Media,"Autonomous Systems Engineer",0,54120
+6789,Media,"Data Scientist",0,54487
+4678,Media,"Computer Vision Engineer",0,54497
+5,Media,"AI Consultant",0,54624
+11526,Media,"Principal Data Scientist",0,55061
+797,Media,"Head of AI",0,55149
+9796,Media,"Robotics Engineer",0,55271
+13859,Media,"Data Scientist",0,55519
+6825,Media,"Data Analyst",0,55725
+848,Media,"AI Research Scientist",0,56145
+1332,Media,"AI Research Scientist",0,56311
+14455,Media,"AI Product Manager",0,56412
+11620,Media,"AI Software Engineer",0,56483
+3395,Media,"Principal Data Scientist",0,57076
+13023,Media,"Deep Learning Engineer",0,57122
+1199,Media,"Principal Data Scientist",0,57365
+1535,Media,"AI Product Manager",0,57968
+14579,Media,"Machine Learning Researcher",0,58040
+6172,Media,"ML Ops Engineer",0,58138
+12479,Media,"AI Product Manager",0,58228
+5966,Media,"NLP Engineer",0,58311
+5268,Media,"AI Research Scientist",0,58379
+12995,Media,"ML Ops Engineer",0,58609
+11091,Media,"Data Engineer",0,58763
+2626,Media,"Deep Learning Engineer",0,58854
+2262,Media,"Computer Vision Engineer",0,59665
+7165,Media,"Principal Data Scientist",0,59891
+2504,Media,"NLP Engineer",0,60168
+1126,Media,"Data Scientist",0,60737
+4514,Media,"Data Scientist",0,60905
+13300,Media,"NLP Engineer",0,60974
+10858,Media,"Computer Vision Engineer",0,61152
+2041,Media,"Data Scientist",0,61384
+2375,Media,"Data Scientist",0,62219
+14285,Media,"Autonomous Systems Engineer",0,62678
+1736,Media,"AI Consultant",0,62844
+1857,Media,"Machine Learning Researcher",0,63724
+12813,Media,"Machine Learning Engineer",0,63838
+500,Media,"Machine Learning Engineer",0,63866
+3759,Media,"Machine Learning Researcher",0,64394
+14701,Media,"AI Consultant",0,65001
+6351,Media,"Data Analyst",0,65245
+679,Media,"AI Product Manager",0,65442
+13681,Media,"AI Specialist",0,66326
+13307,Media,"NLP Engineer",0,67187
+9999,Media,"AI Software Engineer",0,67386
+5283,Media,"Data Engineer",0,69059
+6514,Media,"ML Ops Engineer",0,69769
+7137,Media,"Head of AI",0,69973
+10511,Media,"AI Software Engineer",0,70300
+6130,Media,"AI Software Engineer",0,71691
+14426,Media,"Data Analyst",0,73162
+13927,Media,"AI Research Scientist",0,74120
+3099,Media,"AI Product Manager",0,74511
+11399,Media,"Robotics Engineer",0,76844
+939,Media,"ML Ops Engineer",0,77274
+4723,Media,"AI Consultant",0,79965
+7478,Media,"AI Software Engineer",0,80273
+4404,Media,"Deep Learning Engineer",0,81942
+4982,Media,"Head of AI",0,82304
+11140,Media,"Research Scientist",0,82850
+12667,Media,"Computer Vision Engineer",0,84097
+8343,Media,"Head of AI",0,84874
+6246,Media,"AI Specialist",0,85103
+12127,Media,"AI Architect",0,87275
+5745,Media,"Deep Learning Engineer",0,88669
+2157,Media,"Head of AI",0,88694
+12864,Media,"Data Scientist",0,88801
+10017,Media,"AI Software Engineer",0,89164
+1056,Media,"Principal Data Scientist",0,89557
+9301,Media,"AI Product Manager",0,90172
+2144,Media,"Deep Learning Engineer",0,91451
+2646,Media,"Data Engineer",0,93573
+4878,Media,"Research Scientist",0,93777
+11735,Media,"ML Ops Engineer",0,93845
+1912,Media,"AI Specialist",0,94462
+7673,Media,"Machine Learning Researcher",0,100892
+12292,Media,"Autonomous Systems Engineer",0,101075
+1496,Media,"Data Analyst",0,101245
+11115,Media,"Data Engineer",0,101337
+3949,Media,"AI Research Scientist",0,108116
+6891,Media,"Data Analyst",0,113053
+1877,Media,"Data Analyst",0,117499
+3900,Media,"NLP Engineer",0,126242
+14666,Media,"Computer Vision Engineer",1,33489
+8468,Media,"Machine Learning Researcher",1,34660
+3922,Media,"Data Scientist",1,35532
+826,Media,"Principal Data Scientist",1,36696
+232,Media,"AI Research Scientist",1,36734
+4351,Media,"Machine Learning Engineer",1,36862
+6676,Media,"AI Product Manager",1,37797
+1041,Media,"Data Engineer",1,38483
+13931,Media,"Robotics Engineer",1,39023
+12012,Media,"Machine Learning Researcher",1,39375
+14348,Media,"AI Product Manager",1,39786
+10144,Media,"AI Software Engineer",1,40339
+9439,Media,"Data Scientist",1,40484
+14304,Media,"Deep Learning Engineer",1,41880
+3370,Media,"Computer Vision Engineer",1,42303
+2880,Media,"Autonomous Systems Engineer",1,42927
+12758,Media,"AI Research Scientist",1,43881
+11900,Media,"Robotics Engineer",1,45214
+2075,Media,"Research Scientist",1,45317
+4898,Media,"Deep Learning Engineer",1,45615
+13785,Media,"Research Scientist",1,45821
+12426,Media,"Machine Learning Engineer",1,45932
+12333,Media,"ML Ops Engineer",1,46230
+11907,Media,"Robotics Engineer",1,46904
+1926,Media,"Machine Learning Researcher",1,47205
+7123,Media,"Research Scientist",1,47355
+7713,Media,"Machine Learning Researcher",1,47946
+11124,Media,"Deep Learning Engineer",1,48057
+13354,Media,"Research Scientist",1,48616
+9029,Media,"Deep Learning Engineer",1,48623
+14953,Media,"Autonomous Systems Engineer",1,50137
+3797,Media,"AI Product Manager",1,50197
+9413,Media,"AI Architect",1,51337
+5255,Media,"Robotics Engineer",1,51483
+1252,Media,"Data Engineer",1,51671
+13054,Media,"NLP Engineer",1,52975
+11016,Media,"Robotics Engineer",1,53174
+1626,Media,"AI Architect",1,53477
+13270,Media,"AI Product Manager",1,53758
+11934,Media,"AI Product Manager",1,54616
+14408,Media,"AI Consultant",1,54956
+9012,Media,"Head of AI",1,55161
+14202,Media,"AI Specialist",1,55557
+13525,Media,"NLP Engineer",1,55958
+2328,Media,"AI Research Scientist",1,56447
+5743,Media,"Computer Vision Engineer",1,56637
+8183,Media,"Computer Vision Engineer",1,56795
+12086,Media,"Data Scientist",1,57204
+4401,Media,"AI Software Engineer",1,57244
+5010,Media,"Research Scientist",1,57433
+12779,Media,"Data Scientist",1,57610
+14909,Media,"Deep Learning Engineer",1,58249
+414,Media,"AI Software Engineer",1,58405
+2364,Media,"Data Engineer",1,60074
+996,Media,"Data Analyst",1,60598
+11145,Media,"ML Ops Engineer",1,60728
+5641,Media,"AI Consultant",1,61033
+9344,Media,"AI Architect",1,61033
+5607,Media,"Data Scientist",1,61127
+13478,Media,"AI Architect",1,61407
+3878,Media,"Data Analyst",1,61431
+2,Media,"AI Software Engineer",1,61895
+3464,Media,"Data Engineer",1,62906
+7593,Media,"Data Analyst",1,63064
+12342,Media,"Research Scientist",1,63412
+4850,Media,"Deep Learning Engineer",1,63427
+13535,Media,"Data Analyst",1,63430
+5583,Media,"Head of AI",1,63895
+8365,Media,"Data Engineer",1,64275
+4744,Media,"Data Analyst",1,64753
+9931,Media,"Head of AI",1,64800
+8382,Media,"AI Software Engineer",1,65014
+14155,Media,"Principal Data Scientist",1,65824
+6174,Media,"AI Consultant",1,66016
+14617,Media,"Machine Learning Engineer",1,66158
+2906,Media,"AI Software Engineer",1,66616
+8625,Media,"Data Scientist",1,67011
+9922,Media,"ML Ops Engineer",1,67210
+12805,Media,"Autonomous Systems Engineer",1,67253
+13990,Media,"AI Software Engineer",1,67308
+6210,Media,"AI Product Manager",1,67664
+7882,Media,"Machine Learning Researcher",1,69563
+7007,Media,"Deep Learning Engineer",1,69867
+12011,Media,"Machine Learning Engineer",1,70180
+5097,Media,"Machine Learning Engineer",1,70791
+3356,Media,"ML Ops Engineer",1,71459
+9071,Media,"AI Research Scientist",1,74169
+8202,Media,"AI Architect",1,74443
+13337,Media,"NLP Engineer",1,74856
+2054,Media,"Autonomous Systems Engineer",1,75077
+4011,Media,"AI Software Engineer",1,75143
+2359,Media,"AI Product Manager",1,75332
+12452,Media,"AI Research Scientist",1,75564
+3184,Media,"Data Scientist",1,76474
+2104,Media,"Data Analyst",1,77543
+14187,Media,"AI Consultant",1,77988
+6650,Media,"AI Architect",1,79953
+9690,Media,"Autonomous Systems Engineer",1,80700
+5924,Media,"Deep Learning Engineer",1,80847
+2057,Media,"Principal Data Scientist",1,82005
+9833,Media,"Data Analyst",1,82780
+2353,Media,"Data Scientist",1,90111
+12010,Media,"NLP Engineer",1,91703
+6128,Media,"Head of AI",1,94166
+2495,Media,"Autonomous Systems Engineer",1,95635
+14951,Media,"Machine Learning Researcher",1,96227
+9486,Media,"Autonomous Systems Engineer",1,100732
+9908,Media,"AI Software Engineer",1,102550
+8404,Media,"Machine Learning Engineer",1,105867
+12623,Media,"AI Software Engineer",1,117928
+14061,Media,"Head of AI",1,119319
+11574,Media,"Data Analyst",1,129541
+14769,Media,"Computer Vision Engineer",2,45922
+6621,Media,"AI Architect",2,48566
+6764,Media,"Machine Learning Researcher",2,50385
+1008,Media,"Autonomous Systems Engineer",2,51029
+2760,Media,"AI Specialist",2,53223
+10145,Media,"AI Consultant",2,54151
+8280,Media,"NLP Engineer",2,55031
+8931,Media,"Machine Learning Researcher",2,55278
+6071,Media,"Robotics Engineer",2,55925
+5106,Media,"AI Specialist",2,56219
+3914,Media,"Robotics Engineer",2,57983
+957,Media,"Deep Learning Engineer",2,58108
+3653,Media,"AI Product Manager",2,59261
+7855,Media,"AI Architect",2,59500
+6004,Media,"AI Research Scientist",2,60339
+1984,Media,"Machine Learning Engineer",2,60859
+1390,Media,"Machine Learning Researcher",2,61256
+3842,Media,"AI Architect",2,61621
+4598,Media,"Head of AI",2,62799
+14113,Media,"AI Research Scientist",2,63089
+13914,Media,"Robotics Engineer",2,63116
+9312,Media,"Computer Vision Engineer",2,65020
+8494,Media,"Machine Learning Engineer",2,67554
+8369,Media,"Data Engineer",2,68553
+5196,Media,"AI Software Engineer",2,69497
+10101,Media,"Data Engineer",2,69730
+13881,Media,"AI Specialist",2,69769
+14368,Media,"ML Ops Engineer",2,69952
+1788,Media,"AI Research Scientist",2,70196
+2905,Media,"Machine Learning Engineer",2,71309
+4040,Media,"Principal Data Scientist",2,73348
+11772,Media,"AI Research Scientist",2,74125
+6337,Media,"Computer Vision Engineer",2,74324
+6305,Media,"Machine Learning Engineer",2,76056
+5959,Media,"NLP Engineer",2,76421
+8925,Media,"Deep Learning Engineer",2,76577
+13175,Media,"Head of AI",2,76930
+5928,Media,"AI Product Manager",2,77159
+12648,Media,"Computer Vision Engineer",2,77471
+10411,Media,"Autonomous Systems Engineer",2,77503
+2153,Media,"Autonomous Systems Engineer",2,77881
+14378,Media,"Deep Learning Engineer",2,79404
+14269,Media,"Data Engineer",2,80011
+27,Media,"ML Ops Engineer",2,80979
+11851,Media,"AI Research Scientist",2,82141
+2679,Media,"Autonomous Systems Engineer",2,83546
+11226,Media,"Machine Learning Engineer",2,84264
+6154,Media,"Autonomous Systems Engineer",2,84441
+1725,Media,"Autonomous Systems Engineer",2,84479
+12481,Media,"Autonomous Systems Engineer",2,85255
+8177,Media,"Autonomous Systems Engineer",2,85781
+2860,Media,"Data Analyst",2,85957
+8473,Media,"Machine Learning Engineer",2,86219
+8857,Media,"AI Specialist",2,86251
+10457,Media,"Machine Learning Researcher",2,86411
+11516,Media,"AI Consultant",2,87063
+9199,Media,"AI Consultant",2,87393
+1331,Media,"AI Specialist",2,89056
+2777,Media,"Research Scientist",2,89274
+2111,Media,"AI Product Manager",2,89500
+3931,Media,"Head of AI",2,89634
+9313,Media,"Autonomous Systems Engineer",2,92151
+9086,Media,"Autonomous Systems Engineer",2,94887
+4059,Media,"AI Architect",2,96368
+4541,Media,"NLP Engineer",2,96983
+12962,Media,"AI Specialist",2,103538
+6923,Media,"Data Engineer",2,103559
+5162,Media,"Research Scientist",2,104227
+8591,Media,"Robotics Engineer",2,105502
+12587,Media,"AI Specialist",2,107708
+8811,Media,"Machine Learning Engineer",2,108484
+3466,Media,"Robotics Engineer",2,109005
+13838,Media,"AI Specialist",2,110810
+10800,Media,"AI Consultant",2,111158
+8847,Media,"AI Research Scientist",2,113949
+11239,Media,"AI Consultant",2,117138
+516,Media,"AI Product Manager",2,117510
+8109,Media,"AI Software Engineer",2,119739
+11266,Media,"Robotics Engineer",2,119820
+10462,Media,"Computer Vision Engineer",2,120141
+14110,Media,"Deep Learning Engineer",2,122650
+13265,Media,"Data Analyst",2,123058
+1291,Media,"Deep Learning Engineer",2,125867
+1237,Media,"Computer Vision Engineer",2,130564
+1908,Media,"Robotics Engineer",2,142895
+6435,Media,"AI Architect",2,143427
+12335,Media,"Autonomous Systems Engineer",2,149538
+5485,Media,"Data Scientist",3,48775
+2507,Media,"Deep Learning Engineer",3,49360
+9480,Media,"Data Analyst",3,51131
+3561,Media,"Data Analyst",3,51539
+3393,Media,"AI Product Manager",3,52181
+5439,Media,"AI Product Manager",3,53669
+13318,Media,"NLP Engineer",3,55441
+5401,Media,"Principal Data Scientist",3,55899
+1303,Media,"Data Analyst",3,55972
+3246,Media,"Research Scientist",3,56117
+151,Media,"NLP Engineer",3,57266
+4973,Media,"Principal Data Scientist",3,57436
+12934,Media,"Data Scientist",3,62449
+12393,Media,"Principal Data Scientist",3,62517
+7583,Media,"AI Specialist",3,62792
+1518,Media,"Deep Learning Engineer",3,63018
+2327,Media,"AI Consultant",3,63497
+13736,Media,"Research Scientist",3,63529
+7776,Media,"Autonomous Systems Engineer",3,63720
+12337,Media,"Robotics Engineer",3,66706
+7037,Media,"AI Software Engineer",3,66838
+6795,Media,"Computer Vision Engineer",3,67267
+2622,Media,"Data Analyst",3,67474
+14272,Media,"Machine Learning Engineer",3,67710
+2877,Media,"Data Scientist",3,67874
+8445,Media,"AI Architect",3,68074
+1641,Media,"Principal Data Scientist",3,68659
+8258,Media,"AI Research Scientist",3,69423
+5932,Media,"AI Research Scientist",3,69815
+10456,Media,"Deep Learning Engineer",3,69946
+3053,Media,"AI Research Scientist",3,70353
+6096,Media,"Machine Learning Researcher",3,71442
+805,Media,"Deep Learning Engineer",3,72300
+11489,Media,"Machine Learning Engineer",3,73407
+8553,Media,"AI Research Scientist",3,74005
+7157,Media,"Computer Vision Engineer",3,76634
+1707,Media,"Computer Vision Engineer",3,76903
+6434,Media,"Computer Vision Engineer",3,78341
+2837,Media,"AI Research Scientist",3,79340
+6150,Media,"Data Analyst",3,79564
+13492,Media,"Data Scientist",3,80632
+5615,Media,"Data Scientist",3,82349
+2552,Media,"AI Software Engineer",3,83328
+14685,Media,"Head of AI",3,85131
+1007,Media,"Principal Data Scientist",3,85303
+6102,Media,"Machine Learning Engineer",3,86551
+6336,Media,"Data Analyst",3,87777
+991,Media,"Autonomous Systems Engineer",3,88118
+14865,Media,"Data Scientist",3,88135
+6473,Media,"AI Software Engineer",3,88282
+4610,Media,"Machine Learning Engineer",3,88822
+4840,Media,"Deep Learning Engineer",3,89101
+8379,Media,"Data Analyst",3,89277
+5000,Media,"AI Architect",3,89632
+958,Media,"AI Software Engineer",3,90557
+7364,Media,"NLP Engineer",3,90697
+8224,Media,"AI Research Scientist",3,91766
+8574,Media,"Computer Vision Engineer",3,92157
+11246,Media,"AI Software Engineer",3,93019
+10062,Media,"Principal Data Scientist",3,95329
+4198,Media,"ML Ops Engineer",3,95782
+14428,Media,"Head of AI",3,95952
+10371,Media,"AI Product Manager",3,97522
+8713,Media,"Robotics Engineer",3,98405
+9676,Media,"Research Scientist",3,98587
+5793,Media,"Machine Learning Researcher",3,101464
+426,Media,"Autonomous Systems Engineer",3,101978
+894,Media,"AI Software Engineer",3,106704
+11340,Media,"Data Scientist",3,108630
+1254,Media,"Machine Learning Engineer",3,109449
+5087,Media,"NLP Engineer",3,109878
+5494,Media,"Computer Vision Engineer",3,112588
+8490,Media,"Robotics Engineer",3,113397
+5408,Media,"AI Software Engineer",3,116638
+10043,Media,"ML Ops Engineer",3,118030
+6593,Media,"Machine Learning Engineer",3,120166
+2531,Media,"Data Engineer",3,121792
+3478,Media,"Data Engineer",3,125119
+11688,Media,"AI Product Manager",3,131073
+11282,Media,"AI Software Engineer",3,142150
+1095,Media,"Computer Vision Engineer",3,153539
+7266,Media,"Head of AI",4,47798
+10530,Media,"AI Software Engineer",4,49550
+2721,Media,"Data Analyst",4,49653
+6706,Media,"Research Scientist",4,50734
+10837,Media,"Research Scientist",4,52449
+13650,Media,"AI Architect",4,53914
+7206,Media,"AI Architect",4,55751
+6507,Media,"Computer Vision Engineer",4,55838
+5421,Media,"Machine Learning Engineer",4,56510
+4532,Media,"Research Scientist",4,56567
+10121,Media,"Computer Vision Engineer",4,57264
+1309,Media,"ML Ops Engineer",4,58734
+12738,Media,"AI Product Manager",4,58807
+2815,Media,"Machine Learning Researcher",4,59970
+722,Media,"Machine Learning Engineer",4,60806
+10080,Media,"Machine Learning Researcher",4,61517
+9627,Media,"Head of AI",4,62525
+10256,Media,"Research Scientist",4,62671
+13312,Media,"AI Research Scientist",4,64929
+1688,Media,"AI Software Engineer",4,64989
+5438,Media,"NLP Engineer",4,65544
+12106,Media,"AI Specialist",4,67368
+55,Media,"Research Scientist",4,67607
+9473,Media,"AI Research Scientist",4,67804
+4648,Media,"Machine Learning Engineer",4,68557
+13752,Media,"NLP Engineer",4,69137
+6969,Media,"Machine Learning Engineer",4,69554
+12311,Media,"AI Research Scientist",4,69720
+7914,Media,"Deep Learning Engineer",4,72744
+13491,Media,"NLP Engineer",4,72999
+914,Media,"Head of AI",4,73640
+4807,Media,"ML Ops Engineer",4,73861
+10806,Media,"AI Consultant",4,75551
+8158,Media,"AI Product Manager",4,75692
+11908,Media,"Machine Learning Engineer",4,77864
+10058,Media,"AI Architect",4,79386
+10053,Media,"Deep Learning Engineer",4,79415
+5191,Media,"AI Consultant",4,79809
+14664,Media,"AI Product Manager",4,80224
+10044,Media,"Data Scientist",4,81924
+1996,Media,"AI Product Manager",4,82981
+3355,Media,"Machine Learning Researcher",4,83390
+11619,Media,"Head of AI",4,83433
+8678,Media,"AI Research Scientist",4,83895
+3575,Media,"Data Engineer",4,84000
+14196,Media,"Data Analyst",4,84363
+6296,Media,"Autonomous Systems Engineer",4,84513
+6020,Media,"AI Product Manager",4,85179
+4199,Media,"Computer Vision Engineer",4,85898
+1313,Media,"AI Software Engineer",4,85965
+6385,Media,"Data Scientist",4,88183
+4207,Media,"Machine Learning Researcher",4,88967
+14216,Media,"AI Consultant",4,90360
+13606,Media,"Research Scientist",4,90554
+13390,Media,"AI Product Manager",4,91606
+1800,Media,"AI Specialist",4,93779
+13982,Media,"Head of AI",4,94487
+2038,Media,"AI Architect",4,94938
+740,Media,"Robotics Engineer",4,95469
+4286,Media,"Head of AI",4,95565
+4844,Media,"AI Specialist",4,96496
+8697,Media,"Principal Data Scientist",4,97247
+14881,Media,"Computer Vision Engineer",4,98946
+2397,Media,"Machine Learning Researcher",4,100385
+7410,Media,"AI Specialist",4,101868
+8568,Media,"Data Analyst",4,103580
+1490,Media,"Machine Learning Engineer",4,105881
+4166,Media,"AI Consultant",4,106981
+12034,Media,"Research Scientist",4,107556
+9493,Media,"AI Product Manager",4,108777
+12543,Media,"ML Ops Engineer",4,109967
+618,Media,"Machine Learning Researcher",4,109969
+1080,Media,"Data Analyst",4,113645
+13682,Media,"Autonomous Systems Engineer",4,115855
+13690,Media,"AI Architect",4,117247
+12730,Media,"Data Engineer",4,117650
+6534,Media,"NLP Engineer",4,118791
+10628,Media,"NLP Engineer",4,118988
+3964,Media,"AI Architect",4,119240
+14667,Media,"Data Engineer",4,120555
+2438,Media,"NLP Engineer",4,120794
+8637,Media,"Data Scientist",4,123682
+13147,Media,"Machine Learning Researcher",4,125480
+7831,Media,"Head of AI",4,127972
+5088,Media,"Machine Learning Engineer",4,129529
+3526,Media,"Head of AI",4,130032
+6549,Media,"Machine Learning Researcher",4,131355
+7989,Media,"AI Specialist",4,131743
+6667,Media,"Principal Data Scientist",4,133186
+4613,Media,"Robotics Engineer",4,147219
+14474,Media,"AI Software Engineer",4,151965
+5220,Media,"Autonomous Systems Engineer",4,152238
+7118,Media,"Data Analyst",4,158378
+11597,Media,"AI Software Engineer",5,68059
+9464,Media,"ML Ops Engineer",5,68480
+2695,Media,"AI Architect",5,69709
+12904,Media,"AI Research Scientist",5,70528
+12705,Media,"Robotics Engineer",5,71348
+2971,Media,"Data Analyst",5,72958
+2254,Media,"Data Engineer",5,73709
+3199,Media,"ML Ops Engineer",5,76919
+699,Media,"AI Architect",5,77553
+5576,Media,"Data Scientist",5,78455
+4274,Media,"Autonomous Systems Engineer",5,79220
+5246,Media,"Data Analyst",5,81232
+10742,Media,"ML Ops Engineer",5,83181
+11595,Media,"AI Research Scientist",5,83700
+11757,Media,"ML Ops Engineer",5,84114
+2197,Media,"AI Architect",5,86252
+14419,Media,"Robotics Engineer",5,87234
+9165,Media,"AI Research Scientist",5,87959
+4763,Media,"AI Specialist",5,88895
+6431,Media,"Autonomous Systems Engineer",5,89018
+12276,Media,"AI Software Engineer",5,89934
+3271,Media,"AI Specialist",5,90900
+10357,Media,"Principal Data Scientist",5,91240
+4124,Media,"Head of AI",5,91247
+1248,Media,"Robotics Engineer",5,91654
+12570,Media,"Research Scientist",5,93919
+10878,Media,"AI Specialist",5,94173
+4537,Media,"Machine Learning Researcher",5,95423
+7265,Media,"AI Architect",5,95688
+3614,Media,"AI Specialist",5,96326
+12709,Media,"Robotics Engineer",5,97096
+10911,Media,"Principal Data Scientist",5,98101
+9929,Media,"NLP Engineer",5,100272
+8983,Media,"AI Specialist",5,102327
+7764,Media,"Machine Learning Researcher",5,103881
+7541,Media,"AI Research Scientist",5,105457
+11042,Media,"Deep Learning Engineer",5,105845
+1932,Media,"Research Scientist",5,111499
+13419,Media,"Data Scientist",5,112887
+13163,Media,"Machine Learning Engineer",5,114824
+1444,Media,"Machine Learning Engineer",5,115871
+8443,Media,"Research Scientist",5,115955
+14279,Media,"Data Engineer",5,116223
+7788,Media,"AI Consultant",5,118352
+8567,Media,"Data Engineer",5,118941
+4213,Media,"Computer Vision Engineer",5,120658
+12025,Media,"Computer Vision Engineer",5,122215
+7399,Media,"AI Software Engineer",5,126301
+10428,Media,"Computer Vision Engineer",5,127437
+5727,Media,"Head of AI",5,129157
+268,Media,"Robotics Engineer",5,133565
+8198,Media,"AI Specialist",5,134305
+4237,Media,"Robotics Engineer",5,146612
+14851,Media,"Data Analyst",5,155935
+11165,Media,"Machine Learning Engineer",5,158119
+8395,Media,"Data Scientist",5,158289
+45,Media,"ML Ops Engineer",5,158808
+10857,Media,"AI Research Scientist",5,174490
+11013,Media,"ML Ops Engineer",5,175580
+14678,Media,"AI Architect",5,177866
+1069,Media,"Data Engineer",5,186582
+724,Media,"Robotics Engineer",5,230849
+12690,Media,"Machine Learning Researcher",5,244285
+3642,Media,"AI Specialist",6,77541
+11198,Media,"AI Research Scientist",6,82071
+12308,Media,"Robotics Engineer",6,83111
+1488,Media,"AI Software Engineer",6,84673
+9859,Media,"Data Engineer",6,91813
+4954,Media,"Principal Data Scientist",6,92641
+4456,Media,"Machine Learning Researcher",6,93926
+8585,Media,"Machine Learning Engineer",6,95661
+157,Media,"AI Research Scientist",6,95716
+4835,Media,"NLP Engineer",6,99139
+1713,Media,"AI Product Manager",6,100402
+13569,Media,"Machine Learning Engineer",6,100454
+13427,Media,"Robotics Engineer",6,101155
+617,Media,"AI Specialist",6,101235
+3740,Media,"Data Engineer",6,102794
+9075,Media,"Machine Learning Engineer",6,103134
+14882,Media,"AI Consultant",6,106516
+11273,Media,"AI Research Scientist",6,115630
+3035,Media,"AI Software Engineer",6,118324
+4075,Media,"ML Ops Engineer",6,118733
+6779,Media,"AI Research Scientist",6,122049
+13539,Media,"AI Architect",6,130479
+1286,Media,"AI Architect",6,130884
+13177,Media,"AI Research Scientist",6,136513
+13669,Media,"Research Scientist",6,137706
+12251,Media,"Robotics Engineer",6,138226
+12133,Media,"Machine Learning Engineer",6,140806
+1834,Media,"Research Scientist",6,141970
+14722,Media,"Robotics Engineer",6,143593
+6865,Media,"ML Ops Engineer",6,145834
+8706,Media,"ML Ops Engineer",6,154821
+1583,Media,"AI Product Manager",6,158916
+9307,Media,"Head of AI",6,167560
+755,Media,"AI Product Manager",6,167929
+400,Media,"Head of AI",6,175527
+10781,Media,"NLP Engineer",6,176405
+4617,Media,"AI Product Manager",6,177555
+4657,Media,"ML Ops Engineer",6,181504
+1577,Media,"Deep Learning Engineer",6,205113
+12336,Media,"Deep Learning Engineer",6,205706
+14037,Media,"Machine Learning Engineer",6,218996
+4091,Media,"AI Architect",7,70013
+14638,Media,"Computer Vision Engineer",7,70594
+3956,Media,"AI Architect",7,71826
+10691,Media,"AI Architect",7,76630
+7186,Media,"Principal Data Scientist",7,78689
+13555,Media,"Robotics Engineer",7,79453
+7873,Media,"ML Ops Engineer",7,80158
+9736,Media,"NLP Engineer",7,84782
+7140,Media,"AI Specialist",7,85236
+2202,Media,"AI Product Manager",7,86985
+14519,Media,"Principal Data Scientist",7,87918
+2363,Media,"AI Consultant",7,88675
+10270,Media,"Machine Learning Engineer",7,89567
+10372,Media,"AI Product Manager",7,91262
+13467,Media,"Data Engineer",7,93004
+7978,Media,"AI Architect",7,96596
+5460,Media,"Computer Vision Engineer",7,99087
+12822,Media,"Principal Data Scientist",7,102333
+654,Media,"AI Consultant",7,106477
+7129,Media,"NLP Engineer",7,106527
+5574,Media,"Computer Vision Engineer",7,113253
+12293,Media,"ML Ops Engineer",7,113835
+10079,Media,"Computer Vision Engineer",7,113967
+13432,Media,"AI Research Scientist",7,114146
+14379,Media,"NLP Engineer",7,116950
+6408,Media,"ML Ops Engineer",7,118097
+5291,Media,"AI Consultant",7,119039
+4730,Media,"Data Engineer",7,119752
+7196,Media,"ML Ops Engineer",7,119987
+9548,Media,"Research Scientist",7,121833
+11222,Media,"Robotics Engineer",7,122187
+7187,Media,"Research Scientist",7,128135
+4499,Media,"Autonomous Systems Engineer",7,130281
+3187,Media,"Autonomous Systems Engineer",7,133477
+2556,Media,"AI Specialist",7,147204
+9626,Media,"AI Consultant",7,150491
+13100,Media,"ML Ops Engineer",7,150623
+6885,Media,"AI Research Scientist",7,151161
+11675,Media,"AI Research Scientist",7,151220
+3455,Media,"Autonomous Systems Engineer",7,151691
+4062,Media,"NLP Engineer",7,151728
+14103,Media,"Research Scientist",7,152253
+14007,Media,"AI Software Engineer",7,153466
+1245,Media,"Research Scientist",7,158616
+7990,Media,"AI Research Scientist",7,168515
+11814,Media,"ML Ops Engineer",7,174496
+46,Media,"AI Research Scientist",7,174663
+3876,Media,"Deep Learning Engineer",7,182454
+9912,Media,"Computer Vision Engineer",7,183392
+5543,Media,"Data Engineer",7,187618
+7861,Media,"Head of AI",7,192395
+14331,Media,"AI Consultant",7,231028
+12965,Media,"Machine Learning Engineer",8,66161
+4913,Media,"Data Scientist",8,72798
+3232,Media,"AI Research Scientist",8,72874
+3444,Media,"Machine Learning Engineer",8,73215
+1355,Media,"ML Ops Engineer",8,74721
+10550,Media,"Autonomous Systems Engineer",8,76008
+374,Media,"Machine Learning Engineer",8,79744
+2439,Media,"ML Ops Engineer",8,80020
+2096,Media,"Autonomous Systems Engineer",8,81397
+13623,Media,"Autonomous Systems Engineer",8,85964
+6240,Media,"AI Architect",8,87852
+9570,Media,"Principal Data Scientist",8,89303
+12357,Media,"Machine Learning Engineer",8,89375
+11774,Media,"Robotics Engineer",8,94718
+9610,Media,"Machine Learning Researcher",8,97484
+12087,Media,"NLP Engineer",8,101314
+13480,Media,"Data Engineer",8,104447
+4510,Media,"Autonomous Systems Engineer",8,105624
+13224,Media,"ML Ops Engineer",8,107360
+5464,Media,"Deep Learning Engineer",8,107605
+8231,Media,"Machine Learning Engineer",8,109597
+60,Media,"AI Software Engineer",8,110222
+11046,Media,"AI Research Scientist",8,115142
+10269,Media,"Principal Data Scientist",8,115370
+7460,Media,"AI Specialist",8,115872
+7202,Media,"AI Research Scientist",8,116274
+8541,Media,"Deep Learning Engineer",8,116806
+9875,Media,"Data Scientist",8,118322
+7897,Media,"AI Product Manager",8,119077
+6061,Media,"Principal Data Scientist",8,119754
+13532,Media,"AI Product Manager",8,120608
+7396,Media,"Machine Learning Engineer",8,122569
+14979,Media,"Data Analyst",8,127611
+7115,Media,"NLP Engineer",8,133209
+4312,Media,"Principal Data Scientist",8,135346
+1633,Media,"Deep Learning Engineer",8,135560
+11203,Media,"Head of AI",8,147645
+4340,Media,"NLP Engineer",8,152424
+9821,Media,"Data Engineer",8,154703
+12223,Media,"Data Analyst",8,155405
+4048,Media,"AI Architect",8,157518
+8285,Media,"Data Engineer",8,158991
+8267,Media,"Data Analyst",8,164201
+14363,Media,"AI Consultant",8,164590
+3853,Media,"Deep Learning Engineer",8,167042
+1517,Media,"Computer Vision Engineer",8,171699
+8272,Media,"Data Scientist",8,206671
+2534,Media,"Machine Learning Engineer",8,231259
+11055,Media,"Research Scientist",9,66839
+12684,Media,"Principal Data Scientist",9,84129
+1969,Media,"Autonomous Systems Engineer",9,84973
+5982,Media,"NLP Engineer",9,86429
+12765,Media,"NLP Engineer",9,87472
+13716,Media,"Data Analyst",9,90181
+3249,Media,"AI Architect",9,94880
+5307,Media,"Head of AI",9,96353
+8854,Media,"Research Scientist",9,97945
+10623,Media,"Machine Learning Engineer",9,98895
+10185,Media,"Machine Learning Researcher",9,99219
+4571,Media,"Autonomous Systems Engineer",9,99939
+7413,Media,"Data Analyst",9,101466
+13706,Media,"NLP Engineer",9,102558
+8475,Media,"AI Research Scientist",9,102724
+2748,Media,"Head of AI",9,105299
+5880,Media,"Autonomous Systems Engineer",9,106174
+12187,Media,"AI Architect",9,107326
+6714,Media,"Research Scientist",9,107835
+4283,Media,"AI Research Scientist",9,108083
+769,Media,"NLP Engineer",9,109118
+975,Media,"NLP Engineer",9,112489
+7132,Media,"Data Engineer",9,113492
+14911,Media,"ML Ops Engineer",9,116154
+7001,Media,"ML Ops Engineer",9,118243
+2924,Media,"AI Architect",9,120290
+121,Media,"AI Specialist",9,121180
+11956,Media,"Robotics Engineer",9,122486
+140,Media,"Principal Data Scientist",9,122598
+14221,Media,"AI Software Engineer",9,122961
+8124,Media,"AI Architect",9,123204
+7476,Media,"ML Ops Engineer",9,124740
+6624,Media,"NLP Engineer",9,124898
+4147,Media,"Robotics Engineer",9,124928
+1554,Media,"Machine Learning Engineer",9,133845
+6644,Media,"Deep Learning Engineer",9,135827
+4521,Media,"Data Analyst",9,136675
+3813,Media,"Robotics Engineer",9,137417
+11652,Media,"Computer Vision Engineer",9,137489
+13862,Media,"AI Consultant",9,139405
+12191,Media,"Machine Learning Engineer",9,144299
+8510,Media,"AI Consultant",9,147970
+11403,Media,"Machine Learning Engineer",9,151341
+9769,Media,"Autonomous Systems Engineer",9,159332
+14737,Media,"AI Software Engineer",9,183475
+3665,Media,"Head of AI",9,200027
+12466,Media,"Robotics Engineer",9,203206
+10518,Media,"Robotics Engineer",9,204893
+14549,Media,"Machine Learning Researcher",9,220601
+9565,Media,"AI Software Engineer",10,105810
+10959,Media,"Head of AI",10,107933
+11092,Media,"Machine Learning Researcher",10,116237
+13959,Media,"Data Scientist",10,124439
+13032,Media,"Data Engineer",10,132013
+6265,Media,"Head of AI",10,132803
+14581,Media,"Machine Learning Engineer",10,135127
+5273,Media,"Research Scientist",10,143454
+14962,Media,"AI Product Manager",10,145565
+1606,Media,"AI Architect",10,147573
+10417,Media,"Head of AI",10,149821
+12871,Media,"Deep Learning Engineer",10,152644
+3129,Media,"Data Engineer",10,169467
+11275,Media,"AI Consultant",10,170973
+14702,Media,"AI Research Scientist",10,180469
+9889,Media,"AI Consultant",10,182669
+1974,Media,"AI Specialist",10,186793
+8479,Media,"Machine Learning Researcher",10,196991
+7249,Media,"Data Analyst",10,202533
+11175,Media,"ML Ops Engineer",10,224521
+5185,Media,"AI Research Scientist",10,240191
+4979,Media,"Machine Learning Engineer",10,250873
+1061,Media,"AI Architect",10,268218
+13553,Media,"Computer Vision Engineer",10,353055
+5893,Media,"Autonomous Systems Engineer",11,93234
+8992,Media,"Data Engineer",11,127005
+4094,Media,"Autonomous Systems Engineer",11,128377
+6745,Media,"NLP Engineer",11,134215
+13436,Media,"AI Product Manager",11,140639
+9773,Media,"Computer Vision Engineer",11,146479
+8756,Media,"AI Consultant",11,150982
+7854,Media,"Autonomous Systems Engineer",11,155556
+9380,Media,"NLP Engineer",11,155849
+14756,Media,"AI Architect",11,158645
+7188,Media,"Data Scientist",11,165715
+9559,Media,"Deep Learning Engineer",11,166170
+5654,Media,"AI Specialist",11,166173
+10477,Media,"ML Ops Engineer",11,167018
+5888,Media,"AI Specialist",11,182070
+4241,Media,"Robotics Engineer",11,202089
+10869,Media,"Robotics Engineer",11,211079
+3298,Media,"Data Analyst",11,220844
+8428,Media,"NLP Engineer",11,250432
+3233,Media,"Autonomous Systems Engineer",11,251857
+11807,Media,"Research Scientist",11,257606
+1547,Media,"AI Specialist",11,258096
+7588,Media,"Research Scientist",11,265279
+11357,Media,"NLP Engineer",11,277441
+2286,Media,"AI Research Scientist",11,290348
+4332,Media,"AI Architect",12,105631
+7681,Media,"Research Scientist",12,107023
+4740,Media,"AI Product Manager",12,128919
+12436,Media,"AI Architect",12,137057
+4907,Media,"AI Architect",12,144513
+12836,Media,"Data Scientist",12,149414
+6751,Media,"ML Ops Engineer",12,149540
+12370,Media,"Head of AI",12,161402
+6088,Media,"Data Scientist",12,182681
+11871,Media,"AI Software Engineer",12,183863
+9847,Media,"Data Analyst",12,193320
+3288,Media,"Autonomous Systems Engineer",12,208545
+976,Media,"AI Architect",12,211117
+10762,Media,"AI Software Engineer",12,216969
+6951,Media,"Robotics Engineer",12,222198
+4074,Media,"AI Product Manager",12,225000
+6313,Media,"Robotics Engineer",12,235308
+11622,Media,"AI Specialist",12,250620
+13617,Media,"Deep Learning Engineer",12,251926
+6720,Media,"Robotics Engineer",12,263998
+2088,Media,"Head of AI",12,281137
+555,Media,"Computer Vision Engineer",12,286216
+417,Media,"Data Analyst",12,298418
+7751,Media,"Head of AI",12,305915
+926,Media,"AI Specialist",12,324061
+12253,Media,"Robotics Engineer",13,120390
+2601,Media,"Machine Learning Researcher",13,141091
+134,Media,"ML Ops Engineer",13,141791
+7920,Media,"AI Consultant",13,142604
+170,Media,"Data Engineer",13,145355
+3330,Media,"Principal Data Scientist",13,162668
+2214,Media,"Data Scientist",13,162752
+10203,Media,"Robotics Engineer",13,163902
+14132,Media,"AI Product Manager",13,173404
+10257,Media,"Head of AI",13,176165
+5033,Media,"AI Software Engineer",13,188736
+827,Media,"AI Specialist",13,189666
+13156,Media,"Deep Learning Engineer",13,194670
+2741,Media,"Research Scientist",13,198374
+2840,Media,"Research Scientist",13,199525
+1365,Media,"AI Product Manager",13,203007
+10045,Media,"ML Ops Engineer",13,210562
+365,Media,"Data Analyst",13,221235
+8139,Media,"Robotics Engineer",13,223261
+6025,Media,"Computer Vision Engineer",13,224939
+10555,Media,"Robotics Engineer",13,226536
+14452,Media,"ML Ops Engineer",13,244691
+6611,Media,"Machine Learning Engineer",13,263587
+10982,Media,"Data Scientist",13,296132
+14259,Media,"AI Specialist",13,306077
+11371,Media,"ML Ops Engineer",13,330333
+5828,Media,"Robotics Engineer",14,101007
+11530,Media,"ML Ops Engineer",14,103656
+3177,Media,"Computer Vision Engineer",14,103711
+12043,Media,"Data Engineer",14,116404
+5267,Media,"Principal Data Scientist",14,131030
+14995,Media,"ML Ops Engineer",14,132854
+14541,Media,"NLP Engineer",14,142908
+5156,Media,"Machine Learning Engineer",14,148187
+13080,Media,"Computer Vision Engineer",14,149033
+14752,Media,"Robotics Engineer",14,149819
+1632,Media,"Robotics Engineer",14,150823
+3276,Media,"AI Product Manager",14,153635
+7753,Media,"Computer Vision Engineer",14,154248
+4438,Media,"Head of AI",14,157264
+14289,Media,"AI Architect",14,160092
+3586,Media,"Computer Vision Engineer",14,165635
+11656,Media,"Research Scientist",14,172309
+10551,Media,"ML Ops Engineer",14,181663
+10245,Media,"Data Analyst",14,182337
+1327,Media,"AI Consultant",14,183449
+2732,Media,"AI Software Engineer",14,192286
+10533,Media,"AI Research Scientist",14,204426
+4596,Media,"Deep Learning Engineer",14,204974
+2876,Media,"Machine Learning Engineer",14,216351
+6600,Media,"Computer Vision Engineer",14,220552
+693,Media,"AI Consultant",14,221809
+1462,Media,"Machine Learning Researcher",14,224367
+10132,Media,"Data Engineer",14,245057
+12744,Media,"Machine Learning Researcher",14,252557
+10826,Media,"AI Architect",14,253682
+12352,Media,"Principal Data Scientist",14,290987
+8549,Media,"Computer Vision Engineer",14,291564
+7022,Media,"AI Research Scientist",14,292604
+13134,Media,"AI Specialist",14,350616
+4536,Media,"Deep Learning Engineer",15,88053
+10821,Media,"Computer Vision Engineer",15,112058
+14860,Media,"Head of AI",15,128729
+1572,Media,"Head of AI",15,129293
+242,Media,"NLP Engineer",15,138212
+4263,Media,"AI Consultant",15,144584
+2964,Media,"AI Research Scientist",15,145966
+13073,Media,"AI Architect",15,145993
+14472,Media,"Deep Learning Engineer",15,146835
+12693,Media,"Data Scientist",15,152651
+8849,Media,"NLP Engineer",15,155500
+2820,Media,"Deep Learning Engineer",15,164484
+3201,Media,"Computer Vision Engineer",15,165462
+6634,Media,"Data Analyst",15,185271
+1684,Media,"Autonomous Systems Engineer",15,186222
+5542,Media,"Autonomous Systems Engineer",15,187719
+4226,Media,"NLP Engineer",15,194333
+12197,Media,"Machine Learning Engineer",15,196297
+161,Media,"Principal Data Scientist",15,198403
+11329,Media,"Robotics Engineer",15,201135
+567,Media,"Machine Learning Engineer",15,201269
+8274,Media,"Machine Learning Researcher",15,205397
+8345,Media,"Head of AI",15,205465
+7380,Media,"Data Scientist",15,208249
+11374,Media,"NLP Engineer",15,209991
+2109,Media,"AI Research Scientist",15,214971
+4176,Media,"AI Software Engineer",15,226310
+8409,Media,"Data Engineer",15,252220
+6302,Media,"Data Engineer",15,260042
+767,Media,"Research Scientist",15,262925
+6321,Media,"Research Scientist",15,273000
+9661,Media,"Machine Learning Engineer",15,288302
+8950,Media,"AI Specialist",15,309752
+3986,Media,"Machine Learning Engineer",15,320999
+12114,Media,"AI Research Scientist",16,107303
+11888,Media,"Data Scientist",16,110431
+5818,Media,"Research Scientist",16,114743
+12136,Media,"Computer Vision Engineer",16,117233
+12546,Media,"AI Software Engineer",16,119039
+8730,Media,"Machine Learning Researcher",16,122459
+10802,Media,"Data Analyst",16,124840
+7018,Media,"AI Architect",16,126627
+3471,Media,"AI Software Engineer",16,137004
+13086,Media,"Machine Learning Researcher",16,139613
+9406,Media,"Data Engineer",16,143016
+9062,Media,"Data Engineer",16,165369
+12027,Media,"AI Architect",16,169651
+11168,Media,"AI Research Scientist",16,171117
+2081,Media,"NLP Engineer",16,173029
+12388,Media,"Data Analyst",16,174465
+5548,Media,"Principal Data Scientist",16,176650
+2707,Media,"AI Product Manager",16,179284
+6773,Media,"AI Software Engineer",16,186282
+6116,Media,"Autonomous Systems Engineer",16,196121
+9048,Media,"AI Architect",16,202498
+900,Media,"Machine Learning Researcher",16,206257
+3760,Media,"Research Scientist",16,220431
+5737,Media,"Research Scientist",16,228173
+14680,Media,"Principal Data Scientist",16,238297
+7666,Media,"AI Software Engineer",16,256742
+10597,Media,"AI Research Scientist",16,282340
+12700,Media,"ML Ops Engineer",17,92140
+1639,Media,"Research Scientist",17,96760
+7933,Media,"Machine Learning Researcher",17,100252
+6327,Media,"AI Product Manager",17,101695
+13400,Media,"AI Architect",17,102568
+3343,Media,"AI Software Engineer",17,119615
+10919,Media,"Principal Data Scientist",17,121020
+7750,Media,"Head of AI",17,131920
+12712,Media,"Research Scientist",17,132726
+549,Media,"AI Software Engineer",17,135272
+10380,Media,"Data Analyst",17,135592
+6546,Media,"NLP Engineer",17,137758
+11645,Media,"Autonomous Systems Engineer",17,139883
+145,Media,"AI Product Manager",17,149053
+14514,Media,"Data Scientist",17,149065
+8777,Media,"Autonomous Systems Engineer",17,169284
+6011,Media,"Deep Learning Engineer",17,174334
+6769,Media,"Machine Learning Researcher",17,174422
+6538,Media,"AI Research Scientist",17,175744
+2094,Media,"ML Ops Engineer",17,181247
+1790,Media,"Autonomous Systems Engineer",17,198730
+1066,Media,"Computer Vision Engineer",17,199888
+7847,Media,"NLP Engineer",17,203402
+6357,Media,"AI Consultant",17,205456
+7991,Media,"Machine Learning Engineer",17,217876
+9230,Media,"AI Research Scientist",17,222230
+8270,Media,"AI Product Manager",17,226237
+9521,Media,"AI Product Manager",17,227298
+3224,Media,"Robotics Engineer",17,239167
+14176,Media,"AI Specialist",17,243233
+2411,Media,"Deep Learning Engineer",17,244334
+11301,Media,"AI Software Engineer",17,282592
+1226,Media,"Head of AI",17,302848
+5723,Media,"NLP Engineer",17,332780
+7376,Media,"Autonomous Systems Engineer",18,110716
+5908,Media,"Computer Vision Engineer",18,114245
+5334,Media,"AI Product Manager",18,118806
+10214,Media,"AI Research Scientist",18,126412
+10973,Media,"Computer Vision Engineer",18,126559

@@ -1,0 +1,1001 @@
+id_cleaned,industry,job_title,years_experience,salary_usd
+10486,Retail,"Robotics Engineer",0,32692
+8644,Retail,"AI Research Scientist",0,33218
+4464,Retail,"ML Ops Engineer",0,33854
+7441,Retail,"AI Specialist",0,34386
+9937,Retail,"AI Specialist",0,34771
+9755,Retail,"NLP Engineer",0,35831
+1561,Retail,"Robotics Engineer",0,36240
+6505,Retail,"NLP Engineer",0,36359
+2751,Retail,"AI Research Scientist",0,37896
+1854,Retail,"Deep Learning Engineer",0,38637
+1121,Retail,"Data Scientist",0,40353
+10614,Retail,"AI Product Manager",0,40638
+4000,Retail,"Machine Learning Engineer",0,40777
+12287,Retail,"AI Product Manager",0,41045
+3718,Retail,"Deep Learning Engineer",0,42629
+8098,Retail,"Research Scientist",0,45107
+14351,Retail,"NLP Engineer",0,46210
+14745,Retail,"Computer Vision Engineer",0,46615
+11268,Retail,"Machine Learning Researcher",0,46718
+2772,Retail,"Computer Vision Engineer",0,47231
+4398,Retail,"AI Software Engineer",0,47575
+4342,Retail,"Machine Learning Engineer",0,47595
+10464,Retail,"AI Architect",0,47763
+1524,Retail,"Autonomous Systems Engineer",0,48540
+9134,Retail,"Machine Learning Engineer",0,48788
+13140,Retail,"AI Specialist",0,48797
+7059,Retail,"Principal Data Scientist",0,48920
+3079,Retail,"AI Research Scientist",0,49933
+1261,Retail,"NLP Engineer",0,50086
+8600,Retail,"Computer Vision Engineer",0,50098
+5518,Retail,"Autonomous Systems Engineer",0,50261
+1916,Retail,"Data Engineer",0,50287
+14336,Retail,"AI Research Scientist",0,50601
+3602,Retail,"AI Consultant",0,50646
+11200,Retail,"Machine Learning Researcher",0,50723
+2744,Retail,"Deep Learning Engineer",0,50842
+11614,Retail,"Machine Learning Engineer",0,51455
+8099,Retail,"Machine Learning Engineer",0,51758
+670,Retail,"AI Software Engineer",0,52062
+14308,Retail,"Machine Learning Engineer",0,52428
+1160,Retail,"Data Engineer",0,52448
+4817,Retail,"Computer Vision Engineer",0,52519
+8133,Retail,"AI Software Engineer",0,52763
+8936,Retail,"Robotics Engineer",0,52940
+6171,Retail,"Head of AI",0,52976
+13792,Retail,"AI Specialist",0,53092
+576,Retail,"AI Consultant",0,53116
+8015,Retail,"AI Consultant",0,53449
+6355,Retail,"Data Scientist",0,53554
+11314,Retail,"AI Product Manager",0,54356
+6320,Retail,"NLP Engineer",0,54601
+10405,Retail,"Data Scientist",0,54699
+11927,Retail,"Data Analyst",0,55243
+5429,Retail,"Autonomous Systems Engineer",0,55567
+706,Retail,"NLP Engineer",0,55576
+2174,Retail,"AI Specialist",0,56123
+6334,Retail,"AI Software Engineer",0,56717
+9664,Retail,"Data Scientist",0,57000
+14206,Retail,"Data Engineer",0,57038
+5843,Retail,"Deep Learning Engineer",0,57312
+2900,Retail,"Principal Data Scientist",0,57791
+11719,Retail,"ML Ops Engineer",0,59600
+4638,Retail,"AI Architect",0,59643
+7686,Retail,"Principal Data Scientist",0,59751
+8312,Retail,"Data Analyst",0,60382
+913,Retail,"Computer Vision Engineer",0,60462
+116,Retail,"NLP Engineer",0,61055
+7950,Retail,"Robotics Engineer",0,61777
+13703,Retail,"Machine Learning Researcher",0,61963
+12978,Retail,"ML Ops Engineer",0,62274
+4287,Retail,"AI Architect",0,62288
+1302,Retail,"Machine Learning Researcher",0,62450
+10942,Retail,"ML Ops Engineer",0,62941
+8388,Retail,"NLP Engineer",0,63197
+12956,Retail,"Autonomous Systems Engineer",0,63372
+12595,Retail,"AI Software Engineer",0,64209
+122,Retail,"Principal Data Scientist",0,64531
+2348,Retail,"Robotics Engineer",0,64798
+13970,Retail,"Computer Vision Engineer",0,64836
+9280,Retail,"Data Scientist",0,64859
+13159,Retail,"Machine Learning Researcher",0,65237
+6553,Retail,"NLP Engineer",0,65625
+11673,Retail,"Autonomous Systems Engineer",0,65919
+6229,Retail,"Data Scientist",0,65984
+5715,Retail,"Machine Learning Engineer",0,66015
+11128,Retail,"Deep Learning Engineer",0,66243
+5849,Retail,"Principal Data Scientist",0,66282
+3491,Retail,"AI Specialist",0,66393
+2800,Retail,"Data Engineer",0,66794
+10513,Retail,"Deep Learning Engineer",0,68352
+8125,Retail,"ML Ops Engineer",0,68430
+14195,Retail,"AI Research Scientist",0,69230
+564,Retail,"AI Research Scientist",0,70084
+5410,Retail,"Data Analyst",0,70390
+1459,Retail,"Machine Learning Researcher",0,70893
+6430,Retail,"Robotics Engineer",0,73179
+11777,Retail,"Computer Vision Engineer",0,73651
+8623,Retail,"Robotics Engineer",0,74056
+7971,Retail,"AI Product Manager",0,74618
+14160,Retail,"ML Ops Engineer",0,74671
+4608,Retail,"AI Product Manager",0,75242
+6816,Retail,"Research Scientist",0,76629
+12969,Retail,"Research Scientist",0,76714
+2228,Retail,"Research Scientist",0,76846
+14453,Retail,"NLP Engineer",0,77311
+496,Retail,"AI Specialist",0,77545
+369,Retail,"Machine Learning Researcher",0,77579
+12159,Retail,"Research Scientist",0,78172
+9287,Retail,"Deep Learning Engineer",0,78386
+5150,Retail,"AI Specialist",0,78878
+13973,Retail,"Deep Learning Engineer",0,79331
+9781,Retail,"Principal Data Scientist",0,79383
+12828,Retail,"Research Scientist",0,80084
+3787,Retail,"Robotics Engineer",0,80433
+10365,Retail,"Machine Learning Researcher",0,83296
+5344,Retail,"Deep Learning Engineer",0,84429
+14700,Retail,"Computer Vision Engineer",0,85295
+6700,Retail,"AI Architect",0,85579
+12777,Retail,"Principal Data Scientist",0,86893
+7102,Retail,"Machine Learning Engineer",0,88109
+12816,Retail,"AI Product Manager",0,88652
+7394,Retail,"ML Ops Engineer",0,88824
+8233,Retail,"Autonomous Systems Engineer",0,89217
+6328,Retail,"Deep Learning Engineer",0,90293
+9650,Retail,"Autonomous Systems Engineer",0,91208
+7962,Retail,"Machine Learning Researcher",0,91507
+4518,Retail,"Machine Learning Researcher",0,92276
+7941,Retail,"Research Scientist",0,92361
+7198,Retail,"Machine Learning Researcher",0,93231
+2933,Retail,"AI Architect",0,101287
+3892,Retail,"AI Consultant",0,101811
+5537,Retail,"Head of AI",0,105516
+10815,Retail,"Computer Vision Engineer",0,105574
+465,Retail,"ML Ops Engineer",0,107195
+10714,Retail,"AI Architect",0,120637
+14980,Retail,"AI Research Scientist",1,33092
+12731,Retail,"Head of AI",1,33136
+7947,Retail,"AI Architect",1,33512
+4885,Retail,"ML Ops Engineer",1,34190
+6024,Retail,"AI Software Engineer",1,34357
+13819,Retail,"Deep Learning Engineer",1,35773
+10540,Retail,"Machine Learning Engineer",1,36309
+13583,Retail,"Research Scientist",1,37024
+6906,Retail,"NLP Engineer",1,38781
+11432,Retail,"Machine Learning Engineer",1,38783
+1910,Retail,"ML Ops Engineer",1,38835
+14890,Retail,"Data Scientist",1,39076
+1740,Retail,"ML Ops Engineer",1,39725
+8848,Retail,"AI Research Scientist",1,39897
+9599,Retail,"Data Engineer",1,40216
+13719,Retail,"Deep Learning Engineer",1,40737
+3126,Retail,"Data Engineer",1,41658
+2745,Retail,"Machine Learning Engineer",1,41702
+12675,Retail,"Head of AI",1,42067
+6836,Retail,"AI Consultant",1,42188
+7968,Retail,"Data Engineer",1,42386
+8586,Retail,"Head of AI",1,42801
+9903,Retail,"Research Scientist",1,43549
+3565,Retail,"Robotics Engineer",1,43762
+6000,Retail,"Autonomous Systems Engineer",1,44343
+10715,Retail,"Research Scientist",1,44831
+5796,Retail,"ML Ops Engineer",1,45661
+13814,Retail,"Head of AI",1,45837
+10204,Retail,"AI Architect",1,45997
+12467,Retail,"Research Scientist",1,46041
+746,Retail,"Autonomous Systems Engineer",1,46224
+13640,Retail,"AI Software Engineer",1,46267
+2190,Retail,"Data Engineer",1,46459
+9453,Retail,"Robotics Engineer",1,46621
+7424,Retail,"AI Software Engineer",1,47013
+11207,Retail,"AI Specialist",1,47201
+13825,Retail,"Head of AI",1,47218
+8118,Retail,"Head of AI",1,47475
+9644,Retail,"Machine Learning Researcher",1,47555
+3084,Retail,"Machine Learning Engineer",1,47697
+9402,Retail,"NLP Engineer",1,47809
+3457,Retail,"Head of AI",1,48009
+9939,Retail,"Machine Learning Engineer",1,48367
+4553,Retail,"AI Product Manager",1,48414
+2702,Retail,"Principal Data Scientist",1,48423
+14344,Retail,"Data Engineer",1,48899
+1209,Retail,"Computer Vision Engineer",1,49096
+13403,Retail,"Data Scientist",1,49349
+2365,Retail,"AI Software Engineer",1,49483
+7032,Retail,"Research Scientist",1,49963
+1119,Retail,"Data Engineer",1,51089
+1428,Retail,"Machine Learning Engineer",1,51565
+7093,Retail,"Machine Learning Researcher",1,51605
+8326,Retail,"Machine Learning Researcher",1,51801
+10444,Retail,"AI Consultant",1,52588
+7742,Retail,"Robotics Engineer",1,52716
+296,Retail,"Data Scientist",1,52877
+3361,Retail,"Data Scientist",1,52922
+5053,Retail,"Autonomous Systems Engineer",1,53083
+2009,Retail,"AI Software Engineer",1,53292
+5296,Retail,"Data Scientist",1,53702
+1625,Retail,"AI Product Manager",1,53844
+931,Retail,"Data Analyst",1,54926
+14451,Retail,"Data Engineer",1,55041
+14317,Retail,"AI Specialist",1,55330
+12339,Retail,"Head of AI",1,55793
+14354,Retail,"Computer Vision Engineer",1,55996
+2052,Retail,"ML Ops Engineer",1,56037
+5366,Retail,"Machine Learning Engineer",1,56512
+3951,Retail,"AI Product Manager",1,56642
+9813,Retail,"AI Consultant",1,56919
+7970,Retail,"AI Architect",1,57098
+6857,Retail,"Autonomous Systems Engineer",1,57169
+7601,Retail,"Data Analyst",1,57310
+10945,Retail,"Head of AI",1,57378
+12201,Retail,"AI Research Scientist",1,57753
+7668,Retail,"Machine Learning Researcher",1,58115
+13869,Retail,"Machine Learning Engineer",1,58594
+14735,Retail,"Machine Learning Engineer",1,58944
+1581,Retail,"Machine Learning Researcher",1,61419
+7272,Retail,"Machine Learning Researcher",1,62377
+10649,Retail,"ML Ops Engineer",1,62976
+1087,Retail,"AI Consultant",1,63532
+1082,Retail,"Computer Vision Engineer",1,63898
+11047,Retail,"Data Engineer",1,64007
+4384,Retail,"AI Specialist",1,64559
+13517,Retail,"Research Scientist",1,64681
+7313,Retail,"AI Product Manager",1,65469
+4983,Retail,"AI Specialist",1,65507
+31,Retail,"Head of AI",1,67488
+2757,Retail,"Computer Vision Engineer",1,67736
+11032,Retail,"Machine Learning Researcher",1,68772
+9993,Retail,"Data Engineer",1,69713
+3505,Retail,"Deep Learning Engineer",1,70797
+7267,Retail,"Data Analyst",1,70838
+9924,Retail,"AI Consultant",1,70868
+11393,Retail,"Computer Vision Engineer",1,70899
+9257,Retail,"Deep Learning Engineer",1,71649
+1128,Retail,"AI Research Scientist",1,71955
+14324,Retail,"Data Analyst",1,72007
+1397,Retail,"AI Consultant",1,72226
+1487,Retail,"Principal Data Scientist",1,72459
+8370,Retail,"AI Consultant",1,72806
+9435,Retail,"NLP Engineer",1,73729
+12421,Retail,"Data Scientist",1,73867
+14554,Retail,"AI Specialist",1,73990
+2839,Retail,"Machine Learning Engineer",1,74097
+8642,Retail,"Deep Learning Engineer",1,74353
+11287,Retail,"Robotics Engineer",1,74753
+12188,Retail,"AI Research Scientist",1,76421
+10134,Retail,"AI Product Manager",1,76629
+10537,Retail,"Deep Learning Engineer",1,77430
+12977,Retail,"AI Software Engineer",1,78601
+12207,Retail,"AI Consultant",1,79200
+10466,Retail,"NLP Engineer",1,79378
+10118,Retail,"AI Software Engineer",1,79415
+8164,Retail,"Deep Learning Engineer",1,80671
+3344,Retail,"NLP Engineer",1,80759
+11448,Retail,"Principal Data Scientist",1,81151
+1152,Retail,"AI Software Engineer",1,81280
+11413,Retail,"AI Consultant",1,81924
+12996,Retail,"Research Scientist",1,81928
+11063,Retail,"AI Specialist",1,83301
+13614,Retail,"ML Ops Engineer",1,84950
+14569,Retail,"Head of AI",1,85681
+6845,Retail,"AI Specialist",1,86408
+2048,Retail,"Data Engineer",1,87139
+8850,Retail,"Deep Learning Engineer",1,87929
+14473,Retail,"AI Product Manager",1,89227
+1133,Retail,"Data Scientist",1,89495
+2400,Retail,"NLP Engineer",1,91928
+11029,Retail,"Data Analyst",1,91981
+12059,Retail,"AI Research Scientist",1,92291
+14352,Retail,"Research Scientist",1,95694
+11368,Retail,"AI Consultant",1,97958
+4471,Retail,"Machine Learning Researcher",1,98392
+11504,Retail,"NLP Engineer",1,98768
+9868,Retail,"Robotics Engineer",1,101028
+6599,Retail,"Autonomous Systems Engineer",1,101914
+7245,Retail,"AI Specialist",1,112331
+9499,Retail,"AI Specialist",1,130158
+1708,Retail,"Principal Data Scientist",2,47803
+8168,Retail,"Principal Data Scientist",2,48270
+11081,Retail,"Machine Learning Researcher",2,49189
+621,Retail,"Principal Data Scientist",2,50915
+11896,Retail,"Machine Learning Engineer",2,51537
+229,Retail,"Data Analyst",2,52027
+6817,Retail,"AI Research Scientist",2,52575
+13297,Retail,"Robotics Engineer",2,53306
+5678,Retail,"AI Architect",2,53994
+2049,Retail,"Deep Learning Engineer",2,55375
+6383,Retail,"Research Scientist",2,58808
+8276,Retail,"AI Specialist",2,59225
+1138,Retail,"AI Product Manager",2,61729
+8722,Retail,"Data Engineer",2,63398
+11483,Retail,"ML Ops Engineer",2,64131
+12947,Retail,"ML Ops Engineer",2,64138
+3465,Retail,"NLP Engineer",2,65139
+1551,Retail,"ML Ops Engineer",2,65202
+6646,Retail,"Robotics Engineer",2,65435
+3216,Retail,"Robotics Engineer",2,66069
+3778,Retail,"Data Engineer",2,66712
+1426,Retail,"Computer Vision Engineer",2,68035
+3525,Retail,"AI Product Manager",2,68278
+3022,Retail,"AI Software Engineer",2,68445
+6526,Retail,"Deep Learning Engineer",2,71358
+1918,Retail,"Robotics Engineer",2,72160
+4961,Retail,"Data Engineer",2,72360
+9498,Retail,"NLP Engineer",2,72544
+9784,Retail,"AI Specialist",2,73118
+14322,Retail,"AI Research Scientist",2,73549
+9330,Retail,"Machine Learning Engineer",2,74060
+13762,Retail,"Robotics Engineer",2,74575
+2713,Retail,"Data Engineer",2,75628
+1509,Retail,"AI Software Engineer",2,77628
+2938,Retail,"AI Consultant",2,79063
+4300,Retail,"Data Scientist",2,80252
+2483,Retail,"Robotics Engineer",2,80482
+30,Retail,"ML Ops Engineer",2,82083
+2105,Retail,"Data Engineer",2,82441
+12031,Retail,"Machine Learning Engineer",2,83990
+3017,Retail,"Research Scientist",2,84329
+8576,Retail,"Autonomous Systems Engineer",2,84711
+14606,Retail,"Head of AI",2,85869
+9426,Retail,"Data Analyst",2,86493
+4666,Retail,"Data Engineer",2,89037
+13879,Retail,"Research Scientist",2,89619
+2623,Retail,"AI Product Manager",2,90742
+8500,Retail,"Deep Learning Engineer",2,91127
+5899,Retail,"ML Ops Engineer",2,91631
+3402,Retail,"Computer Vision Engineer",2,92549
+1143,Retail,"AI Architect",2,93277
+5722,Retail,"Data Engineer",2,94472
+108,Retail,"ML Ops Engineer",2,95085
+3958,Retail,"AI Consultant",2,96483
+3331,Retail,"AI Research Scientist",2,97938
+5098,Retail,"AI Research Scientist",2,98606
+7199,Retail,"Computer Vision Engineer",2,98882
+6794,Retail,"Research Scientist",2,99007
+7733,Retail,"Machine Learning Researcher",2,100182
+10036,Retail,"AI Consultant",2,101120
+12437,Retail,"Autonomous Systems Engineer",2,101218
+5789,Retail,"Head of AI",2,101372
+13547,Retail,"Deep Learning Engineer",2,102193
+3979,Retail,"Computer Vision Engineer",2,102312
+13376,Retail,"Data Analyst",2,103435
+10698,Retail,"Research Scientist",2,103845
+12280,Retail,"AI Product Manager",2,103908
+7527,Retail,"Data Analyst",2,105735
+2993,Retail,"AI Specialist",2,109052
+14329,Retail,"AI Research Scientist",2,109377
+8279,Retail,"AI Specialist",2,109598
+854,Retail,"Data Scientist",2,111067
+14544,Retail,"AI Consultant",2,112293
+5359,Retail,"Data Scientist",2,113125
+2230,Retail,"Deep Learning Engineer",2,113366
+12536,Retail,"Data Engineer",2,114886
+10431,Retail,"Machine Learning Researcher",2,115563
+1977,Retail,"AI Architect",2,116310
+4090,Retail,"AI Architect",2,117809
+13615,Retail,"Autonomous Systems Engineer",2,119429
+2001,Retail,"AI Architect",2,119975
+241,Retail,"Research Scientist",2,120749
+4131,Retail,"ML Ops Engineer",2,123597
+5930,Retail,"AI Research Scientist",2,124858
+2901,Retail,"AI Consultant",2,127095
+14760,Retail,"Data Analyst",2,127732
+8214,Retail,"Machine Learning Engineer",2,128763
+10974,Retail,"AI Software Engineer",2,132846
+13065,Retail,"Data Scientist",2,145616
+2567,Retail,"Head of AI",2,146710
+5035,Retail,"Computer Vision Engineer",2,163410
+7716,Retail,"AI Consultant",3,48813
+7166,Retail,"Research Scientist",3,51605
+9516,Retail,"AI Consultant",3,53359
+11191,Retail,"NLP Engineer",3,53426
+9600,Retail,"Research Scientist",3,53904
+6019,Retail,"AI Research Scientist",3,55981
+7125,Retail,"Data Scientist",3,56444
+9575,Retail,"Head of AI",3,57129
+1553,Retail,"Computer Vision Engineer",3,58204
+11049,Retail,"Principal Data Scientist",3,59506
+6728,Retail,"NLP Engineer",3,59767
+8401,Retail,"AI Research Scientist",3,60105
+13298,Retail,"AI Research Scientist",3,61973
+3920,Retail,"AI Research Scientist",3,62309
+11921,Retail,"Computer Vision Engineer",3,62988
+11650,Retail,"Robotics Engineer",3,63123
+6786,Retail,"Computer Vision Engineer",3,63717
+3874,Retail,"Autonomous Systems Engineer",3,63991
+1958,Retail,"Research Scientist",3,65679
+11462,Retail,"Deep Learning Engineer",3,66148
+14776,Retail,"AI Research Scientist",3,67253
+10972,Retail,"AI Architect",3,68000
+6056,Retail,"Robotics Engineer",3,68757
+3859,Retail,"AI Product Manager",3,68840
+11701,Retail,"NLP Engineer",3,70342
+9381,Retail,"Robotics Engineer",3,70979
+2204,Retail,"Robotics Engineer",3,71629
+5270,Retail,"AI Consultant",3,72609
+9523,Retail,"AI Specialist",3,72801
+1385,Retail,"AI Architect",3,73307
+12121,Retail,"AI Consultant",3,73429
+6073,Retail,"AI Architect",3,73513
+2895,Retail,"Computer Vision Engineer",3,73902
+13830,Retail,"Computer Vision Engineer",3,73994
+3866,Retail,"Data Scientist",3,74606
+6037,Retail,"Robotics Engineer",3,75390
+2093,Retail,"Machine Learning Researcher",3,77562
+11712,Retail,"Data Scientist",3,80038
+4896,Retail,"Robotics Engineer",3,80121
+11117,Retail,"Data Scientist",3,80608
+266,Retail,"AI Consultant",3,81885
+10712,Retail,"Machine Learning Engineer",3,83313
+3529,Retail,"Robotics Engineer",3,83927
+14784,Retail,"NLP Engineer",3,85489
+2160,Retail,"Research Scientist",3,85670
+11097,Retail,"ML Ops Engineer",3,88443
+12525,Retail,"AI Product Manager",3,88832
+3520,Retail,"Head of AI",3,89220
+5636,Retail,"Data Engineer",3,89600
+2184,Retail,"Research Scientist",3,90143
+636,Retail,"Deep Learning Engineer",3,92318
+14718,Retail,"AI Software Engineer",3,92944
+4016,Retail,"Machine Learning Engineer",3,93153
+5002,Retail,"Data Engineer",3,94160
+2632,Retail,"Data Engineer",3,96755
+6527,Retail,"Data Analyst",3,97667
+5324,Retail,"AI Product Manager",3,97811
+13226,Retail,"Data Scientist",3,99474
+13090,Retail,"Computer Vision Engineer",3,99510
+13912,Retail,"ML Ops Engineer",3,100371
+11698,Retail,"AI Architect",3,102344
+2992,Retail,"Machine Learning Engineer",3,103139
+6481,Retail,"Machine Learning Researcher",3,105658
+10668,Retail,"Autonomous Systems Engineer",3,106271
+8100,Retail,"Research Scientist",3,108196
+13699,Retail,"Principal Data Scientist",3,112011
+10090,Retail,"Machine Learning Researcher",3,114505
+14234,Retail,"Data Engineer",3,115772
+13470,Retail,"Principal Data Scientist",3,115979
+9036,Retail,"Data Analyst",3,118123
+11654,Retail,"Robotics Engineer",3,120170
+6577,Retail,"AI Product Manager",3,120348
+12922,Retail,"AI Research Scientist",3,121997
+4856,Retail,"ML Ops Engineer",3,122025
+5269,Retail,"Data Engineer",3,123850
+11660,Retail,"AI Consultant",3,123873
+167,Retail,"NLP Engineer",3,125152
+8841,Retail,"Deep Learning Engineer",3,127765
+6841,Retail,"AI Software Engineer",3,138403
+11018,Retail,"Head of AI",3,140352
+10131,Retail,"Head of AI",3,143399
+13743,Retail,"Principal Data Scientist",3,149223
+409,Retail,"Computer Vision Engineer",4,46236
+3350,Retail,"AI Software Engineer",4,49426
+4826,Retail,"Research Scientist",4,54910
+11919,Retail,"AI Consultant",4,55854
+14199,Retail,"Machine Learning Researcher",4,55990
+2180,Retail,"Head of AI",4,56723
+13414,Retail,"AI Software Engineer",4,57177
+11116,Retail,"Machine Learning Engineer",4,57259
+9261,Retail,"Robotics Engineer",4,57913
+12166,Retail,"Data Analyst",4,58822
+10488,Retail,"AI Software Engineer",4,60003
+3315,Retail,"Research Scientist",4,60598
+1922,Retail,"AI Research Scientist",4,61820
+5896,Retail,"NLP Engineer",4,62094
+563,Retail,"Research Scientist",4,62692
+11392,Retail,"AI Product Manager",4,63059
+9317,Retail,"Robotics Engineer",4,64315
+6784,Retail,"AI Research Scientist",4,64384
+2627,Retail,"AI Architect",4,64501
+14327,Retail,"Research Scientist",4,64662
+13200,Retail,"Data Analyst",4,65165
+4606,Retail,"Autonomous Systems Engineer",4,65615
+2790,Retail,"Data Engineer",4,65806
+11720,Retail,"Autonomous Systems Engineer",4,66768
+8977,Retail,"Principal Data Scientist",4,66942
+14887,Retail,"Data Engineer",4,67150
+4380,Retail,"AI Specialist",4,67720
+13136,Retail,"Machine Learning Researcher",4,67945
+9949,Retail,"Computer Vision Engineer",4,68414
+13286,Retail,"NLP Engineer",4,69967
+9085,Retail,"AI Product Manager",4,70078
+6356,Retail,"ML Ops Engineer",4,70508
+12933,Retail,"Autonomous Systems Engineer",4,70773
+11285,Retail,"AI Product Manager",4,71281
+67,Retail,"Autonomous Systems Engineer",4,71405
+5740,Retail,"AI Specialist",4,72332
+749,Retail,"Deep Learning Engineer",4,73953
+13349,Retail,"AI Software Engineer",4,75110
+8569,Retail,"Deep Learning Engineer",4,75581
+5130,Retail,"Research Scientist",4,76318
+6963,Retail,"Machine Learning Researcher",4,76580
+14768,Retail,"Data Engineer",4,77365
+3479,Retail,"AI Consultant",4,79491
+256,Retail,"Principal Data Scientist",4,80307
+3904,Retail,"Robotics Engineer",4,80880
+5521,Retail,"Data Scientist",4,81054
+10811,Retail,"Data Scientist",4,82389
+12131,Retail,"Machine Learning Researcher",4,82610
+11255,Retail,"AI Architect",4,83779
+3150,Retail,"Machine Learning Engineer",4,89122
+8747,Retail,"AI Product Manager",4,89173
+7247,Retail,"AI Architect",4,90175
+3633,Retail,"Autonomous Systems Engineer",4,90319
+8023,Retail,"AI Specialist",4,92665
+10151,Retail,"ML Ops Engineer",4,93540
+11488,Retail,"Research Scientist",4,93724
+10535,Retail,"Machine Learning Researcher",4,93740
+8784,Retail,"Machine Learning Researcher",4,93797
+141,Retail,"Data Scientist",4,94478
+12518,Retail,"Data Scientist",4,94506
+6901,Retail,"Machine Learning Engineer",4,95822
+13161,Retail,"Machine Learning Researcher",4,95884
+5263,Retail,"Data Analyst",4,98023
+5422,Retail,"Machine Learning Engineer",4,98089
+13302,Retail,"Deep Learning Engineer",4,98399
+8509,Retail,"AI Product Manager",4,99434
+2618,Retail,"Autonomous Systems Engineer",4,100018
+6443,Retail,"AI Research Scientist",4,100209
+13192,Retail,"Computer Vision Engineer",4,100559
+5326,Retail,"Machine Learning Researcher",4,100665
+6158,Retail,"Robotics Engineer",4,100926
+2446,Retail,"AI Software Engineer",4,101396
+7896,Retail,"Robotics Engineer",4,102039
+6186,Retail,"Research Scientist",4,102177
+9968,Retail,"Data Scientist",4,102328
+3830,Retail,"Principal Data Scientist",4,103742
+14791,Retail,"Research Scientist",4,103940
+11770,Retail,"Data Scientist",4,106255
+11702,Retail,"ML Ops Engineer",4,107295
+14232,Retail,"AI Consultant",4,107898
+12203,Retail,"AI Research Scientist",4,108359
+1546,Retail,"Computer Vision Engineer",4,108379
+11180,Retail,"NLP Engineer",4,109202
+2797,Retail,"AI Product Manager",4,112417
+6846,Retail,"Machine Learning Researcher",4,115052
+13840,Retail,"Autonomous Systems Engineer",4,116171
+10944,Retail,"AI Software Engineer",4,116982
+10332,Retail,"AI Product Manager",4,120002
+5672,Retail,"AI Software Engineer",4,121439
+7871,Retail,"Machine Learning Researcher",4,121461
+11421,Retail,"Head of AI",4,124466
+1787,Retail,"Machine Learning Engineer",4,125758
+12266,Retail,"AI Consultant",4,130372
+2842,Retail,"Deep Learning Engineer",4,132848
+13043,Retail,"Computer Vision Engineer",4,133884
+14119,Retail,"AI Product Manager",4,141563
+7551,Retail,"AI Architect",4,145109
+5399,Retail,"Data Analyst",4,145481
+8889,Retail,"Machine Learning Researcher",4,146588
+7361,Retail,"AI Product Manager",4,148784
+8095,Retail,"Data Engineer",4,157188
+3282,Retail,"Data Analyst",4,160736
+10471,Retail,"Deep Learning Engineer",4,162750
+7942,Retail,"AI Specialist",5,72248
+7680,Retail,"Data Engineer",5,74210
+4012,Retail,"AI Specialist",5,74792
+12272,Retail,"AI Research Scientist",5,74956
+8969,Retail,"Data Scientist",5,76229
+8595,Retail,"Robotics Engineer",5,85322
+2405,Retail,"ML Ops Engineer",5,86137
+685,Retail,"Head of AI",5,86218
+12783,Retail,"Data Analyst",5,88311
+13253,Retail,"ML Ops Engineer",5,89105
+5237,Retail,"Head of AI",5,89223
+9298,Retail,"Head of AI",5,89825
+806,Retail,"Machine Learning Researcher",5,89872
+6127,Retail,"AI Specialist",5,92005
+14056,Retail,"Autonomous Systems Engineer",5,92009
+9423,Retail,"AI Architect",5,92015
+9235,Retail,"Research Scientist",5,93137
+10124,Retail,"AI Product Manager",5,96029
+8821,Retail,"AI Specialist",5,96633
+4069,Retail,"AI Research Scientist",5,98251
+13416,Retail,"Head of AI",5,98350
+14454,Retail,"Data Analyst",5,100718
+2975,Retail,"ML Ops Engineer",5,100761
+11605,Retail,"AI Specialist",5,102809
+2557,Retail,"Machine Learning Researcher",5,102923
+3362,Retail,"Machine Learning Researcher",5,104295
+5213,Retail,"Autonomous Systems Engineer",5,104657
+6200,Retail,"ML Ops Engineer",5,105817
+11949,Retail,"Robotics Engineer",5,107137
+12211,Retail,"ML Ops Engineer",5,107894
+6914,Retail,"Autonomous Systems Engineer",5,111195
+8331,Retail,"ML Ops Engineer",5,117004
+850,Retail,"Machine Learning Engineer",5,121384
+226,Retail,"ML Ops Engineer",5,122331
+8534,Retail,"NLP Engineer",5,122552
+10196,Retail,"Research Scientist",5,124736
+11260,Retail,"AI Consultant",5,129617
+10590,Retail,"Deep Learning Engineer",5,130287
+2762,Retail,"Data Scientist",5,130712
+10221,Retail,"Autonomous Systems Engineer",5,131089
+5242,Retail,"Machine Learning Engineer",5,136611
+4839,Retail,"AI Product Manager",5,137612
+8071,Retail,"Robotics Engineer",5,140193
+278,Retail,"NLP Engineer",5,151610
+7172,Retail,"Robotics Engineer",5,151986
+10529,Retail,"Data Scientist",5,154313
+6797,Retail,"Head of AI",5,155281
+11250,Retail,"Autonomous Systems Engineer",5,157226
+3995,Retail,"AI Research Scientist",5,170703
+10294,Retail,"AI Specialist",5,173136
+12474,Retail,"Data Analyst",5,174443
+2569,Retail,"AI Consultant",5,186452
+12413,Retail,"AI Architect",5,188532
+12716,Retail,"ML Ops Engineer",5,215210
+8160,Retail,"Data Scientist",6,65827
+12108,Retail,"Data Engineer",6,67572
+14758,Retail,"Machine Learning Researcher",6,73465
+14543,Retail,"Data Engineer",6,73471
+13254,Retail,"Computer Vision Engineer",6,78896
+4134,Retail,"Autonomous Systems Engineer",6,82315
+1929,Retail,"AI Architect",6,82748
+13471,Retail,"AI Product Manager",6,85046
+9394,Retail,"Principal Data Scientist",6,85368
+1268,Retail,"AI Specialist",6,87234
+5604,Retail,"NLP Engineer",6,87897
+12054,Retail,"Data Engineer",6,88308
+7120,Retail,"Data Scientist",6,88939
+1489,Retail,"AI Product Manager",6,95182
+5790,Retail,"AI Product Manager",6,96038
+11288,Retail,"Robotics Engineer",6,96109
+10184,Retail,"Autonomous Systems Engineer",6,96898
+8715,Retail,"AI Consultant",6,96989
+9210,Retail,"AI Architect",6,97125
+10900,Retail,"Robotics Engineer",6,107217
+14626,Retail,"AI Research Scientist",6,115262
+9400,Retail,"Research Scientist",6,117324
+13367,Retail,"Robotics Engineer",6,118882
+8247,Retail,"AI Software Engineer",6,119389
+9245,Retail,"Data Scientist",6,119666
+5541,Retail,"Machine Learning Researcher",6,124113
+1330,Retail,"Computer Vision Engineer",6,129483
+13407,Retail,"Data Engineer",6,135526
+6424,Retail,"Head of AI",6,135648
+7674,Retail,"NLP Engineer",6,135921
+9896,Retail,"Head of AI",6,136038
+4984,Retail,"Research Scientist",6,139402
+9145,Retail,"Computer Vision Engineer",6,140857
+10588,Retail,"Deep Learning Engineer",6,145783
+5953,Retail,"AI Research Scientist",6,146170
+7091,Retail,"Head of AI",6,146613
+9934,Retail,"AI Consultant",6,153568
+9858,Retail,"AI Specialist",6,160810
+760,Retail,"Data Engineer",6,166340
+10528,Retail,"Machine Learning Engineer",6,167545
+1275,Retail,"Machine Learning Researcher",6,174143
+8632,Retail,"AI Research Scientist",6,176708
+7195,Retail,"AI Software Engineer",6,179097
+11511,Retail,"ML Ops Engineer",6,183719
+3544,Retail,"ML Ops Engineer",6,187473
+10889,Retail,"AI Specialist",6,198051
+7083,Retail,"AI Product Manager",6,202653
+4369,Retail,"Deep Learning Engineer",6,214903
+11762,Retail,"AI Product Manager",6,226629
+963,Retail,"AI Software Engineer",7,65456
+118,Retail,"Data Analyst",7,65570
+5871,Retail,"Research Scientist",7,78105
+13537,Retail,"Data Scientist",7,80701
+8608,Retail,"Computer Vision Engineer",7,81568
+9102,Retail,"AI Architect",7,85230
+13429,Retail,"NLP Engineer",7,85442
+9279,Retail,"Deep Learning Engineer",7,87884
+7406,Retail,"AI Consultant",7,88022
+5509,Retail,"Autonomous Systems Engineer",7,88262
+6744,Retail,"AI Product Manager",7,90718
+4752,Retail,"Head of AI",7,94267
+4339,Retail,"AI Research Scientist",7,94837
+5534,Retail,"Machine Learning Engineer",7,95063
+5181,Retail,"Computer Vision Engineer",7,95464
+5349,Retail,"Computer Vision Engineer",7,95486
+10453,Retail,"Machine Learning Engineer",7,97141
+6822,Retail,"AI Software Engineer",7,97538
+13883,Retail,"AI Software Engineer",7,100143
+9500,Retail,"AI Specialist",7,100251
+5872,Retail,"Autonomous Systems Engineer",7,100362
+4897,Retail,"NLP Engineer",7,100638
+13916,Retail,"Computer Vision Engineer",7,102177
+14598,Retail,"Machine Learning Researcher",7,102708
+206,Retail,"Machine Learning Engineer",7,110341
+6616,Retail,"Research Scientist",7,110545
+3365,Retail,"NLP Engineer",7,113198
+1680,Retail,"Data Scientist",7,116016
+253,Retail,"Deep Learning Engineer",7,119706
+1378,Retail,"Data Engineer",7,123064
+2423,Retail,"NLP Engineer",7,123831
+10482,Retail,"ML Ops Engineer",7,129821
+570,Retail,"Autonomous Systems Engineer",7,130864
+3122,Retail,"Robotics Engineer",7,131406
+9835,Retail,"AI Software Engineer",7,132939
+7547,Retail,"Data Scientist",7,133805
+14546,Retail,"AI Research Scientist",7,134170
+4260,Retail,"Computer Vision Engineer",7,137662
+4409,Retail,"Head of AI",7,141895
+2559,Retail,"Autonomous Systems Engineer",7,142410
+14669,Retail,"AI Specialist",7,148340
+7134,Retail,"AI Research Scientist",7,151340
+3976,Retail,"Data Analyst",7,152803
+7447,Retail,"Computer Vision Engineer",7,160559
+10181,Retail,"Deep Learning Engineer",7,161682
+12519,Retail,"AI Architect",7,163675
+14477,Retail,"Data Analyst",7,182232
+2918,Retail,"Machine Learning Engineer",7,182354
+3274,Retail,"NLP Engineer",7,182901
+6916,Retail,"AI Research Scientist",7,187698
+6228,Retail,"Data Analyst",7,194251
+4357,Retail,"Data Scientist",7,205645
+11384,Retail,"Robotics Engineer",8,73095
+1944,Retail,"Machine Learning Engineer",8,78460
+14561,Retail,"AI Specialist",8,78649
+13350,Retail,"Machine Learning Engineer",8,79731
+8438,Retail,"Autonomous Systems Engineer",8,82381
+6217,Retail,"AI Architect",8,83404
+13030,Retail,"Computer Vision Engineer",8,86448
+1220,Retail,"AI Product Manager",8,89986
+8649,Retail,"AI Research Scientist",8,91687
+7113,Retail,"AI Specialist",8,93853
+3610,Retail,"AI Research Scientist",8,93862
+13323,Retail,"ML Ops Engineer",8,94231
+14493,Retail,"AI Consultant",8,95531
+13132,Retail,"AI Software Engineer",8,98340
+13906,Retail,"AI Product Manager",8,99427
+14236,Retail,"Head of AI",8,101840
+8743,Retail,"AI Research Scientist",8,105338
+719,Retail,"Data Analyst",8,107490
+13659,Retail,"Principal Data Scientist",8,107899
+10142,Retail,"Data Engineer",8,107993
+3007,Retail,"Autonomous Systems Engineer",8,108820
+12703,Retail,"AI Consultant",8,110076
+3162,Retail,"AI Architect",8,110302
+9960,Retail,"AI Product Manager",8,111790
+8249,Retail,"AI Research Scientist",8,111829
+659,Retail,"Data Engineer",8,112920
+2238,Retail,"Data Engineer",8,113181
+44,Retail,"Machine Learning Researcher",8,113455
+5331,Retail,"AI Architect",8,119828
+9347,Retail,"Data Scientist",8,122691
+9720,Retail,"Data Scientist",8,126139
+5630,Retail,"AI Architect",8,126730
+14530,Retail,"Robotics Engineer",8,133478
+7553,Retail,"Machine Learning Researcher",8,133808
+6669,Retail,"Computer Vision Engineer",8,146929
+12150,Retail,"Data Scientist",8,147646
+649,Retail,"Computer Vision Engineer",8,150795
+12007,Retail,"NLP Engineer",8,155521
+3090,Retail,"AI Product Manager",8,158528
+8135,Retail,"Head of AI",8,159898
+14755,Retail,"Robotics Engineer",8,163216
+2171,Retail,"Data Analyst",8,163835
+13865,Retail,"Machine Learning Researcher",8,165186
+3833,Retail,"AI Architect",8,165526
+14741,Retail,"AI Consultant",8,174157
+10757,Retail,"AI Software Engineer",8,184957
+8845,Retail,"Machine Learning Researcher",8,185085
+8437,Retail,"Computer Vision Engineer",8,191284
+10312,Retail,"Principal Data Scientist",8,229938
+9430,Retail,"NLP Engineer",9,67150
+11113,Retail,"Deep Learning Engineer",9,67971
+3804,Retail,"AI Architect",9,68077
+12079,Retail,"Computer Vision Engineer",9,71177
+5160,Retail,"Robotics Engineer",9,72127
+6708,Retail,"Autonomous Systems Engineer",9,72406
+14568,Retail,"Autonomous Systems Engineer",9,72406
+2847,Retail,"Deep Learning Engineer",9,76148
+4645,Retail,"AI Research Scientist",9,84328
+2500,Retail,"Machine Learning Engineer",9,87043
+3431,Retail,"Research Scientist",9,87795
+690,Retail,"Data Analyst",9,89120
+3845,Retail,"ML Ops Engineer",9,89298
+2361,Retail,"Machine Learning Researcher",9,90708
+892,Retail,"Robotics Engineer",9,92213
+2832,Retail,"AI Product Manager",9,93099
+13153,Retail,"Machine Learning Engineer",9,96038
+14820,Retail,"Robotics Engineer",9,99100
+10068,Retail,"Principal Data Scientist",9,101454
+11313,Retail,"NLP Engineer",9,102011
+10379,Retail,"AI Specialist",9,104072
+6913,Retail,"AI Specialist",9,105571
+9014,Retail,"Computer Vision Engineer",9,107194
+5146,Retail,"Principal Data Scientist",9,111678
+5555,Retail,"Principal Data Scientist",9,112981
+7576,Retail,"NLP Engineer",9,113376
+357,Retail,"Data Analyst",9,115634
+3238,Retail,"Machine Learning Researcher",9,118944
+2266,Retail,"Computer Vision Engineer",9,119365
+5867,Retail,"Principal Data Scientist",9,119954
+1848,Retail,"Head of AI",9,121453
+13890,Retail,"AI Product Manager",9,121664
+9334,Retail,"Data Analyst",9,124064
+2152,Retail,"ML Ops Engineer",9,124366
+10789,Retail,"Autonomous Systems Engineer",9,127447
+4421,Retail,"AI Architect",9,133016
+74,Retail,"Autonomous Systems Engineer",9,134200
+7981,Retail,"Machine Learning Researcher",9,135152
+14618,Retail,"AI Specialist",9,137067
+7834,Retail,"Deep Learning Engineer",9,140382
+3790,Retail,"Data Scientist",9,142089
+12671,Retail,"Research Scientist",9,143469
+11763,Retail,"Autonomous Systems Engineer",9,147429
+5680,Retail,"Robotics Engineer",9,148781
+176,Retail,"AI Software Engineer",9,149669
+3265,Retail,"ML Ops Engineer",9,151463
+13610,Retail,"Machine Learning Researcher",9,151662
+8266,Retail,"Computer Vision Engineer",9,152248
+14822,Retail,"Deep Learning Engineer",9,152305
+5945,Retail,"Robotics Engineer",9,153576
+8667,Retail,"Data Analyst",9,155489
+4735,Retail,"Computer Vision Engineer",9,160641
+3235,Retail,"AI Software Engineer",9,161339
+7074,Retail,"ML Ops Engineer",9,186923
+10632,Retail,"Machine Learning Engineer",9,192983
+3194,Retail,"Autonomous Systems Engineer",9,193284
+12749,Retail,"Research Scientist",9,197413
+7720,Retail,"Data Scientist",9,216563
+14166,Retail,"Data Analyst",9,218839
+12538,Retail,"AI Research Scientist",10,87446
+14553,Retail,"Research Scientist",10,87707
+14224,Retail,"Computer Vision Engineer",10,117755
+5428,Retail,"AI Software Engineer",10,124236
+14006,Retail,"AI Product Manager",10,128893
+3353,Retail,"ML Ops Engineer",10,140290
+7219,Retail,"AI Specialist",10,147119
+3691,Retail,"AI Software Engineer",10,147573
+7328,Retail,"AI Product Manager",10,157771
+6782,Retail,"Autonomous Systems Engineer",10,171409
+7556,Retail,"Machine Learning Researcher",10,175539
+5414,Retail,"NLP Engineer",10,177967
+11724,Retail,"Machine Learning Researcher",10,179443
+6931,Retail,"Robotics Engineer",10,200260
+5596,Retail,"Robotics Engineer",10,214097
+4937,Retail,"AI Architect",10,215355
+7089,Retail,"Data Engineer",10,220287
+11695,Retail,"AI Product Manager",10,236130
+733,Retail,"AI Consultant",10,237830
+10353,Retail,"AI Software Engineer",10,240564
+12838,Retail,"Data Engineer",10,249119
+970,Retail,"Principal Data Scientist",10,267363
+7426,Retail,"Deep Learning Engineer",10,271783
+9892,Retail,"Machine Learning Researcher",10,399095
+561,Retail,"AI Specialist",11,105668
+8010,Retail,"AI Consultant",11,108617
+9814,Retail,"Deep Learning Engineer",11,121034
+906,Retail,"Deep Learning Engineer",11,133327
+1771,Retail,"AI Architect",11,136980
+9856,Retail,"AI Product Manager",11,144054
+3693,Retail,"AI Product Manager",11,147188
+10603,Retail,"AI Specialist",11,155034
+6030,Retail,"AI Specialist",11,155722
+4928,Retail,"NLP Engineer",11,159121
+453,Retail,"Data Engineer",11,160302
+1270,Retail,"Data Scientist",11,165018
+12606,Retail,"Data Scientist",11,167590
+8882,Retail,"Robotics Engineer",11,171607
+3469,Retail,"Machine Learning Engineer",11,179942
+14597,Retail,"ML Ops Engineer",11,189974
+13380,Retail,"Autonomous Systems Engineer",11,191488
+7131,Retail,"Machine Learning Engineer",11,198923
+2067,Retail,"Data Scientist",11,204726
+1450,Retail,"AI Research Scientist",11,206448
+7155,Retail,"Computer Vision Engineer",11,212411
+3407,Retail,"Data Engineer",11,238935
+11541,Retail,"ML Ops Engineer",11,252091
+1389,Retail,"AI Consultant",11,275544
+5249,Retail,"AI Product Manager",11,310949
+11623,Retail,"Research Scientist",12,91782
+8824,Retail,"NLP Engineer",12,128185
+6610,Retail,"Autonomous Systems Engineer",12,131893
+10461,Retail,"ML Ops Engineer",12,132175
+1132,Retail,"ML Ops Engineer",12,133002
+5721,Retail,"Autonomous Systems Engineer",12,146198
+10426,Retail,"NLP Engineer",12,149052
+9223,Retail,"AI Research Scientist",12,153744
+2357,Retail,"AI Product Manager",12,154787
+9582,Retail,"Autonomous Systems Engineer",12,158316
+5136,Retail,"NLP Engineer",12,172592
+11085,Retail,"AI Architect",12,174916
+3245,Retail,"Research Scientist",12,179157
+582,Retail,"Machine Learning Researcher",12,182856
+5729,Retail,"AI Architect",12,201159
+3190,Retail,"AI Specialist",12,212327
+12006,Retail,"Computer Vision Engineer",12,222188
+12184,Retail,"Machine Learning Researcher",12,225886
+9688,Retail,"Machine Learning Engineer",12,230063
+12492,Retail,"Machine Learning Engineer",12,238978
+14372,Retail,"Principal Data Scientist",12,247381
+7816,Retail,"AI Consultant",12,247644
+12278,Retail,"AI Research Scientist",12,251751
+8383,Retail,"AI Software Engineer",12,257079
+5357,Retail,"Data Engineer",12,263099
+12761,Retail,"AI Specialist",12,279913
+99,Retail,"Machine Learning Researcher",12,290199
+1145,Retail,"AI Specialist",12,370038
+12867,Retail,"AI Research Scientist",13,112376
+2487,Retail,"Principal Data Scientist",13,125520
+6532,Retail,"Head of AI",13,128823
+14994,Retail,"Autonomous Systems Engineer",13,130671
+9703,Retail,"Principal Data Scientist",13,138726
+12763,Retail,"Data Analyst",13,149937
+13469,Retail,"Deep Learning Engineer",13,155227
+6973,Retail,"AI Specialist",13,155806
+2112,Retail,"Data Analyst",13,163142
+6926,Retail,"Robotics Engineer",13,168619
+2406,Retail,"Machine Learning Researcher",13,169778
+483,Retail,"AI Product Manager",13,170702
+12665,Retail,"Robotics Engineer",13,190903
+13207,Retail,"Head of AI",13,204467
+5864,Retail,"AI Specialist",13,205134
+12564,Retail,"Head of AI",13,206030
+3684,Retail,"NLP Engineer",13,215202
+12198,Retail,"Autonomous Systems Engineer",13,217998
+1272,Retail,"Deep Learning Engineer",13,224686
+12302,Retail,"Autonomous Systems Engineer",13,239906
+3624,Retail,"AI Research Scientist",13,254413
+10741,Retail,"Autonomous Systems Engineer",13,264244
+6451,Retail,"Principal Data Scientist",13,268707
+14984,Retail,"AI Architect",13,288661
+14706,Retail,"Data Engineer",13,328657
+1416,Retail,"Data Analyst",13,361541
+2650,Retail,"Research Scientist",14,91487
+8944,Retail,"Autonomous Systems Engineer",14,123307
+4249,Retail,"Research Scientist",14,139002
+9506,Retail,"Data Analyst",14,148386
+3476,Retail,"AI Consultant",14,155145
+8483,Retail,"AI Product Manager",14,158407
+4307,Retail,"AI Research Scientist",14,181837
+1084,Retail,"AI Research Scientist",14,184001
+11050,Retail,"Machine Learning Researcher",14,187771
+7479,Retail,"AI Software Engineer",14,202659
+12600,Retail,"Data Analyst",14,203496
+6529,Retail,"Principal Data Scientist",14,211093
+5019,Retail,"AI Software Engineer",14,216468
+5842,Retail,"Deep Learning Engineer",14,230984
+12909,Retail,"Data Analyst",14,285681
+3151,Retail,"AI Consultant",14,287746
+3354,Retail,"Machine Learning Engineer",15,99647
+10316,Retail,"Head of AI",15,116250
+10327,Retail,"ML Ops Engineer",15,127160
+8221,Retail,"Data Analyst",15,130430
+4444,Retail,"Head of AI",15,132671
+5491,Retail,"Machine Learning Engineer",15,144445
+9647,Retail,"NLP Engineer",15,150016
+11011,Retail,"Data Scientist",15,154872
+7661,Retail,"Machine Learning Researcher",15,155420
+3632,Retail,"Head of AI",15,162193
+12658,Retail,"Data Analyst",15,163328
+3934,Retail,"Data Analyst",15,166199
+14709,Retail,"Data Scientist",15,177639
+3212,Retail,"Principal Data Scientist",15,212906
+3167,Retail,"AI Research Scientist",15,237060
+7923,Retail,"Head of AI",15,239520
+9465,Retail,"Principal Data Scientist",15,240603
+643,Retail,"Principal Data Scientist",15,242433
+2831,Retail,"Data Scientist",15,252948
+1911,Retail,"Data Analyst",15,255147
+1374,Retail,"Data Scientist",15,289435
+5974,Retail,"AI Specialist",15,296033
+7019,Retail,"NLP Engineer",15,324312
+11292,Retail,"Data Analyst",15,344471
+8825,Retail,"AI Software Engineer",16,88007
+1505,Retail,"AI Software Engineer",16,106688
+6066,Retail,"Machine Learning Engineer",16,120722
+7420,Retail,"Machine Learning Engineer",16,132424
+7241,Retail,"Principal Data Scientist",16,155084
+10220,Retail,"Deep Learning Engineer",16,155537
+6058,Retail,"ML Ops Engineer",16,155652
+14693,Retail,"Research Scientist",16,156459
+10213,Retail,"Data Analyst",16,173690
+1281,Retail,"AI Specialist",16,175743
+6086,Retail,"Deep Learning Engineer",16,179546
+7461,Retail,"AI Product Manager",16,185914
+14781,Retail,"AI Architect",16,189114
+8817,Retail,"AI Research Scientist",16,191993
+4171,Retail,"Robotics Engineer",16,193009
+656,Retail,"Data Scientist",16,195999
+3229,Retail,"Principal Data Scientist",16,197335
+1840,Retail,"AI Architect",16,199683
+945,Retail,"Data Scientist",16,215545
+11111,Retail,"Data Engineer",16,219960
+12418,Retail,"AI Research Scientist",16,235728
+2301,Retail,"AI Architect",16,251969
+13274,Retail,"Research Scientist",16,267679
+13748,Retail,"Data Scientist",16,290652
+8142,Retail,"Head of AI",16,333453
+11658,Retail,"Data Analyst",17,100317
+2474,Retail,"Machine Learning Researcher",17,130312
+6023,Retail,"Research Scientist",17,141523
+14902,Retail,"NLP Engineer",17,148344
+4991,Retail,"ML Ops Engineer",17,150930
+3349,Retail,"Autonomous Systems Engineer",17,160641
+1875,Retail,"Research Scientist",17,171132
+13811,Retail,"Data Engineer",17,171822
+12893,Retail,"Robotics Engineer",17,174881
+1523,Retail,"AI Product Manager",17,179544
+3416,Retail,"AI Specialist",17,198798
+8057,Retail,"Research Scientist",17,224557
+675,Retail,"Machine Learning Engineer",17,231074
+3340,Retail,"Deep Learning Engineer",17,235192
+8346,Retail,"Machine Learning Researcher",17,254546
+538,Retail,"Computer Vision Engineer",17,271344
+9692,Retail,"AI Software Engineer",17,281132

@@ -1,0 +1,968 @@
+id_cleaned,industry,job_title,years_experience,salary_usd
+5941,Gaming,"Data Scientist",0,33839
+8658,Gaming,"Principal Data Scientist",0,34073
+14168,Gaming,"AI Software Engineer",0,36152
+13873,Gaming,"AI Specialist",0,36575
+1557,Gaming,"Computer Vision Engineer",0,37188
+13808,Gaming,"Machine Learning Engineer",0,37520
+10127,Gaming,"AI Specialist",0,38196
+6064,Gaming,"AI Consultant",0,38282
+2181,Gaming,"AI Architect",0,38864
+11971,Gaming,"Data Scientist",0,38896
+8687,Gaming,"AI Architect",0,38918
+13561,Gaming,"AI Consultant",0,40636
+10881,Gaming,"AI Architect",0,41157
+730,Gaming,"AI Consultant",0,41326
+10241,Gaming,"Machine Learning Researcher",0,42513
+13170,Gaming,"NLP Engineer",0,42553
+2100,Gaming,"Deep Learning Engineer",0,42742
+10458,Gaming,"Machine Learning Researcher",0,43240
+732,Gaming,"Data Analyst",0,43605
+2277,Gaming,"Deep Learning Engineer",0,43719
+4056,Gaming,"Principal Data Scientist",0,43831
+1558,Gaming,"AI Software Engineer",0,44119
+9798,Gaming,"Principal Data Scientist",0,44641
+14367,Gaming,"Deep Learning Engineer",0,44673
+7381,Gaming,"AI Research Scientist",0,45024
+3259,Gaming,"Principal Data Scientist",0,45101
+408,Gaming,"Principal Data Scientist",0,45147
+213,Gaming,"Deep Learning Engineer",0,45429
+8701,Gaming,"Head of AI",0,46463
+12925,Gaming,"AI Product Manager",0,46698
+13566,Gaming,"Autonomous Systems Engineer",0,46845
+8305,Gaming,"Data Analyst",0,47052
+295,Gaming,"Data Analyst",0,47958
+9659,Gaming,"AI Specialist",0,48716
+4766,Gaming,"AI Research Scientist",0,49041
+14485,Gaming,"Research Scientist",0,49310
+8184,Gaming,"Principal Data Scientist",0,49748
+14332,Gaming,"Research Scientist",0,49760
+117,Gaming,"ML Ops Engineer",0,50303
+10859,Gaming,"NLP Engineer",0,50342
+1938,Gaming,"AI Software Engineer",0,50962
+6635,Gaming,"Machine Learning Engineer",0,51120
+11482,Gaming,"AI Consultant",0,51608
+1569,Gaming,"Computer Vision Engineer",0,51736
+12825,Gaming,"AI Research Scientist",0,52341
+10791,Gaming,"AI Product Manager",0,52904
+9112,Gaming,"Robotics Engineer",0,52964
+4469,Gaming,"AI Consultant",0,53796
+14321,Gaming,"AI Software Engineer",0,54069
+4170,Gaming,"Data Engineer",0,54304
+3056,Gaming,"Machine Learning Engineer",0,54600
+7905,Gaming,"Robotics Engineer",0,55168
+5792,Gaming,"Robotics Engineer",0,55338
+9115,Gaming,"NLP Engineer",0,57078
+8011,Gaming,"Autonomous Systems Engineer",0,57246
+2061,Gaming,"AI Consultant",0,57535
+4271,Gaming,"Robotics Engineer",0,57994
+14340,Gaming,"AI Architect",0,58189
+4990,Gaming,"Autonomous Systems Engineer",0,58368
+11819,Gaming,"AI Consultant",0,58643
+11741,Gaming,"Robotics Engineer",0,58926
+12759,Gaming,"Computer Vision Engineer",0,59346
+258,Gaming,"Head of AI",0,59373
+3615,Gaming,"Machine Learning Researcher",0,59470
+13514,Gaming,"Data Engineer",0,60684
+5531,Gaming,"Machine Learning Researcher",0,60955
+13815,Gaming,"AI Product Manager",0,61352
+3807,Gaming,"NLP Engineer",0,61507
+7389,Gaming,"Deep Learning Engineer",0,61882
+5094,Gaming,"Data Analyst",0,62471
+10830,Gaming,"NLP Engineer",0,63105
+10701,Gaming,"Robotics Engineer",0,63454
+3571,Gaming,"AI Architect",0,63535
+12572,Gaming,"AI Consultant",0,63692
+14870,Gaming,"NLP Engineer",0,63824
+166,Gaming,"ML Ops Engineer",0,63860
+1063,Gaming,"AI Product Manager",0,64393
+4344,Gaming,"NLP Engineer",0,64449
+10542,Gaming,"Computer Vision Engineer",0,64871
+3195,Gaming,"AI Software Engineer",0,64900
+2742,Gaming,"Data Analyst",0,65032
+6898,Gaming,"AI Software Engineer",0,65801
+14859,Gaming,"Research Scientist",0,66212
+4195,Gaming,"Robotics Engineer",0,66411
+9388,Gaming,"Data Scientist",0,67360
+5479,Gaming,"Autonomous Systems Engineer",0,67363
+6494,Gaming,"Robotics Engineer",0,67807
+263,Gaming,"AI Software Engineer",0,67824
+3175,Gaming,"Machine Learning Researcher",0,68087
+5427,Gaming,"ML Ops Engineer",0,69279
+1809,Gaming,"Deep Learning Engineer",0,69318
+7890,Gaming,"Autonomous Systems Engineer",0,69447
+9850,Gaming,"Data Scientist",0,70168
+12042,Gaming,"AI Product Manager",0,70218
+8890,Gaming,"Robotics Engineer",0,70892
+11158,Gaming,"Research Scientist",0,71192
+3287,Gaming,"ML Ops Engineer",0,71761
+11628,Gaming,"Computer Vision Engineer",0,72386
+69,Gaming,"Machine Learning Researcher",0,72459
+8702,Gaming,"AI Product Manager",0,72679
+4468,Gaming,"AI Product Manager",0,72774
+9513,Gaming,"Principal Data Scientist",0,74053
+11572,Gaming,"ML Ops Engineer",0,74199
+13878,Gaming,"Head of AI",0,75434
+6488,Gaming,"Robotics Engineer",0,75714
+1671,Gaming,"ML Ops Engineer",0,76495
+12919,Gaming,"AI Consultant",0,77442
+11177,Gaming,"AI Specialist",0,78581
+13251,Gaming,"Research Scientist",0,79042
+6252,Gaming,"AI Software Engineer",0,79765
+6839,Gaming,"NLP Engineer",0,80021
+5523,Gaming,"Data Scientist",0,80109
+6783,Gaming,"AI Specialist",0,82293
+11958,Gaming,"Deep Learning Engineer",0,82818
+8083,Gaming,"NLP Engineer",0,83572
+5632,Gaming,"Deep Learning Engineer",0,85000
+2158,Gaming,"AI Software Engineer",0,85731
+1506,Gaming,"Deep Learning Engineer",0,85954
+10387,Gaming,"AI Specialist",0,86644
+8070,Gaming,"Data Scientist",0,86738
+7086,Gaming,"Machine Learning Engineer",0,87965
+12195,Gaming,"Machine Learning Researcher",0,88816
+637,Gaming,"Data Analyst",0,92317
+7197,Gaming,"AI Product Manager",0,92510
+13499,Gaming,"Robotics Engineer",0,94088
+5753,Gaming,"Computer Vision Engineer",0,94613
+11006,Gaming,"Data Engineer",0,95671
+5950,Gaming,"Autonomous Systems Engineer",0,95873
+5241,Gaming,"Autonomous Systems Engineer",0,97117
+1789,Gaming,"ML Ops Engineer",0,98487
+3527,Gaming,"AI Architect",0,100069
+9518,Gaming,"ML Ops Engineer",0,101197
+5111,Gaming,"AI Consultant",0,103347
+2803,Gaming,"Data Analyst",0,109482
+2634,Gaming,"AI Software Engineer",1,33013
+404,Gaming,"AI Consultant",1,33959
+7400,Gaming,"Autonomous Systems Engineer",1,35148
+10339,Gaming,"Autonomous Systems Engineer",1,35962
+5280,Gaming,"Machine Learning Researcher",1,36155
+8481,Gaming,"AI Architect",1,36614
+4846,Gaming,"AI Consultant",1,37181
+14244,Gaming,"Machine Learning Researcher",1,37815
+9305,Gaming,"Data Engineer",1,38208
+14829,Gaming,"Data Analyst",1,39506
+1810,Gaming,"AI Research Scientist",1,39939
+12215,Gaming,"Autonomous Systems Engineer",1,39965
+10336,Gaming,"Data Analyst",1,40859
+10620,Gaming,"Computer Vision Engineer",1,40909
+5627,Gaming,"Head of AI",1,41287
+11415,Gaming,"AI Product Manager",1,41522
+1359,Gaming,"NLP Engineer",1,41811
+2151,Gaming,"AI Architect",1,42236
+12883,Gaming,"Robotics Engineer",1,42419
+7286,Gaming,"AI Architect",1,42829
+583,Gaming,"AI Software Engineer",1,43117
+11524,Gaming,"Robotics Engineer",1,43577
+10070,Gaming,"Robotics Engineer",1,43693
+10429,Gaming,"Data Analyst",1,43741
+8736,Gaming,"Data Engineer",1,44300
+14204,Gaming,"Research Scientist",1,44451
+5066,Gaming,"AI Research Scientist",1,44462
+13727,Gaming,"Head of AI",1,44938
+12433,Gaming,"AI Specialist",1,45107
+3726,Gaming,"Machine Learning Researcher",1,45212
+13729,Gaming,"AI Software Engineer",1,45439
+14515,Gaming,"Machine Learning Engineer",1,45620
+4325,Gaming,"Machine Learning Researcher",1,46456
+11386,Gaming,"AI Software Engineer",1,46637
+12594,Gaming,"Robotics Engineer",1,46999
+12178,Gaming,"Deep Learning Engineer",1,47012
+739,Gaming,"Principal Data Scientist",1,47919
+10936,Gaming,"NLP Engineer",1,48085
+14659,Gaming,"Autonomous Systems Engineer",1,48145
+10166,Gaming,"Data Engineer",1,48458
+8418,Gaming,"Data Scientist",1,48500
+5791,Gaming,"Machine Learning Engineer",1,48706
+12478,Gaming,"AI Consultant",1,48901
+14603,Gaming,"Research Scientist",1,49536
+14405,Gaming,"Research Scientist",1,49604
+2594,Gaming,"Machine Learning Researcher",1,50180
+8128,Gaming,"AI Consultant",1,50195
+6601,Gaming,"Research Scientist",1,50418
+6777,Gaming,"AI Specialist",1,51258
+6402,Gaming,"Principal Data Scientist",1,53046
+2283,Gaming,"AI Consultant",1,53951
+1110,Gaming,"AI Research Scientist",1,53959
+7230,Gaming,"Data Analyst",1,54451
+2589,Gaming,"Head of AI",1,54884
+323,Gaming,"Data Engineer",1,55619
+4142,Gaming,"NLP Engineer",1,55954
+12064,Gaming,"Principal Data Scientist",1,56155
+380,Gaming,"Computer Vision Engineer",1,56318
+201,Gaming,"Robotics Engineer",1,56585
+12762,Gaming,"Data Analyst",1,56627
+324,Gaming,"AI Research Scientist",1,56796
+13695,Gaming,"AI Software Engineer",1,57376
+5769,Gaming,"Head of AI",1,57557
+384,Gaming,"AI Product Manager",1,57591
+6121,Gaming,"Autonomous Systems Engineer",1,57760
+11950,Gaming,"ML Ops Engineer",1,58142
+11109,Gaming,"AI Product Manager",1,59529
+11084,Gaming,"Data Analyst",1,60239
+779,Gaming,"Computer Vision Engineer",1,60829
+4987,Gaming,"Head of AI",1,61653
+2932,Gaming,"NLP Engineer",1,61907
+9193,Gaming,"Deep Learning Engineer",1,62127
+4433,Gaming,"Head of AI",1,62156
+7815,Gaming,"Head of AI",1,62525
+14846,Gaming,"AI Specialist",1,62597
+13458,Gaming,"Data Analyst",1,63136
+11338,Gaming,"AI Software Engineer",1,63353
+12812,Gaming,"AI Product Manager",1,63600
+9030,Gaming,"Machine Learning Engineer",1,63817
+8134,Gaming,"Computer Vision Engineer",1,63837
+3503,Gaming,"AI Consultant",1,64138
+7449,Gaming,"Principal Data Scientist",1,64691
+12123,Gaming,"Head of AI",1,65220
+10324,Gaming,"AI Software Engineer",1,65473
+1571,Gaming,"Machine Learning Researcher",1,66524
+5322,Gaming,"Machine Learning Researcher",1,66658
+4350,Gaming,"Deep Learning Engineer",1,66947
+11104,Gaming,"AI Consultant",1,67784
+6633,Gaming,"AI Research Scientist",1,68018
+12737,Gaming,"Principal Data Scientist",1,68443
+14215,Gaming,"Data Scientist",1,69054
+11982,Gaming,"Autonomous Systems Engineer",1,69209
+3534,Gaming,"AI Research Scientist",1,69978
+2279,Gaming,"Machine Learning Engineer",1,70562
+2127,Gaming,"Data Engineer",1,71084
+11163,Gaming,"AI Product Manager",1,71159
+1218,Gaming,"Robotics Engineer",1,71396
+3827,Gaming,"Research Scientist",1,71471
+12512,Gaming,"Head of AI",1,72522
+11691,Gaming,"Computer Vision Engineer",1,72765
+5812,Gaming,"AI Research Scientist",1,73556
+8402,Gaming,"AI Specialist",1,73888
+6298,Gaming,"NLP Engineer",1,74108
+240,Gaming,"Deep Learning Engineer",1,74322
+7048,Gaming,"ML Ops Engineer",1,74333
+10000,Gaming,"Research Scientist",1,74890
+2015,Gaming,"Principal Data Scientist",1,74964
+1867,Gaming,"Robotics Engineer",1,75426
+13964,Gaming,"AI Research Scientist",1,76538
+1573,Gaming,"Research Scientist",1,77228
+4714,Gaming,"AI Consultant",1,77459
+6742,Gaming,"ML Ops Engineer",1,77703
+6867,Gaming,"AI Specialist",1,78060
+13611,Gaming,"Data Analyst",1,78427
+14623,Gaming,"ML Ops Engineer",1,78716
+598,Gaming,"AI Specialist",1,79627
+14591,Gaming,"Data Engineer",1,80291
+14461,Gaming,"AI Consultant",1,80678
+1804,Gaming,"Computer Vision Engineer",1,82542
+12854,Gaming,"NLP Engineer",1,82597
+3018,Gaming,"AI Architect",1,84245
+11454,Gaming,"Autonomous Systems Engineer",1,84766
+13295,Gaming,"Machine Learning Engineer",1,86047
+10074,Gaming,"Machine Learning Engineer",1,86770
+8590,Gaming,"Machine Learning Researcher",1,88202
+8082,Gaming,"ML Ops Engineer",1,90201
+12938,Gaming,"AI Specialist",1,91647
+2934,Gaming,"AI Software Engineer",1,93331
+13087,Gaming,"AI Architect",1,101196
+4710,Gaming,"NLP Engineer",1,102275
+14490,Gaming,"Machine Learning Engineer",1,103459
+1502,Gaming,"AI Research Scientist",1,107022
+14085,Gaming,"Autonomous Systems Engineer",1,116790
+5215,Gaming,"AI Specialist",2,48072
+14431,Gaming,"Head of AI",2,51531
+3052,Gaming,"NLP Engineer",2,51619
+1341,Gaming,"Robotics Engineer",2,52177
+4078,Gaming,"AI Specialist",2,54696
+6628,Gaming,"Head of AI",2,57090
+2514,Gaming,"Computer Vision Engineer",2,57887
+5396,Gaming,"AI Product Manager",2,58214
+13223,Gaming,"AI Software Engineer",2,59081
+7244,Gaming,"Data Engineer",2,59947
+8571,Gaming,"Head of AI",2,61640
+8613,Gaming,"Data Analyst",2,61672
+9624,Gaming,"Data Engineer",2,62522
+1153,Gaming,"Computer Vision Engineer",2,63842
+830,Gaming,"Machine Learning Engineer",2,63854
+7867,Gaming,"Deep Learning Engineer",2,64691
+10596,Gaming,"Principal Data Scientist",2,64924
+6850,Gaming,"Research Scientist",2,65296
+2610,Gaming,"Data Engineer",2,66780
+775,Gaming,"Computer Vision Engineer",2,66992
+13620,Gaming,"AI Software Engineer",2,67249
+8252,Gaming,"Head of AI",2,67253
+825,Gaming,"Computer Vision Engineer",2,67793
+14337,Gaming,"Principal Data Scientist",2,68139
+13186,Gaming,"ML Ops Engineer",2,68558
+9759,Gaming,"AI Architect",2,68580
+4777,Gaming,"AI Research Scientist",2,68815
+4486,Gaming,"AI Product Manager",2,68869
+4956,Gaming,"ML Ops Engineer",2,69149
+6948,Gaming,"AI Specialist",2,69265
+12757,Gaming,"Deep Learning Engineer",2,71828
+353,Gaming,"AI Software Engineer",2,72389
+10018,Gaming,"Data Scientist",2,73178
+9525,Gaming,"Autonomous Systems Engineer",2,73940
+8467,Gaming,"Machine Learning Engineer",2,73956
+2008,Gaming,"NLP Engineer",2,74504
+9337,Gaming,"NLP Engineer",2,75809
+7994,Gaming,"Robotics Engineer",2,76447
+3775,Gaming,"AI Software Engineer",2,77350
+13591,Gaming,"AI Software Engineer",2,78581
+8964,Gaming,"Machine Learning Researcher",2,79049
+7848,Gaming,"Data Scientist",2,79315
+12858,Gaming,"AI Research Scientist",2,79658
+12160,Gaming,"Robotics Engineer",2,79828
+2543,Gaming,"Autonomous Systems Engineer",2,80143
+14921,Gaming,"AI Architect",2,84489
+7973,Gaming,"Principal Data Scientist",2,84851
+11333,Gaming,"Data Analyst",2,86469
+3742,Gaming,"Research Scientist",2,87976
+7839,Gaming,"Deep Learning Engineer",2,89015
+2545,Gaming,"Data Scientist",2,91286
+6119,Gaming,"NLP Engineer",2,91514
+11164,Gaming,"Head of AI",2,95900
+3208,Gaming,"Computer Vision Engineer",2,95966
+6603,Gaming,"Deep Learning Engineer",2,97284
+7319,Gaming,"AI Architect",2,97923
+479,Gaming,"AI Architect",2,98984
+4691,Gaming,"AI Product Manager",2,101450
+5374,Gaming,"AI Software Engineer",2,101725
+7314,Gaming,"AI Architect",2,102022
+9652,Gaming,"Head of AI",2,103160
+8257,Gaming,"AI Consultant",2,106170
+14357,Gaming,"Data Scientist",2,106282
+13408,Gaming,"Head of AI",2,108550
+13758,Gaming,"Machine Learning Researcher",2,109045
+6394,Gaming,"Data Engineer",2,109351
+6236,Gaming,"Data Engineer",2,111787
+2046,Gaming,"Machine Learning Researcher",2,118788
+12736,Gaming,"Data Scientist",2,123952
+6985,Gaming,"Research Scientist",2,124681
+9001,Gaming,"Principal Data Scientist",2,125983
+12661,Gaming,"Head of AI",2,126874
+3182,Gaming,"NLP Engineer",2,128103
+11915,Gaming,"NLP Engineer",2,142242
+11459,Gaming,"Data Engineer",2,143128
+10617,Gaming,"AI Research Scientist",2,149940
+8987,Gaming,"AI Software Engineer",3,46480
+13926,Gaming,"Machine Learning Researcher",3,50192
+7392,Gaming,"NLP Engineer",3,50532
+1811,Gaming,"Robotics Engineer",3,50892
+11498,Gaming,"Machine Learning Researcher",3,51487
+12657,Gaming,"Machine Learning Researcher",3,51552
+5358,Gaming,"NLP Engineer",3,51786
+8961,Gaming,"Computer Vision Engineer",3,51795
+14507,Gaming,"ML Ops Engineer",3,52524
+897,Gaming,"Computer Vision Engineer",3,53048
+14935,Gaming,"NLP Engineer",3,53809
+7630,Gaming,"AI Software Engineer",3,54001
+8478,Gaming,"AI Product Manager",3,55871
+11551,Gaming,"AI Architect",3,57075
+10022,Gaming,"Data Engineer",3,57279
+7439,Gaming,"Robotics Engineer",3,58476
+1340,Gaming,"AI Software Engineer",3,58700
+703,Gaming,"AI Architect",3,59027
+12209,Gaming,"AI Software Engineer",3,60121
+13513,Gaming,"Machine Learning Researcher",3,60753
+10027,Gaming,"Autonomous Systems Engineer",3,60819
+11520,Gaming,"ML Ops Engineer",3,61484
+9491,Gaming,"ML Ops Engineer",3,62239
+5409,Gaming,"Head of AI",3,62308
+10836,Gaming,"Head of AI",3,63516
+7296,Gaming,"Machine Learning Engineer",3,63817
+689,Gaming,"Head of AI",3,63832
+3302,Gaming,"Autonomous Systems Engineer",3,63930
+11056,Gaming,"Autonomous Systems Engineer",3,64005
+10173,Gaming,"NLP Engineer",3,64065
+13942,Gaming,"AI Software Engineer",3,64942
+8193,Gaming,"Data Engineer",3,65812
+3897,Gaming,"Data Analyst",3,66095
+4814,Gaming,"Computer Vision Engineer",3,67197
+4604,Gaming,"Research Scientist",3,68045
+13540,Gaming,"Autonomous Systems Engineer",3,68710
+12527,Gaming,"NLP Engineer",3,69855
+2886,Gaming,"Computer Vision Engineer",3,69904
+14342,Gaming,"Head of AI",3,70347
+3927,Gaming,"AI Product Manager",3,72914
+8744,Gaming,"AI Specialist",3,74901
+1953,Gaming,"Computer Vision Engineer",3,78280
+14907,Gaming,"AI Software Engineer",3,78344
+326,Gaming,"AI Consultant",3,78751
+11157,Gaming,"Data Analyst",3,79464
+14041,Gaming,"Principal Data Scientist",3,79484
+7,Gaming,"Principal Data Scientist",3,79670
+1955,Gaming,"Computer Vision Engineer",3,80376
+3809,Gaming,"Robotics Engineer",3,80761
+6798,Gaming,"Machine Learning Researcher",3,81131
+1651,Gaming,"AI Research Scientist",3,82455
+14183,Gaming,"Deep Learning Engineer",3,82894
+14159,Gaming,"AI Architect",3,83633
+8779,Gaming,"AI Product Manager",3,84754
+2833,Gaming,"AI Specialist",3,84844
+1140,Gaming,"AI Consultant",3,84845
+14937,Gaming,"ML Ops Engineer",3,85242
+13116,Gaming,"ML Ops Engineer",3,85663
+4233,Gaming,"Data Engineer",3,86941
+4512,Gaming,"Computer Vision Engineer",3,87646
+1169,Gaming,"AI Consultant",3,88462
+11847,Gaming,"Machine Learning Researcher",3,88464
+9197,Gaming,"Head of AI",3,91815
+14471,Gaming,"AI Software Engineer",3,92285
+14284,Gaming,"Autonomous Systems Engineer",3,92386
+5637,Gaming,"AI Research Scientist",3,93671
+5102,Gaming,"AI Specialist",3,94600
+11782,Gaming,"Principal Data Scientist",3,96319
+7529,Gaming,"AI Architect",3,96942
+552,Gaming,"Data Scientist",3,97749
+4724,Gaming,"Machine Learning Engineer",3,98611
+3748,Gaming,"AI Consultant",3,99812
+13243,Gaming,"NLP Engineer",3,100615
+4697,Gaming,"Data Engineer",3,100812
+13761,Gaming,"Head of AI",3,102222
+5257,Gaming,"AI Consultant",3,102821
+4153,Gaming,"Data Engineer",3,102931
+4222,Gaming,"AI Product Manager",3,103033
+6709,Gaming,"Autonomous Systems Engineer",3,103320
+53,Gaming,"Research Scientist",3,106579
+9333,Gaming,"Machine Learning Engineer",3,106952
+9762,Gaming,"Data Scientist",3,107172
+8833,Gaming,"Research Scientist",3,107419
+2928,Gaming,"AI Specialist",3,109026
+474,Gaming,"Machine Learning Researcher",3,110492
+5838,Gaming,"Robotics Engineer",3,110548
+3940,Gaming,"Data Engineer",3,111135
+11815,Gaming,"AI Research Scientist",3,115814
+7774,Gaming,"Data Engineer",3,117200
+7887,Gaming,"Machine Learning Researcher",3,119713
+12863,Gaming,"Computer Vision Engineer",3,122037
+5199,Gaming,"Machine Learning Engineer",3,129104
+10993,Gaming,"Research Scientist",3,132079
+6126,Gaming,"Data Engineer",3,150046
+12683,Gaming,"AI Architect",3,173822
+12286,Gaming,"AI Product Manager",4,51000
+5631,Gaming,"AI Architect",4,53367
+1172,Gaming,"Data Engineer",4,53562
+4467,Gaming,"Machine Learning Engineer",4,53725
+3605,Gaming,"Data Analyst",4,54270
+5155,Gaming,"Research Scientist",4,55096
+9649,Gaming,"Autonomous Systems Engineer",4,55976
+12505,Gaming,"Principal Data Scientist",4,57834
+13105,Gaming,"Deep Learning Engineer",4,58469
+5486,Gaming,"NLP Engineer",4,59360
+1948,Gaming,"Robotics Engineer",4,59494
+11796,Gaming,"Machine Learning Researcher",4,60365
+6855,Gaming,"AI Consultant",4,60401
+1521,Gaming,"Research Scientist",4,62244
+5798,Gaming,"Computer Vision Engineer",4,62269
+1090,Gaming,"ML Ops Engineer",4,62306
+8766,Gaming,"Computer Vision Engineer",4,62570
+13166,Gaming,"Head of AI",4,64038
+9269,Gaming,"AI Consultant",4,64758
+7598,Gaming,"AI Research Scientist",4,65225
+12920,Gaming,"AI Specialist",4,65870
+5006,Gaming,"Robotics Engineer",4,66040
+763,Gaming,"AI Architect",4,66276
+6137,Gaming,"Robotics Engineer",4,66497
+12404,Gaming,"Data Engineer",4,67069
+13936,Gaming,"AI Specialist",4,69593
+6950,Gaming,"AI Consultant",4,71304
+1184,Gaming,"AI Software Engineer",4,71698
+10096,Gaming,"Head of AI",4,71961
+8347,Gaming,"Head of AI",4,72554
+6191,Gaming,"Deep Learning Engineer",4,72648
+8213,Gaming,"Head of AI",4,73393
+12279,Gaming,"Data Engineer",4,75606
+5110,Gaming,"AI Specialist",4,77267
+14974,Gaming,"AI Product Manager",4,78429
+12786,Gaming,"Head of AI",4,79800
+2103,Gaming,"Computer Vision Engineer",4,80862
+2288,Gaming,"Research Scientist",4,81030
+13106,Gaming,"AI Software Engineer",4,81087
+9208,Gaming,"Research Scientist",4,82466
+14616,Gaming,"Machine Learning Researcher",4,82535
+10585,Gaming,"AI Consultant",4,83512
+2168,Gaming,"Data Analyst",4,84031
+12981,Gaming,"AI Consultant",4,85338
+231,Gaming,"Research Scientist",4,87011
+9215,Gaming,"NLP Engineer",4,88157
+9034,Gaming,"Machine Learning Researcher",4,88996
+2798,Gaming,"AI Specialist",4,89537
+8228,Gaming,"Data Analyst",4,89656
+6181,Gaming,"Head of AI",4,90332
+4072,Gaming,"NLP Engineer",4,90431
+8883,Gaming,"Data Scientist",4,91885
+2116,Gaming,"Deep Learning Engineer",4,96213
+4008,Gaming,"AI Architect",4,96320
+12056,Gaming,"AI Specialist",4,96890
+2801,Gaming,"Machine Learning Researcher",4,99839
+9854,Gaming,"AI Specialist",4,105596
+1884,Gaming,"Robotics Engineer",4,105675
+5047,Gaming,"Data Analyst",4,106633
+8652,Gaming,"AI Software Engineer",4,107160
+8804,Gaming,"Principal Data Scientist",4,108182
+5115,Gaming,"Data Engineer",4,108212
+14621,Gaming,"Principal Data Scientist",4,108726
+11676,Gaming,"Deep Learning Engineer",4,108844
+1106,Gaming,"Robotics Engineer",4,109453
+12544,Gaming,"Data Analyst",4,111820
+9620,Gaming,"Machine Learning Researcher",4,112516
+7288,Gaming,"AI Specialist",4,114754
+8241,Gaming,"Data Analyst",4,115717
+1154,Gaming,"AI Consultant",4,116906
+6382,Gaming,"Computer Vision Engineer",4,118074
+8795,Gaming,"Data Scientist",4,118260
+13544,Gaming,"Robotics Engineer",4,135689
+12387,Gaming,"Machine Learning Engineer",4,159777
+8915,Gaming,"Data Analyst",5,65948
+6067,Gaming,"Head of AI",5,70295
+6544,Gaming,"Head of AI",5,74299
+11294,Gaming,"NLP Engineer",5,83948
+6697,Gaming,"Deep Learning Engineer",5,85248
+4843,Gaming,"Data Scientist",5,85251
+10081,Gaming,"AI Product Manager",5,85630
+2377,Gaming,"AI Architect",5,85664
+652,Gaming,"Autonomous Systems Engineer",5,86410
+2852,Gaming,"AI Product Manager",5,89986
+12711,Gaming,"Head of AI",5,89997
+10011,Gaming,"Data Engineer",5,92367
+7109,Gaming,"AI Software Engineer",5,93005
+3142,Gaming,"Autonomous Systems Engineer",5,93471
+5553,Gaming,"AI Software Engineer",5,96073
+4664,Gaming,"Robotics Engineer",5,97414
+6309,Gaming,"ML Ops Engineer",5,98870
+2304,Gaming,"AI Software Engineer",5,99278
+6941,Gaming,"AI Specialist",5,99546
+14787,Gaming,"Computer Vision Engineer",5,100371
+13189,Gaming,"Research Scientist",5,102463
+2199,Gaming,"AI Architect",5,107117
+12020,Gaming,"Head of AI",5,114834
+7657,Gaming,"Deep Learning Engineer",5,116777
+13822,Gaming,"Data Scientist",5,117408
+12955,Gaming,"Machine Learning Researcher",5,117747
+11918,Gaming,"AI Software Engineer",5,118354
+9767,Gaming,"Principal Data Scientist",5,125626
+9761,Gaming,"AI Product Manager",5,127930
+6731,Gaming,"Research Scientist",5,132374
+10150,Gaming,"AI Product Manager",5,133606
+4692,Gaming,"AI Specialist",5,135354
+11326,Gaming,"ML Ops Engineer",5,143179
+2796,Gaming,"Robotics Engineer",5,146796
+10522,Gaming,"Robotics Engineer",5,148751
+8001,Gaming,"AI Product Manager",5,149122
+12548,Gaming,"AI Specialist",5,152371
+13157,Gaming,"Data Engineer",5,157479
+227,Gaming,"AI Product Manager",5,159643
+7707,Gaming,"AI Research Scientist",5,162506
+1538,Gaming,"Robotics Engineer",5,164285
+11705,Gaming,"NLP Engineer",5,164608
+7490,Gaming,"Data Engineer",5,174266
+13534,Gaming,"AI Software Engineer",5,193945
+6998,Gaming,"Machine Learning Engineer",5,194415
+7838,Gaming,"Autonomous Systems Engineer",6,67240
+14721,Gaming,"Autonomous Systems Engineer",6,73878
+8058,Gaming,"Data Analyst",6,77969
+6468,Gaming,"Data Engineer",6,79810
+7919,Gaming,"AI Specialist",6,84408
+8548,Gaming,"Data Scientist",6,88489
+7087,Gaming,"Data Engineer",6,89765
+8055,Gaming,"Data Engineer",6,92756
+9248,Gaming,"AI Consultant",6,93214
+5735,Gaming,"Autonomous Systems Engineer",6,95384
+7304,Gaming,"Machine Learning Researcher",6,96962
+9696,Gaming,"Research Scientist",6,100470
+212,Gaming,"AI Research Scientist",6,100524
+4327,Gaming,"AI Product Manager",6,108304
+7606,Gaming,"Machine Learning Engineer",6,109412
+10266,Gaming,"Deep Learning Engineer",6,110330
+10115,Gaming,"AI Research Scientist",6,110535
+1424,Gaming,"Deep Learning Engineer",6,111300
+3585,Gaming,"Data Analyst",6,111612
+13262,Gaming,"Data Analyst",6,113243
+13875,Gaming,"Data Engineer",6,118893
+12398,Gaming,"Machine Learning Researcher",6,120450
+3668,Gaming,"NLP Engineer",6,120522
+10320,Gaming,"Head of AI",6,120614
+12866,Gaming,"AI Consultant",6,120788
+10400,Gaming,"AI Product Manager",6,121160
+1411,Gaming,"ML Ops Engineer",6,122390
+2156,Gaming,"AI Research Scientist",6,124808
+10143,Gaming,"Machine Learning Engineer",6,124933
+2834,Gaming,"Machine Learning Researcher",6,127521
+4244,Gaming,"Autonomous Systems Engineer",6,127746
+8822,Gaming,"AI Specialist",6,130625
+11699,Gaming,"Machine Learning Researcher",6,132419
+3036,Gaming,"AI Product Manager",6,134228
+12509,Gaming,"Head of AI",6,138609
+2019,Gaming,"AI Product Manager",6,142142
+1156,Gaming,"Data Engineer",6,142412
+8995,Gaming,"Deep Learning Engineer",6,142579
+982,Gaming,"AI Software Engineer",6,144276
+5674,Gaming,"NLP Engineer",6,150045
+7356,Gaming,"Data Engineer",6,154236
+10846,Gaming,"Data Analyst",6,154381
+14816,Gaming,"Data Engineer",6,158379
+4278,Gaming,"Data Analyst",6,161808
+3592,Gaming,"Data Scientist",6,164033
+5189,Gaming,"AI Research Scientist",6,168019
+10702,Gaming,"AI Specialist",6,185030
+13559,Gaming,"Autonomous Systems Engineer",6,185215
+8153,Gaming,"AI Research Scientist",6,197195
+14489,Gaming,"Machine Learning Engineer",7,68878
+14053,Gaming,"Autonomous Systems Engineer",7,81664
+10188,Gaming,"ML Ops Engineer",7,84980
+13238,Gaming,"AI Specialist",7,90673
+4891,Gaming,"Robotics Engineer",7,91107
+5647,Gaming,"Head of AI",7,92741
+6426,Gaming,"AI Architect",7,93124
+8584,Gaming,"AI Consultant",7,93933
+10076,Gaming,"Research Scientist",7,95267
+10418,Gaming,"AI Consultant",7,96232
+12427,Gaming,"Autonomous Systems Engineer",7,96976
+4620,Gaming,"Machine Learning Engineer",7,98296
+3103,Gaming,"Research Scientist",7,99928
+1142,Gaming,"ML Ops Engineer",7,101711
+7020,Gaming,"AI Software Engineer",7,102549
+11417,Gaming,"Data Scientist",7,103037
+6964,Gaming,"AI Architect",7,107260
+7417,Gaming,"Deep Learning Engineer",7,110449
+14318,Gaming,"Head of AI",7,115284
+5190,Gaming,"Autonomous Systems Engineer",7,116339
+12429,Gaming,"Computer Vision Engineer",7,116854
+1147,Gaming,"AI Research Scientist",7,118612
+1318,Gaming,"ML Ops Engineer",7,119685
+3138,Gaming,"ML Ops Engineer",7,120864
+14420,Gaming,"NLP Engineer",7,121502
+14885,Gaming,"AI Architect",7,122867
+4781,Gaming,"ML Ops Engineer",7,131390
+249,Gaming,"Data Analyst",7,132056
+7445,Gaming,"Data Analyst",7,134669
+8558,Gaming,"Machine Learning Researcher",7,137840
+7348,Gaming,"AI Architect",7,140931
+12439,Gaming,"AI Architect",7,147403
+817,Gaming,"Data Engineer",7,158240
+4411,Gaming,"Data Analyst",7,159151
+6664,Gaming,"Robotics Engineer",7,160986
+4720,Gaming,"ML Ops Engineer",7,167007
+5588,Gaming,"Computer Vision Engineer",7,167430
+2219,Gaming,"Data Engineer",7,172560
+2084,Gaming,"Principal Data Scientist",7,174414
+11784,Gaming,"Robotics Engineer",7,179314
+13771,Gaming,"AI Research Scientist",7,197658
+2122,Gaming,"NLP Engineer",7,224550
+10435,Gaming,"NLP Engineer",8,69624
+11693,Gaming,"Data Engineer",8,78907
+8092,Gaming,"Research Scientist",8,94600
+6099,Gaming,"Data Engineer",8,96832
+3658,Gaming,"Data Analyst",8,98483
+8656,Gaming,"Data Engineer",8,99773
+11214,Gaming,"NLP Engineer",8,100196
+6028,Gaming,"ML Ops Engineer",8,105368
+12649,Gaming,"Data Scientist",8,107975
+2628,Gaming,"Research Scientist",8,110041
+596,Gaming,"AI Product Manager",8,117075
+494,Gaming,"Data Analyst",8,117198
+10642,Gaming,"NLP Engineer",8,117748
+14857,Gaming,"Data Engineer",8,118900
+1957,Gaming,"AI Product Manager",8,124687
+3757,Gaming,"AI Product Manager",8,126213
+5300,Gaming,"Robotics Engineer",8,129374
+11766,Gaming,"Head of AI",8,133780
+429,Gaming,"AI Specialist",8,133855
+280,Gaming,"Machine Learning Engineer",8,136733
+7790,Gaming,"Head of AI",8,140931
+4373,Gaming,"Autonomous Systems Engineer",8,141172
+1002,Gaming,"Robotics Engineer",8,141302
+337,Gaming,"Data Scientist",8,145098
+13315,Gaming,"Research Scientist",8,145491
+10064,Gaming,"Robotics Engineer",8,148113
+1097,Gaming,"Research Scientist",8,156235
+12026,Gaming,"AI Research Scientist",8,158027
+11734,Gaming,"Robotics Engineer",8,163307
+4175,Gaming,"AI Consultant",8,163354
+12877,Gaming,"Computer Vision Engineer",8,168205
+4329,Gaming,"ML Ops Engineer",8,169455
+8324,Gaming,"Research Scientist",8,171937
+7662,Gaming,"AI Architect",8,182487
+11346,Gaming,"AI Software Engineer",8,206122
+2317,Gaming,"AI Consultant",8,215846
+7658,Gaming,"Computer Vision Engineer",8,225807
+11443,Gaming,"Data Scientist",9,69410
+3172,Gaming,"Robotics Engineer",9,74114
+9597,Gaming,"Computer Vision Engineer",9,76234
+8174,Gaming,"ML Ops Engineer",9,78404
+5174,Gaming,"Data Analyst",9,83323
+13625,Gaming,"AI Architect",9,85468
+5979,Gaming,"Principal Data Scientist",9,86048
+1369,Gaming,"Machine Learning Researcher",9,86969
+9622,Gaming,"Data Analyst",9,89856
+6297,Gaming,"AI Specialist",9,90397
+8812,Gaming,"AI Consultant",9,93770
+9110,Gaming,"AI Specialist",9,95348
+10498,Gaming,"Research Scientist",9,99857
+14830,Gaming,"AI Product Manager",9,103121
+14418,Gaming,"Data Scientist",9,106600
+14559,Gaming,"Deep Learning Engineer",9,111160
+14174,Gaming,"Head of AI",9,115724
+7922,Gaming,"Head of AI",9,118504
+7492,Gaming,"AI Software Engineer",9,119580
+8126,Gaming,"AI Architect",9,120929
+8392,Gaming,"NLP Engineer",9,121502
+14084,Gaming,"Machine Learning Researcher",9,123215
+2743,Gaming,"AI Architect",9,124536
+1127,Gaming,"NLP Engineer",9,126827
+7169,Gaming,"Autonomous Systems Engineer",9,130078
+6994,Gaming,"Autonomous Systems Engineer",9,130725
+4242,Gaming,"Data Analyst",9,130978
+622,Gaming,"AI Specialist",9,131250
+10949,Gaming,"Autonomous Systems Engineer",9,131457
+7040,Gaming,"Data Scientist",9,137417
+8513,Gaming,"Principal Data Scientist",9,145129
+648,Gaming,"Data Scientist",9,146370
+12908,Gaming,"Deep Learning Engineer",9,147151
+9616,Gaming,"NLP Engineer",9,151915
+9786,Gaming,"AI Consultant",9,153620
+526,Gaming,"AI Specialist",9,159755
+7732,Gaming,"Machine Learning Researcher",9,160120
+10774,Gaming,"ML Ops Engineer",9,163728
+14956,Gaming,"Robotics Engineer",9,165706
+10898,Gaming,"Research Scientist",9,169593
+4180,Gaming,"Deep Learning Engineer",9,171544
+6746,Gaming,"AI Product Manager",9,172119
+5286,Gaming,"Machine Learning Engineer",9,181552
+6476,Gaming,"ML Ops Engineer",9,187208
+8022,Gaming,"NLP Engineer",9,188571
+13179,Gaming,"Data Analyst",9,194354
+4572,Gaming,"Computer Vision Engineer",9,197280
+2767,Gaming,"Research Scientist",9,201277
+12323,Gaming,"Robotics Engineer",10,111390
+3589,Gaming,"Data Scientist",10,122052
+7533,Gaming,"AI Product Manager",10,143005
+3870,Gaming,"ML Ops Engineer",10,154588
+10293,Gaming,"AI Consultant",10,165149
+12631,Gaming,"Head of AI",10,177804
+4892,Gaming,"Research Scientist",10,187440
+5657,Gaming,"Autonomous Systems Engineer",10,193528
+8027,Gaming,"Data Engineer",10,194929
+4102,Gaming,"Deep Learning Engineer",10,213831
+7309,Gaming,"AI Architect",10,221260
+9862,Gaming,"AI Software Engineer",10,228929
+11114,Gaming,"NLP Engineer",10,230365
+2135,Gaming,"AI Product Manager",10,236381
+8040,Gaming,"Research Scientist",10,247997
+9682,Gaming,"Data Engineer",10,248302
+14535,Gaming,"Head of AI",10,266349
+8218,Gaming,"AI Specialist",11,106671
+6220,Gaming,"Deep Learning Engineer",11,109005
+6974,Gaming,"Research Scientist",11,138630
+4144,Gaming,"Data Scientist",11,147169
+3078,Gaming,"ML Ops Engineer",11,149555
+13425,Gaming,"Computer Vision Engineer",11,152085
+6269,Gaming,"NLP Engineer",11,158653
+5857,Gaming,"ML Ops Engineer",11,159097
+4969,Gaming,"AI Software Engineer",11,165290
+14156,Gaming,"AI Research Scientist",11,178921
+6117,Gaming,"Data Engineer",11,184155
+8039,Gaming,"AI Architect",11,189238
+11169,Gaming,"AI Consultant",11,189838
+13026,Gaming,"Principal Data Scientist",11,191497
+11558,Gaming,"AI Specialist",11,193751
+13217,Gaming,"Principal Data Scientist",11,196032
+7226,Gaming,"Data Scientist",11,197875
+4585,Gaming,"ML Ops Engineer",11,206978
+2869,Gaming,"Principal Data Scientist",11,221496
+6832,Gaming,"Machine Learning Researcher",11,233862
+1698,Gaming,"AI Architect",11,240150
+11802,Gaming,"AI Consultant",11,271385
+14416,Gaming,"Data Analyst",11,275850
+14277,Gaming,"Deep Learning Engineer",11,300250
+9243,Gaming,"AI Consultant",11,319418
+12409,Gaming,"AI Research Scientist",12,89739
+711,Gaming,"Research Scientist",12,104307
+3771,Gaming,"Autonomous Systems Engineer",12,122324
+9958,Gaming,"NLP Engineer",12,133824
+9304,Gaming,"Head of AI",12,140799
+5544,Gaming,"AI Consultant",12,142502
+8283,Gaming,"Deep Learning Engineer",12,149701
+11873,Gaming,"Autonomous Systems Engineer",12,156059
+1010,Gaming,"AI Software Engineer",12,161971
+2674,Gaming,"Data Engineer",12,184567
+2255,Gaming,"Computer Vision Engineer",12,188500
+8498,Gaming,"Deep Learning Engineer",12,225136
+2165,Gaming,"Head of AI",12,237312
+2667,Gaming,"AI Architect",12,243372
+12699,Gaming,"AI Architect",12,275274
+572,Gaming,"AI Architect",12,313205
+11596,Gaming,"Deep Learning Engineer",12,341146
+1265,Gaming,"Principal Data Scientist",12,364635
+12517,Gaming,"Head of AI",13,140608
+3888,Gaming,"AI Consultant",13,142027
+3965,Gaming,"Deep Learning Engineer",13,144722
+9629,Gaming,"Head of AI",13,149416
+4097,Gaming,"Data Engineer",13,150472
+1692,Gaming,"Machine Learning Researcher",13,151875
+5703,Gaming,"Robotics Engineer",13,152832
+13304,Gaming,"Machine Learning Researcher",13,155893
+5504,Gaming,"Machine Learning Researcher",13,162535
+7745,Gaming,"Head of AI",13,165406
+8594,Gaming,"Head of AI",13,166474
+7840,Gaming,"AI Specialist",13,200644
+13939,Gaming,"ML Ops Engineer",13,211106
+358,Gaming,"Machine Learning Engineer",13,215782
+600,Gaming,"Computer Vision Engineer",13,216253
+2940,Gaming,"NLP Engineer",13,216633
+6283,Gaming,"Robotics Engineer",13,223470
+14854,Gaming,"Principal Data Scientist",13,236225
+9055,Gaming,"AI Research Scientist",13,293060
+11468,Gaming,"Machine Learning Researcher",13,335768
+7331,Gaming,"AI Architect",14,90507
+9501,Gaming,"AI Consultant",14,136928
+12894,Gaming,"Principal Data Scientist",14,148510
+6065,Gaming,"Robotics Engineer",14,148538
+14558,Gaming,"Data Engineer",14,154306
+4413,Gaming,"AI Architect",14,155325
+1427,Gaming,"AI Architect",14,156224
+4502,Gaming,"AI Research Scientist",14,158292
+6464,Gaming,"Data Engineer",14,163939
+11959,Gaming,"Head of AI",14,165865
+6612,Gaming,"AI Product Manager",14,170276
+7295,Gaming,"Data Analyst",14,172069
+1516,Gaming,"Data Analyst",14,172076
+7875,Gaming,"Data Scientist",14,180321
+11318,Gaming,"Robotics Engineer",14,182818
+7358,Gaming,"AI Research Scientist",14,183173
+7264,Gaming,"AI Specialist",14,187362
+14078,Gaming,"Computer Vision Engineer",14,195991
+9043,Gaming,"Principal Data Scientist",14,205116
+7642,Gaming,"Principal Data Scientist",14,214538
+653,Gaming,"AI Architect",14,222869
+562,Gaming,"AI Architect",14,223289
+12896,Gaming,"Computer Vision Engineer",14,230756
+13401,Gaming,"AI Consultant",14,231001
+5939,Gaming,"Data Analyst",14,232905
+12950,Gaming,"Computer Vision Engineer",14,244745
+6232,Gaming,"Research Scientist",14,251256
+12747,Gaming,"Data Analyst",14,268156
+2226,Gaming,"AI Research Scientist",15,111531
+10844,Gaming,"Research Scientist",15,117375
+8740,Gaming,"Principal Data Scientist",15,132458
+12228,Gaming,"Principal Data Scientist",15,138403
+13393,Gaming,"AI Architect",15,138640
+5581,Gaming,"AI Architect",15,167167
+11533,Gaming,"Data Scientist",15,180642
+372,Gaming,"Data Engineer",15,182747
+7983,Gaming,"AI Consultant",15,185056
+12376,Gaming,"AI Specialist",15,194468
+12496,Gaming,"Robotics Engineer",15,195798
+6021,Gaming,"Data Analyst",15,199374
+8089,Gaming,"Computer Vision Engineer",15,209331
+189,Gaming,"Machine Learning Researcher",15,210249
+8025,Gaming,"Autonomous Systems Engineer",15,212098
+14801,Gaming,"Computer Vision Engineer",15,223253
+1568,Gaming,"Head of AI",15,231796
+327,Gaming,"AI Architect",15,238449
+12911,Gaming,"Machine Learning Engineer",15,287045
+9357,Gaming,"Data Engineer",15,291966
+12634,Gaming,"Head of AI",16,95057
+4731,Gaming,"AI Specialist",16,96023
+4782,Gaming,"Computer Vision Engineer",16,107760
+6214,Gaming,"Principal Data Scientist",16,122366
+10278,Gaming,"AI Architect",16,133879
+8311,Gaming,"Machine Learning Engineer",16,134337
+6642,Gaming,"Machine Learning Engineer",16,135754
+14928,Gaming,"Computer Vision Engineer",16,143697
+2582,Gaming,"AI Architect",16,147595
+2069,Gaming,"AI Specialist",16,147711
+6560,Gaming,"AI Consultant",16,152037
+3256,Gaming,"Machine Learning Engineer",16,160670
+7841,Gaming,"Machine Learning Engineer",16,161164
+12002,Gaming,"NLP Engineer",16,168942
+10716,Gaming,"Machine Learning Researcher",16,170314
+933,Gaming,"Machine Learning Researcher",16,171218
+8115,Gaming,"Data Engineer",16,186106
+14356,Gaming,"Principal Data Scientist",16,194385
+6474,Gaming,"AI Specialist",16,196230
+1903,Gaming,"Deep Learning Engineer",16,196644
+10631,Gaming,"Principal Data Scientist",16,219778
+5172,Gaming,"Machine Learning Engineer",16,229975
+6479,Gaming,"Principal Data Scientist",16,237398
+5012,Gaming,"AI Architect",16,238496
+5757,Gaming,"Head of AI",16,238951
+1591,Gaming,"Robotics Engineer",16,241026
+11297,Gaming,"Data Scientist",16,242446
+5138,Gaming,"Head of AI",16,258989
+13910,Gaming,"Principal Data Scientist",16,259796
+9020,Gaming,"AI Architect",16,283542
+11038,Gaming,"Research Scientist",16,299781
+14783,Gaming,"AI Specialist",17,120094
+4330,Gaming,"Research Scientist",17,122156
+438,Gaming,"Autonomous Systems Engineer",17,134632
+3206,Gaming,"Deep Learning Engineer",17,138447
+292,Gaming,"NLP Engineer",17,147732
+9103,Gaming,"Head of AI",17,151786
+13928,Gaming,"Deep Learning Engineer",17,155927
+590,Gaming,"Data Scientist",17,162476
+5833,Gaming,"Machine Learning Engineer",17,170202
+10966,Gaming,"Autonomous Systems Engineer",17,173202
+14819,Gaming,"AI Architect",17,179691
+196,Gaming,"AI Software Engineer",17,180764
+9204,Gaming,"AI Consultant",17,206982
+12158,Gaming,"Deep Learning Engineer",17,211329
+12029,Gaming,"Head of AI",17,222509
+10794,Gaming,"AI Consultant",17,239159
+4333,Gaming,"AI Architect",17,243179
+14766,Gaming,"AI Specialist",17,243484
+7531,Gaming,"ML Ops Engineer",17,259189
+10938,Gaming,"Head of AI",17,260090
+7493,Gaming,"Data Analyst",17,289303
+5677,Gaming,"AI Software Engineer",17,295954
+3915,Gaming,"AI Software Engineer",17,315149
+6645,Gaming,"Head of AI",18,102643
+579,Gaming,"Head of AI",18,111371
+10422,Gaming,"Computer Vision Engineer",18,113827
+14808,Gaming,"ML Ops Engineer",18,115574
+6276,Gaming,"Machine Learning Engineer",18,115982
+3785,Gaming,"Deep Learning Engineer",18,116298
+4248,Gaming,"Head of AI",18,127417
+781,Gaming,"Principal Data Scientist",18,145966
+1990,Gaming,"ML Ops Engineer",18,150601
+3597,Gaming,"AI Software Engineer",18,151513
+7457,Gaming,"Data Analyst",18,156380
+12702,Gaming,"Autonomous Systems Engineer",18,161792
+7279,Gaming,"ML Ops Engineer",18,162154
+8689,Gaming,"Autonomous Systems Engineer",18,163504
+10109,Gaming,"Autonomous Systems Engineer",18,179354
+4490,Gaming,"Research Scientist",18,183294
+4986,Gaming,"Machine Learning Engineer",18,195647
+5976,Gaming,"AI Architect",18,196550
+6335,Gaming,"Head of AI",18,201006
+12241,Gaming,"Machine Learning Engineer",18,206941
+10082,Gaming,"Head of AI",18,216411
+6704,Gaming,"AI Specialist",18,274952
+5095,Gaming,"Head of AI",18,288318
+11428,Gaming,"Autonomous Systems Engineer",18,313552
+5258,Gaming,"AI Architect",19,88328
+10706,Gaming,"Head of AI",19,95800
+3996,Gaming,"AI Research Scientist",19,106322
+13799,Gaming,"Machine Learning Researcher",19,107527
+8690,Gaming,"Machine Learning Engineer",19,126835
+12445,Gaming,"Data Scientist",19,130017
+7976,Gaming,"Principal Data Scientist",19,133088
+5364,Gaming,"AI Software Engineer",19,144214
+13257,Gaming,"AI Research Scientist",19,148263
+9410,Gaming,"ML Ops Engineer",19,148979
+979,Gaming,"AI Product Manager",19,156933
+10753,Gaming,"Data Analyst",19,170963
+7390,Gaming,"Principal Data Scientist",19,171522
+171,Gaming,"Deep Learning Engineer",19,183484
+9830,Gaming,"AI Research Scientist",19,186008
+4743,Gaming,"AI Architect",19,187492
+82,Gaming,"ML Ops Engineer",19,196942
+11234,Gaming,"Machine Learning Researcher",19,200293
+1469,Gaming,"Head of AI",19,201318
+4515,Gaming,"Head of AI",19,215305
+10474,Gaming,"Research Scientist",19,217739
+8163,Gaming,"Head of AI",19,227907
+11790,Gaming,"Data Scientist",19,233248
+2002,Gaming,"Robotics Engineer",19,251718
+5963,Gaming,"Data Scientist",19,257823
+5430,Gaming,"Data Engineer",19,259802
+1615,Gaming,"Robotics Engineer",19,268848
+7650,Gaming,"AI Product Manager",19,358563
