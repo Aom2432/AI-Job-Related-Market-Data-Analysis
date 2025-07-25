@@ -1,0 +1,109 @@
+﻿Factors,Estimate,Std. Error,t-value,Pr(>|t|),Sig
+(Intercept),64520,2149,30.027,<2e-16,***
+Job Title : AI Consultant,3040,1724,1.763,0.077826,.
+Job Title : AI Product Manager,500.1,1713,0.292,0.770353,
+Job Title : AI Research Scientist,-1017,1684,-0.604,0.545977,
+Job Title : AI Software Engineer,26.73,1664,0.016,0.987184,
+Job Title : AI Specialist,-992.6,1728,-0.574,0.565660,
+Job Title : Autonomous Systems Engineer,3782,1662,2.275,0.022884,*
+Job Title : Computer Vision Engineer,1652,1711,0.966,0.334284,
+Job Title : Data Analyst,362,1673,0.216,0.828690,
+Job Title : Data Engineer,1853,1704,1.088,0.276751,
+Job Title : Data Scientist,1190,1705,0.698,0.485263,
+Job Title : Deep Learning Engineer,1185,1704,0.695,0.486838,
+Job Title : Head of AI,-712.3,1691,-0.421,0.673560,
+Job Title : Machine Learning Engineer,-3181,1723,-1.847,0.064787,.
+Job Title : Machine Learning Researcher,-1804,1641,-1.099,0.271665,
+Job Title : ML Ops Engineer,1221,1717,0.711,0.476781,
+Job Title : NLP Engineer,-1280,1682,-0.761,0.446883,
+Job Title : Principal Data Scientist,-512,1692,-0.303,0.762245,
+Job Title : Research Scientist,1731,1679,1.031,0.302559,
+Job Title : Robotics Engineer,-55.74,1698,-0.033,0.973813,
+Years of Experience,-214.5,751.3,-0.285,0.775298,
+Skill Name : Azure,-432.4,1906,-0.227,0.820540,
+Skill Name : Docker,-415.8,1972,-0.211,0.833014,
+Skill Name : GCP,-1138,1867,-0.61,0.542046,
+Skill Name : Git,-89.77,1838,-0.049,0.961052,
+Skill Name : Hadoop,-212.6,1862,-0.114,0.909102,
+Skill Name : Java,-626.6,1832,-0.342,0.732284,
+Skill Name : Kubernetes,1346,1792,0.751,0.452598,
+Skill Name : MLOps,-440.4,1912,-0.23,0.817811,
+Skill Name : MLP,-1518,1905,-0.797,0.425502,
+Skill Name : PySpark,-447.7,1901,-0.236,0.813809,
+Skill Name : Python,-107.1,1688,-0.063,0.949403,
+Skill Name : PyTorch,102.1,1814,0.056,0.955118,
+Skill Name : R,-1306,1879,-0.695,0.486850,
+Skill Name : Scala,424.3,1810,0.234,0.814632,
+Skill Name : SQL,321.9,1758,0.183,0.854714,
+Skill Name : Tableau,-514.6,1886,-0.273,0.785007,
+Skill Name : Tensorflow,195.3,1793,0.109,0.913262,
+Industry : Consulting,-2789,1443,-1.933,0.053271,.
+Industry : Education,980.7,1463,0.67,0.502586,
+Industry : Energy,-3149,1455,-2.164,0.030471,*
+Industry : Finance,447.8,1452,0.308,0.757741,
+Industry : Gaming,-3707,1429,-2.595,0.009470,**
+Industry : Government,-1044,1445,-0.723,0.469800,
+Industry : Healthcare,-1186,1446,-0.82,0.411976,
+Industry : Manufacturing,-468.3,1458,-0.321,0.748094,
+Industry : Media,-4383,1432,-3.062,0.002203,**
+Industry : Real Estate,-1257,1432,-0.878,0.379959,
+Industry : Retail,-2483,1409,-1.763,0.077942,.
+Industry : Technology,-1314,1443,-0.91,0.362764,
+Industry : Telecommunications,522.8,1445,0.362,0.717571,
+Industry : Transportation,-792.3,1444,-0.549,0.583219,
+Experience Level Required : Executive,134600,1881,71.565,<2e-16,***
+Experience Level Required : Mid-level,26750,1425,18.768,<2e-16,***
+Experience Level Required : Senior,55650,1845,30.167,<2e-16,***
+Job Title : AI Consultant / Years of Experience,-360,209.8,-1.715,0.086278,.
+Job Title : AI Product Manager / Years of Experience,-60.69,205.3,-0.296,0.767483,
+Job Title : AI Research Scientist / Years of Experience,463.4,198.2,2.338,0.019371,*
+Job Title : AI Software Engineer / Years of Experience,-0.2785,197.1,-0.001,0.998873,
+Job Title : AI Specialist / Years of Experience,443,200.7,2.207,0.027302,*
+Job Title : Autonomous Systems Engineer / Years of Experience,-918.3,200.5,-4.581,4.65e-06,***
+Job Title : Computer Vision Engineer / Years of Experience,-48.97,209.9,-0.233,0.815494,
+Job Title : Data Analyst / Years of Experience,-148,203.9,-0.726,0.468062,
+Job Title : Data Engineer / Years of Experience,-52.82,203.1,-0.26,0.794824,
+Job Title : Data Scientist / Years of Experience,-130.6,203.9,-0.64,0.521877,
+Job Title : Deep Learning Engineer / Years of Experience,-145.5,204.1,-0.713,0.476008,
+Job Title : Head of AI / Years of Experience,360.2,200.3,1.799,0.072077,.
+Job Title : Machine Learning Engineer / Years of Experience,469.7,201.2,2.335,0.019555,*
+Job Title : Machine Learning Researcher / Years of Experience,127.5,195.7,0.652,0.514702,
+Job Title : ML Ops Engineer / Years of Experience,-378.4,204.3,-1.853,0.063915,.
+Job Title : NLP Engineer / Years of Experience,125.3,204,0.615,0.538861,
+Job Title : Principal Data Scientist / Years of Experience,364.1,203.2,1.791,0.073222,.
+Job Title : Research Scientist / Years of Experience,62.1,199.5,0.311,0.755534,
+Job Title : Robotics Engineer / Years of Experience,48.06,199.8,0.241,0.809907,
+Years of Experience / Skill Name : Azure,-24.81,228.5,-0.109,0.913552,
+Years of Experience / Skill Name : Docker,-131.8,236.2,-0.558,0.576665,
+Years of Experience / Skill Name : GCP,17.21,221.4,0.078,0.938048,
+Years of Experience / Skill Name : Git,-259.2,220.6,-1.175,0.239863,
+Years of Experience / Skill Name : Hadoop,65.23,222.9,0.293,0.769760,
+Years of Experience / Skill Name : Java,-217.6,220.6,-0.987,0.323878,
+Years of Experience / Skill Name : Kubernetes,-314.4,214.4,-1.466,0.142612,
+Years of Experience / Skill Name : MLOps,55.21,226.1,0.244,0.807091,
+Years of Experience / Skill Name : MLP,231.9,226.3,1.025,0.305390,
+Years of Experience / Skill Name : PySpark,-11.07,226.9,-0.049,0.961103,
+Years of Experience / Skill Name : Python,-0.266,201.3,-0.001,0.998946,
+Years of Experience / Skill Name : PyTorch,-71.77,217.5,-0.33,0.741477,
+Years of Experience / Skill Name : R,282.9,223.9,1.264,0.206280,
+Years of Experience / Skill Name : Scala,-72.27,215.8,-0.335,0.737714,
+Years of Experience / Skill Name : SQL,-130.9,209.6,-0.624,0.532357,
+Years of Experience / Skill Name : Tableau,117.2,223.8,0.524,0.600557,
+Years of Experience / Skill Name : Tensorflow,-225.2,213.4,-1.055,0.291322,
+Years of Experience / Industry : Consulting,401.4,172.4,2.328,0.019925,*
+Years of Experience / Industry : Education,-185.7,176.4,-1.052,0.292675,
+Years of Experience / Industry : Energy,136.4,171.8,0.794,0.427434,
+Years of Experience / Industry : Finance,-96.28,177.1,-0.544,0.586707,
+Years of Experience / Industry : Gaming,507.9,175,2.902,0.003715,**
+Years of Experience / Industry : Government,140.4,177.3,0.792,0.428251,
+Years of Experience / Industry : Healthcare,-90.78,173.9,-0.522,0.601729,
+Years of Experience / Industry : Manufacturing,84.01,176.5,0.476,0.634003,
+Years of Experience / Industry : Media,569.3,170,3.349,0.000810,***
+Years of Experience / Industry : Real Estate,378.9,175,2.165,0.030370,*
+Years of Experience / Industry : Retail,583.2,171.5,3.4,0.000673,***
+Years of Experience / Industry : Technology,134.5,175,0.769,0.442192,
+Years of Experience / Industry : Telecommunications,-175,177,-0.989,0.322808,
+Years of Experience / Industry : Transportation,-179.9,175.9,-1.023,0.306428,
+Years of Experience / Experience Level Required : Executive,-651.4,718.9,-0.906,0.364912,
+Years of Experience / Experience Level Required : Mid-level,-552.2,827.1,-0.668,0.504390,
+Years of Experience / Experience Level Required : Senior,621.3,751.1,0.827,0.408132,

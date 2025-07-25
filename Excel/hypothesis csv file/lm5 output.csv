@@ -1,0 +1,166 @@
+Industry Factor Name,Job Title Factor Name,Estimate,Std. error,t-value,Pr(>|t|),Sig
+Consulting,AI Consultant                                        ,-7943.422,9402.67,-0.845,0.398224,
+Education,AI Consultant                                        ,-30974.308,10331.879,-2.998,0.002720,**
+Energy,AI Consultant                                           ,-21455.705,9582.063,-2.239,0.025151,*
+Finance,AI Consultant                                          ,-41690.211,10453.806,-3.988,6.67e-05,***
+Gaming,AI Consultant                                           ,-27469.649,9388.306,-2.926,0.003436,**
+Government,AI Consultant                                        ,-6122.037,10449.506,-0.586,0.557967,
+Healthcare,AI Consultant                                       ,-31521.429,9973.954,-3.16,0.001577,**
+Manufacturing,AI Consultant                                    ,-23080.624,10286.639,-2.244,0.024853,*
+Media,AI Consultant                                            ,-19838.64,10021.851,-1.98,0.047761,*
+Real Estate,AI Consultant                                      ,-16890.852,9471.649,-1.783,0.074543,.
+Retail,AI Consultant                                           ,-27439.101,9708.152,-2.826,0.004710,**
+Technology,AI Consultant                                       ,-12840.728,9668.652,-1.328,0.184159,
+Telecommunications,AI Consultant                                ,-8329.825,9458.065,-0.881,0.378479,
+Transportation,AI Consultant                                   ,-30683.727,10042.614,-3.055,0.002249,**
+Consulting,AI Product Manager                                    ,6217.081,9502.852,0.654,0.512965,
+Education,AI Product Manager                                   ,-26586.048,10392.457,-2.558,0.010525,*
+Energy,AI Product Manager                                      ,-23996.386,9409.127,-2.55,0.010765,*
+Finance,AI Product Manager                                     ,-33250.148,9999.066,-3.325,0.000884,***
+Gaming,AI Product Manager                                      ,-16786.842,9554.633,-1.757,0.078936,.
+Government,AI Product Manager                                   ,13422.181,9919.189,1.353,0.176013,
+Healthcare,AI Product Manager                                  ,-32632.976,9932.7,-3.285,0.001019,**
+Manufacturing,AI Product Manager                               ,-19860.552,10207.865,-1.946,0.051707,.
+Media,AI Product Manager                                       ,-21060.203,9828.607,-2.143,0.032139,*
+Real Estate,AI Product Manager                                 ,-12626.395,9574.786,-1.319,0.187272,
+Retail,AI Product Manager                                       ,-7552.543,9549.999,-0.791,0.429040,
+Technology,AI Product Manager                                   ,-2933.352,9180.44,-0.32,0.749332,
+Telecommunications,AI Product Manager                          ,-13582.926,9251.63,-1.468,0.142066,
+Transportation,AI Product Manager                              ,-21797.442,9750.766,-2.235,0.025392,*
+Consulting,AI Research Scientist                                ,-2419.58,9402.049,-0.257,0.796913,
+Education,AI Research Scientist                                ,-22419.241,10415.731,-2.152,0.031368,*
+Energy,AI Research Scientist                                    ,-8318.35,9634.578,-0.863,0.387930,
+Finance,AI Research Scientist                                  ,-29738.762,10206.45,-2.914,0.003573,**
+Gaming,AI Research Scientist                                      ,512.133,10053.788,0.051,0.959374,
+Government,AI Research Scientist                                ,-9363.08,9631.713,-0.972,0.331001,
+Healthcare,AI Research Scientist                               ,-33596.72,9539.246,-3.522,0.000429,***
+Manufacturing,AI Research Scientist                            ,-23105.062,10118.709,-2.283,0.022411,*
+Media,AI Research Scientist                                    ,-16278.436,9882.116,-1.647,0.099511,.
+Real Estate,AI Research Scientist                              ,-20557.635,9626.582,-2.136,0.032725,*
+Retail,AI Research Scientist                                   ,-18246.55,9622.098,-1.896,0.057924,.
+Technology,AI Research Scientist                                ,-6748.546,9832.975,-0.686,0.492516,
+Telecommunications,AI Research Scientist                        ,-8476.824,9328.793,-0.909,0.363527,
+Transportation,AI Research Scientist                           ,-23358.979,10241.183,-2.281,0.022560,*
+Consulting,AI Software Engineer                                ,-13195.002,9025.699,-1.462,0.143765,
+Education,AI Software Engineer                                 ,-33325.516,9933.67,-3.355,0.000795,***
+Energy,AI Software Engineer                                     ,-9083.115,9747.905,-0.932,0.351444,
+Finance,AI Software Engineer                                   ,-19895.373,9640.648,-2.064,0.039052,*
+Gaming,AI Software Engineer                                    ,-24730.199,9042.57,-2.735,0.006243,**
+Government,AI Software Engineer                                ,-15583.818,9519.706,-1.637,0.101636,
+Healthcare,AI Software Engineer                                ,-13804.911,9226.02,-1.496,0.134582,
+Manufacturing,AI Software Engineer                             ,-17653.289,9412.014,-1.876,0.060715,.
+Media,AI Software Engineer                                     ,-20486.719,9442.844,-2.17,0.030046,*
+Real Estate,AI Software Engineer                               ,-15495.085,9154.448,-1.693,0.090533,.
+Retail,AI Software Engineer                                    ,-17346.621,9399.172,-1.846,0.064964,.
+Technology,AI Software Engineer                                ,-10619.23,9205.812,-1.154,0.248697,
+Telecommunications,AI Software Engineer                        ,-13391.424,9209.707,-1.454,0.145938,
+Transportation,AI Software Engineer                            ,-23147.996,9448.007,-2.45,0.014288,*
+Consulting,AI Specialist                                         ,6135.221,9137.571,0.671,0.501951,
+Education,AI Specialist                                          ,7654.812,10481.948,0.73,0.465220,
+Energy,AI Specialist                                             ,4930.247,9606.339,0.513,0.607794,
+Finance,AI Specialist                                            ,7934.026,10065.715,0.788,0.430571,
+Gaming,AI Specialist                                               ,27.408,9217.829,0.003,0.997628,
+Government,AI Specialist                                        ,10657.131,9942.221,1.072,0.283768,
+Healthcare,AI Specialist                                        ,-7727.643,9549.036,-0.809,0.418370,
+Manufacturing,AI Specialist                                      ,3397.18,9906.569,0.343,0.731659,
+Media,AI Specialist                                             ,-1322.903,9880.723,-0.134,0.893492,
+Real Estate,AI Specialist                                        ,4115.066,9480.699,0.434,0.664257,
+Retail,AI Specialist                                            ,-7770.912,9217.858,-0.843,0.399217,
+Technology,AI Specialist                                        ,16940.363,9423.964,1.798,0.072250,.
+Telecommunications,AI Specialist                                ,-1262.136,9296.724,-0.136,0.892010,
+Transportation,AI Specialist                                    ,-7458.421,9590.501,-0.778,0.436757,
+Consulting,Autonomous Systems Engineer                          ,-3900.213,9087.07,-0.429,0.667776,
+Education,Autonomous Systems Engineer                           ,-3160.299,10149.485,-0.311,0.755517,
+Energy,Autonomous Systems Engineer                              ,-5195.853,9344.87,-0.556,0.578206,
+Finance,Autonomous Systems Engineer                            ,-30511.083,9731.329,-3.135,0.001718,**
+Gaming,Autonomous Systems Engineer                             ,-13648.369,9279.873,-1.471,0.141366,
+Government,Autonomous Systems Engineer                           ,9937.12,9547.668,1.041,0.297978,
+Healthcare,Autonomous Systems Engineer                         ,-17491.82,9248.644,-1.891,0.058593,.
+Manufacturing,Autonomous Systems Engineer                        ,4297.112,9754.318,0.441,0.659552,
+Media,Autonomous Systems Engineer                               ,-3769.649,9627.883,-0.392,0.695404,
+Real Estate,Autonomous Systems Engineer                         ,-6904.009,9412.244,-0.734,0.463249,
+Retail,Autonomous Systems Engineer                              ,-9890.225,9463.602,-1.045,0.295991,
+Technology,Autonomous Systems Engineer                           ,6954.955,9488.424,0.733,0.463566,
+Telecommunications,Autonomous Systems Engineer                  ,21673.978,9623.866,2.252,0.024320,*
+Transportation,Autonomous Systems Engineer                      ,-6656.027,9791.624,-0.68,0.496655,
+Consulting,Computer Vision Engineer                              ,1169.732,9826.726,0.119,0.905247,
+Education,Computer Vision Engineer                              ,-8503.562,10517.599,-0.809,0.418802,
+Energy,Computer Vision Engineer                                ,-11710.844,9838.348,-1.19,0.233924,
+Finance,Computer Vision Engineer                               ,-25642.577,10474.771,-2.448,0.014368,*
+Gaming,Computer Vision Engineer                                 ,-6122.397,9816.658,-0.624,0.532845,
+Government,Computer Vision Engineer                              ,8452.731,10432.757,0.81,0.417823,
+Healthcare,Computer Vision Engineer                             ,-9219.233,9665.102,-0.954,0.340155,
+Manufacturing,Computer Vision Engineer                           ,2088.435,10330.567,0.202,0.839792,
+Media,Computer Vision Engineer                                   ,2485.807,10133.672,0.245,0.806224,
+Real Estate,Computer Vision Engineer                             ,2551.301,9719.134,0.263,0.792935,
+Retail,Computer Vision Engineer                                ,-12990.506,9849.93,-1.319,0.187228,
+Technology,Computer Vision Engineer                              ,7823.678,10105.733,0.774,0.438827,
+Telecommunications,Computer Vision Engineer                     ,16145.56,9692.483,1.666,0.095764,.
+Transportation,Computer Vision Engineer                         ,-6355.753,9943.169,-0.639,0.522691,
+Consulting,Data Analyst                                         ,-8172.626,9502.69,-0.86,0.389775,
+Education,Data Analyst                                         ,-20777.877,10451.811,-1.988,0.046821,*
+Energy,Data Analyst                                            ,-14890.604,9673.46,-1.539,0.123732,
+Finance,Data Analyst                                           ,-33681.709,10376.704,-3.246,0.001172,**
+Gaming,Data Analyst                                            ,-20643.794,9604.515,-2.149,0.031609,*
+Government,Data Analyst                                         ,-4517.269,9770.621,-0.462,0.643846,
+Healthcare,Data Analyst                                        ,-31834.427,9952.753,-3.199,0.001382,**
+Manufacturing,Data Analyst                                     ,-20373.527,9990.755,-2.039,0.041432,*
+Media,Data Analyst                                              ,-9880.897,9786.557,-1.01,0.312673,
+Real Estate,Data Analyst                                       ,-14072.677,9471.581,-1.486,0.137344,
+Retail,Data Analyst                                             ,-9258.588,9947.565,-0.931,0.351993,
+Technology,Data Analyst                                         ,-5703.233,9539.885,-0.598,0.549956,
+Telecommunications,Data Analyst                                 ,-6603.158,9640.788,-0.685,0.493399,
+Transportation,Data Analyst                                    ,-15681.628,9527.529,-1.646,0.099785,.
+Consulting,Data Engineer                                         ,8028.805,9576.573,0.838,0.401822,
+Education,Data Engineer                                         ,-7349.41,9880.357,-0.744,0.456977,
+Energy,Data Engineer                                              ,327.871,9498.786,0.035,0.972465,
+Finance,Data Engineer                                          ,-15880.416,10134.457,-1.567,0.117128,
+Gaming,Data Engineer                                            ,-3154.512,9272.034,-0.34,0.733694,
+Government,Data Engineer                                        ,16841.594,9514.403,1.77,0.076715,.
+Healthcare,Data Engineer                                       ,-14856.638,9720.707,-1.528,0.126433,
+Manufacturing,Data Engineer                                      ,2834.427,9676.322,0.293,0.769582,
+Media,Data Engineer                                              ,4558.45,9844.407,0.463,0.643331,
+Real Estate,Data Engineer                                       ,10711.143,9572.479,1.119,0.263167,
+Retail,Data Engineer                                            ,-9117.049,9299.633,-0.98,0.326910,
+Technology,Data Engineer                                        ,10763.957,9161.509,1.175,0.240036,
+Telecommunications,Data Engineer                                ,19832.541,9787.276,2.026,0.042734,*
+Transportation,Data Engineer                                     ,1863.449,9323.367,0.2,0.841584,
+Consulting,Data Scientist                                       ,17720.877,9297.05,1.906,0.056647,.
+Education,Data Scientist                                        ,13356.7,10386.65,1.286,0.198467,
+Energy,Data Scientist                                           ,-2486.848,9590.013,-0.259,0.795392,
+Finance,Data Scientist                                         ,-13045.373,10002.802,-1.304,0.192182,
+Gaming,Data Scientist                                            ,-331.203,9811.01,-0.034,0.973070,
+Government,Data Scientist                                       ,13449.643,10101.91,1.331,0.183065,
+Healthcare,Data Scientist                                      ,-11971.923,9260.903,-1.293,0.196108,
+Manufacturing,Data Scientist                                    ,-8107.766,9935.885,-0.816,0.414500,
+Media,Data Scientist                                            ,-8383.561,9666.709,-0.867,0.385804,
+Real Estate,Data Scientist                                       ,1141.465,9523.982,0.12,0.904601,
+Retail,Data Scientist                                           ,-2656.402,9338.242,-0.284,0.776055,
+Technology,Data Scientist                                        ,-306.524,9191.912,-0.033,0.973398,
+Telecommunications,Data Scientist                               ,10695.942,9268.956,1.154,0.248525,
+Transportation,Data Scientist                                   ,-3554.805,9404.858,-0.378,0.705451,
+Consulting,Deep Learning Engineer                                ,6639.16,9852.644,0.674,0.500413,
+Education,Deep Learning Engineer                               ,-16377.059,10219.838,-1.602,0.109057,
+Energy,Deep Learning Engineer                                    ,9797.154,9567.158,1.024,0.305822,
+Finance,Deep Learning Engineer                                 ,-12319.741,10161.048,-1.212,0.225347,
+Gaming,Deep Learning Engineer                                   ,-1424.328,9624.218,-0.148,0.882348,
+Government,Deep Learning Engineer                                ,9183.323,10265.876,0.895,0.371033,
+Healthcare,Deep Learning Engineer                              ,-16637.657,9278.13,-1.793,0.072946,.
+Manufacturing,Deep Learning Engineer                            ,-8351.884,10091.958,-0.828,0.407914,
+Media,Deep Learning Engineer                                    ,-3963.767,9720.153,-0.408,0.683431,
+Real Estate,Deep Learning Engineer                               ,5999.74,9566.446,0.627,0.530554,
+Retail,Deep Learning Engineer                                   ,-5678.652,9560.889,-0.594,0.552551,
+Technology,Deep Learning Engineer                               ,-3705.242,9552.551,-0.388,0.698107,
+Telecommunications,Deep Learning Engineer                      ,-13459.336,9424.999,-1.428,0.153285,
+Transportation,Deep Learning Engineer                           ,-3570.996,9628.201,-0.371,0.710722,
+Consulting,Head of AI                                            ,9389.878,9686.258,0.969,0.332350,
+Education,Head of AI                                           ,-15444.83,10182.55,-1.517,0.129326,
+Energy,Head of AI                                                ,1329.289,10148.373,0.131,0.895787,
+Finance,Head of AI                                             ,-14187.868,10291.571,-1.379,0.168028,
+Gaming,Head of AI                                              ,-11027.282,9353.166,-1.179,0.238409,
+Government,Head of AI                                            ,8281.02,9553.359,0.867,0.386047,
+Healthcare,Head of AI                                           ,-7667.779,9548.766,-0.803,0.421972,
+Manufacturing,Head of AI                                       ,-12491.232,10102.426,-1.236,0.216295,
+Media,Head of AI                                                 ,-470.641,10088.974,-0.047,0.962793,
+Real Estate,Head of AI                                          ,-5657.001,9766.639,-0.579,0.562446,
+Retail,Head of AI                                              ,-16080.82,9895.537,-1.625,0.104157,

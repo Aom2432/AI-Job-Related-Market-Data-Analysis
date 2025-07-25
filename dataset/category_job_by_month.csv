@@ -1,0 +1,321 @@
+ID_cleaned,Job_Title,Number_of_Job_Posted,Month_Cumulative
+0,AI Architect,49,1
+1,AI Architect,45,2
+2,AI Architect,50,3
+3,AI Architect,50,4
+4,AI Architect,53,5
+5,AI Architect,45,6
+6,AI Architect,59,7
+7,AI Architect,50,8
+8,AI Architect,42,9
+9,AI Architect,51,10
+10,AI Architect,50,11
+11,AI Architect,52,12
+12,AI Architect,60,13
+13,AI Architect,37,14
+14,AI Architect,38,15
+15,AI Architect,40,16
+0,AI Consultant,35,1
+1,AI Consultant,43,2
+2,AI Consultant,47,3
+3,AI Consultant,39,4
+4,AI Consultant,41,5
+5,AI Consultant,44,6
+6,AI Consultant,46,7
+7,AI Consultant,45,8
+8,AI Consultant,54,9
+9,AI Consultant,42,10
+10,AI Consultant,44,11
+11,AI Consultant,39,12
+12,AI Consultant,54,13
+13,AI Consultant,41,14
+14,AI Consultant,36,15
+15,AI Consultant,54,16
+0,AI Product Manager,58,1
+1,AI Product Manager,52,2
+2,AI Product Manager,52,3
+3,AI Product Manager,40,4
+4,AI Product Manager,55,5
+5,AI Product Manager,33,6
+6,AI Product Manager,46,7
+7,AI Product Manager,51,8
+8,AI Product Manager,42,9
+9,AI Product Manager,53,10
+10,AI Product Manager,43,11
+11,AI Product Manager,53,12
+12,AI Product Manager,43,13
+13,AI Product Manager,27,14
+14,AI Product Manager,52,15
+15,AI Product Manager,43,16
+0,AI Research Scientist,48,1
+1,AI Research Scientist,43,2
+2,AI Research Scientist,42,3
+3,AI Research Scientist,47,4
+4,AI Research Scientist,49,5
+5,AI Research Scientist,52,6
+6,AI Research Scientist,39,7
+7,AI Research Scientist,38,8
+8,AI Research Scientist,49,9
+9,AI Research Scientist,55,10
+10,AI Research Scientist,44,11
+11,AI Research Scientist,55,12
+12,AI Research Scientist,55,13
+13,AI Research Scientist,35,14
+14,AI Research Scientist,51,15
+15,AI Research Scientist,54,16
+0,AI Software Engineer,60,1
+1,AI Software Engineer,54,2
+2,AI Software Engineer,44,3
+3,AI Software Engineer,62,4
+4,AI Software Engineer,42,5
+5,AI Software Engineer,49,6
+6,AI Software Engineer,48,7
+7,AI Software Engineer,40,8
+8,AI Software Engineer,37,9
+9,AI Software Engineer,49,10
+10,AI Software Engineer,48,11
+11,AI Software Engineer,67,12
+12,AI Software Engineer,49,13
+13,AI Software Engineer,50,14
+14,AI Software Engineer,54,15
+15,AI Software Engineer,31,16
+0,AI Specialist,53,1
+1,AI Specialist,52,2
+2,AI Specialist,34,3
+3,AI Specialist,34,4
+4,AI Specialist,46,5
+5,AI Specialist,48,6
+6,AI Specialist,47,7
+7,AI Specialist,54,8
+8,AI Specialist,51,9
+9,AI Specialist,45,10
+10,AI Specialist,44,11
+11,AI Specialist,33,12
+12,AI Specialist,56,13
+13,AI Specialist,43,14
+14,AI Specialist,42,15
+15,AI Specialist,46,16
+0,Autonomous Systems Engineer,53,1
+1,Autonomous Systems Engineer,40,2
+2,Autonomous Systems Engineer,50,3
+3,Autonomous Systems Engineer,46,4
+4,Autonomous Systems Engineer,56,5
+5,Autonomous Systems Engineer,54,6
+6,Autonomous Systems Engineer,36,7
+7,Autonomous Systems Engineer,48,8
+8,Autonomous Systems Engineer,37,9
+9,Autonomous Systems Engineer,58,10
+10,Autonomous Systems Engineer,45,11
+11,Autonomous Systems Engineer,50,12
+12,Autonomous Systems Engineer,39,13
+13,Autonomous Systems Engineer,56,14
+14,Autonomous Systems Engineer,52,15
+15,Autonomous Systems Engineer,57,16
+0,Computer Vision Engineer,54,1
+1,Computer Vision Engineer,44,2
+2,Computer Vision Engineer,50,3
+3,Computer Vision Engineer,47,4
+4,Computer Vision Engineer,46,5
+5,Computer Vision Engineer,43,6
+6,Computer Vision Engineer,46,7
+7,Computer Vision Engineer,47,8
+8,Computer Vision Engineer,46,9
+9,Computer Vision Engineer,45,10
+10,Computer Vision Engineer,47,11
+11,Computer Vision Engineer,45,12
+12,Computer Vision Engineer,42,13
+13,Computer Vision Engineer,37,14
+14,Computer Vision Engineer,38,15
+15,Computer Vision Engineer,47,16
+0,Data Analyst,41,1
+1,Data Analyst,44,2
+2,Data Analyst,55,3
+3,Data Analyst,49,4
+4,Data Analyst,52,5
+5,Data Analyst,41,6
+6,Data Analyst,47,7
+7,Data Analyst,50,8
+8,Data Analyst,59,9
+9,Data Analyst,53,10
+10,Data Analyst,44,11
+11,Data Analyst,45,12
+12,Data Analyst,45,13
+13,Data Analyst,40,14
+14,Data Analyst,44,15
+15,Data Analyst,50,16
+0,Data Engineer,42,1
+1,Data Engineer,50,2
+2,Data Engineer,56,3
+3,Data Engineer,48,4
+4,Data Engineer,46,5
+5,Data Engineer,50,6
+6,Data Engineer,43,7
+7,Data Engineer,55,8
+8,Data Engineer,43,9
+9,Data Engineer,42,10
+10,Data Engineer,45,11
+11,Data Engineer,52,12
+12,Data Engineer,38,13
+13,Data Engineer,36,14
+14,Data Engineer,61,15
+15,Data Engineer,42,16
+0,Data Scientist,53,1
+1,Data Scientist,40,2
+2,Data Scientist,40,3
+3,Data Scientist,41,4
+4,Data Scientist,48,5
+5,Data Scientist,57,6
+6,Data Scientist,46,7
+7,Data Scientist,39,8
+8,Data Scientist,36,9
+9,Data Scientist,48,10
+10,Data Scientist,59,11
+11,Data Scientist,46,12
+12,Data Scientist,40,13
+13,Data Scientist,35,14
+14,Data Scientist,48,15
+15,Data Scientist,44,16
+0,Deep Learning Engineer,50,1
+1,Deep Learning Engineer,39,2
+2,Deep Learning Engineer,42,3
+3,Deep Learning Engineer,55,4
+4,Deep Learning Engineer,41,5
+5,Deep Learning Engineer,43,6
+6,Deep Learning Engineer,44,7
+7,Deep Learning Engineer,44,8
+8,Deep Learning Engineer,52,9
+9,Deep Learning Engineer,40,10
+10,Deep Learning Engineer,45,11
+11,Deep Learning Engineer,45,12
+12,Deep Learning Engineer,43,13
+13,Deep Learning Engineer,44,14
+14,Deep Learning Engineer,44,15
+15,Deep Learning Engineer,47,16
+0,Head of AI,43,1
+1,Head of AI,44,2
+2,Head of AI,46,3
+3,Head of AI,62,4
+4,Head of AI,44,5
+5,Head of AI,59,6
+6,Head of AI,55,7
+7,Head of AI,54,8
+8,Head of AI,48,9
+9,Head of AI,47,10
+10,Head of AI,47,11
+11,Head of AI,41,12
+12,Head of AI,44,13
+13,Head of AI,60,14
+14,Head of AI,26,15
+15,Head of AI,45,16
+0,Machine Learning Engineer,48,1
+1,Machine Learning Engineer,45,2
+2,Machine Learning Engineer,40,3
+3,Machine Learning Engineer,51,4
+4,Machine Learning Engineer,58,5
+5,Machine Learning Engineer,51,6
+6,Machine Learning Engineer,46,7
+7,Machine Learning Engineer,53,8
+8,Machine Learning Engineer,48,9
+9,Machine Learning Engineer,35,10
+10,Machine Learning Engineer,40,11
+11,Machine Learning Engineer,52,12
+12,Machine Learning Engineer,51,13
+13,Machine Learning Engineer,41,14
+14,Machine Learning Engineer,64,15
+15,Machine Learning Engineer,49,16
+0,Machine Learning Researcher,46,1
+1,Machine Learning Researcher,61,2
+2,Machine Learning Researcher,45,3
+3,Machine Learning Researcher,59,4
+4,Machine Learning Researcher,38,5
+5,Machine Learning Researcher,32,6
+6,Machine Learning Researcher,42,7
+7,Machine Learning Researcher,54,8
+8,Machine Learning Researcher,65,9
+9,Machine Learning Researcher,47,10
+10,Machine Learning Researcher,52,11
+11,Machine Learning Researcher,53,12
+12,Machine Learning Researcher,61,13
+13,Machine Learning Researcher,32,14
+14,Machine Learning Researcher,53,15
+15,Machine Learning Researcher,68,16
+0,ML Ops Engineer,35,1
+1,ML Ops Engineer,45,2
+2,ML Ops Engineer,43,3
+3,ML Ops Engineer,45,4
+4,ML Ops Engineer,42,5
+5,ML Ops Engineer,46,6
+6,ML Ops Engineer,51,7
+7,ML Ops Engineer,41,8
+8,ML Ops Engineer,33,9
+9,ML Ops Engineer,48,10
+10,ML Ops Engineer,50,11
+11,ML Ops Engineer,59,12
+12,ML Ops Engineer,56,13
+13,ML Ops Engineer,44,14
+14,ML Ops Engineer,40,15
+15,ML Ops Engineer,47,16
+0,NLP Engineer,52,1
+1,NLP Engineer,59,2
+2,NLP Engineer,47,3
+3,NLP Engineer,48,4
+4,NLP Engineer,52,5
+5,NLP Engineer,54,6
+6,NLP Engineer,47,7
+7,NLP Engineer,51,8
+8,NLP Engineer,44,9
+9,NLP Engineer,55,10
+10,NLP Engineer,50,11
+11,NLP Engineer,42,12
+12,NLP Engineer,50,13
+13,NLP Engineer,37,14
+14,NLP Engineer,31,15
+15,NLP Engineer,43,16
+0,Principal Data Scientist,43,1
+1,Principal Data Scientist,48,2
+2,Principal Data Scientist,43,3
+3,Principal Data Scientist,52,4
+4,Principal Data Scientist,51,5
+5,Principal Data Scientist,46,6
+6,Principal Data Scientist,43,7
+7,Principal Data Scientist,48,8
+8,Principal Data Scientist,34,9
+9,Principal Data Scientist,46,10
+10,Principal Data Scientist,43,11
+11,Principal Data Scientist,34,12
+12,Principal Data Scientist,46,13
+13,Principal Data Scientist,62,14
+14,Principal Data Scientist,47,15
+15,Principal Data Scientist,48,16
+0,Research Scientist,44,1
+1,Research Scientist,41,2
+2,Research Scientist,59,3
+3,Research Scientist,57,4
+4,Research Scientist,53,5
+5,Research Scientist,44,6
+6,Research Scientist,56,7
+7,Research Scientist,54,8
+8,Research Scientist,30,9
+9,Research Scientist,40,10
+10,Research Scientist,44,11
+11,Research Scientist,43,12
+12,Research Scientist,46,13
+13,Research Scientist,34,14
+14,Research Scientist,55,15
+15,Research Scientist,42,16
+0,Robotics Engineer,46,1
+1,Robotics Engineer,38,2
+2,Robotics Engineer,47,3
+3,Robotics Engineer,53,4
+4,Robotics Engineer,42,5
+5,Robotics Engineer,47,6
+6,Robotics Engineer,72,7
+7,Robotics Engineer,42,8
+8,Robotics Engineer,45,9
+9,Robotics Engineer,50,10
+10,Robotics Engineer,38,11
+11,Robotics Engineer,53,12
+12,Robotics Engineer,46,13
+13,Robotics Engineer,49,14
+14,Robotics Engineer,46,15
+15,Robotics Engineer,45,16

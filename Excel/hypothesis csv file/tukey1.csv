@@ -1,0 +1,106 @@
+﻿Comparison Name,Difference,Lower,Upper,P-value(Adjustment)
+Gaming / Consulting                ,-4622.56718,-13799.337 ,4554.202,0.9309839
+Consulting / Automotive             ,3614.90098,  -5438.654,12668.456,0.9908937
+Healthcare / Consulting            ,-3168.25851,-12273.878 ,5937.361,0.9977567
+Media / Gaming                      ,3148.15517,  -5975.037,12271.347,0.9979465
+Manufacturing / Gaming              ,3183.3138,  -6127.112,12493.74,0.9981394
+Gaming / Education                 ,-3047.22837,-12372.289 ,6277.833,0.9988624
+Real Estate / Gaming                ,2939.52036,  -6266.031,12145.072,0.9991188
+Retail / Consulting                ,-2825.77903,-11787.308 ,6135.75,0.9992343
+Technology / Gaming                 ,2852.24896,  -6344.377,12048.875,0.9993643
+Transportation / Consulting        ,-2764.33975,-11869.959 ,6341.28,0.9995009
+Government / Gaming                 ,2714.74667,  -6511.116,11940.609,0.999651
+Energy / Consulting                ,-2413.70568,-11568.730 ,6741.318,0.9999041
+Telecommunications / Consulting    ,-2310.73092,-11416.350 ,6794.889,0.9999395
+Gaming / Finance                   ,-2343.8234,-11601.928 ,6914.281,0.9999413
+Telecommunications / Gaming         ,2311.83626,  -6916.303,11539.976,0.9999483
+Finance / Consulting               ,-2278.74378,-11414.730 ,6857.243,0.999951
+Gaming / Energy                    ,-2208.8615,-11485.753 ,7068.03,0.9999723
+Media / Automotive                  ,2140.48897,  -6858.755,11139.733,0.9999726
+Manufacturing / Automotive          ,2175.6476,  -7013.356,11364.651,0.9999741
+Education / Automotive              ,2039.56217,  -7164.269,11243.394,0.9999887
+Real Estate / Automotive            ,1931.85416,  -7150.873,11014.581,0.9999932
+Government / Consulting            ,-1907.82051,-11011.133 ,7195.492,0.9999944
+Technology / Automotive             ,1844.58276,  -7229.098,10918.264,0.9999962
+Transportation / Gaming             ,1858.22743,  -7369.912,11086.367,0.9999966
+Retail / Gaming                     ,1796.78815,  -7289.204,10882.781,0.9999973
+Technology / Consulting            ,-1770.31822,-10843.999 ,7303.363,0.9999978
+Manufacturing / Healthcare          ,1729.00512,  -7511.300,10969.31,0.9999987
+Government / Automotive             ,1707.08047,  -7396.232,10810.393,0.9999987
+Media / Healthcare                  ,1693.84649,  -7357.775,10745.468,0.9999987
+Real Estate / Consulting           ,-1683.04682,-10765.774 ,7399.68,0.9999988
+Education / Consulting             ,-1575.33881,-10779.170 ,7628.493,0.9999996
+Healthcare / Education             ,-1592.9197,-10847.971 ,7662.131,0.9999996
+Media / Consulting                 ,-1474.41201,-10473.656 ,7524.832,0.9999998
+Real Estate / Healthcare            ,1485.21168,  -7649.414,10619.837,0.9999998
+Technology / Healthcare             ,1397.94029,  -7727.691,10523.572,0.9999999
+Retail / Manufacturing             ,-1386.52565,-10484.874 ,7711.823,0.9999999
+Finance / Automotive                ,1336.1572,  -7799.829,10472.144,0.9999999
+Retail / Media                     ,-1351.36702,-10258.024 ,7555.29,0.9999999
+Healthcare / Gaming                 ,1454.30868,  -7773.831,10682.448,0.9999999
+Manufacturing / Consulting         ,-1439.25338,-10628.257 ,7749.75,0.9999999
+Telecommunications / Government     ,-402.91041, -9558.005 ,8752.184,1
+Transportation / Government         ,-856.51924,-10011.613 ,8298.575,1
+Technology / Government              ,137.50229, -8985.827 ,9260.831,1
+Transportation / Retail               ,61.43928, -8952.687 ,9075.565,1
+Real Estate / Government             ,224.77369, -8907.552 ,9357.1,1
+Media / Government                   ,433.4085, -8615.891 ,9482.708,1
+Manufacturing / Government           ,468.56713, -8769.465 ,9706.599,1
+Healthcare / Government            ,-1260.43799,-10415.532 ,7894.656,1
+Telecommunications / Technology     ,-540.4127, -9666.044 ,8585.219,1
+Retail / Government                 ,-917.95852, -9929.754 ,8093.837,1
+Telecommunications / Real Estate    ,-627.6841, -9762.310 ,8506.942,1
+Real Estate / Manufacturing         ,-243.79344, -9461.541 ,8973.954,1
+Telecommunications / Healthcare      ,857.52758,  -8299.861,10014.916,1
+Transportation / Healthcare          ,403.91876, -8753.470 ,9561.307,1
+Media / Manufacturing                ,-35.15863, -9170.657 ,9100.339,1
+Technology / Manufacturing          ,-331.06484, -9539.899 ,8877.769,1
+Telecommunications / Manufacturing  ,-871.47754,-10111.783 ,8368.828,1
+Transportation / Manufacturing     ,-1325.08637,-10565.392 ,7915.219,1
+Real Estate / Media                 ,-208.63481, -9237.227 ,8819.957,1
+Telecommunications / Retail          ,515.04811, -8499.078 ,9529.174,1
+Telecommunications / Media          ,-836.31891, -9887.940 ,8215.302,1
+Transportation / Media             ,-1289.92774,-10341.549 ,7761.693,1
+Retail / Real Estate               ,-1142.73221,-10133.733 ,7848.268,1
+Technology / Real Estate             ,-87.2714, -9190.061 ,9015.518,1
+Technology / Retail                 ,1055.46081,  -7926.401,10037.323,1
+Transportation / Real Estate       ,-1081.29293,-10215.919 ,8053.333,1
+Retail / Healthcare                  ,342.47947, -8671.646 ,9356.605,1
+Technology / Media                  ,-295.90621, -9315.398 ,8723.585,1
+Healthcare / Finance                ,-889.51472,-10077.099 ,8298.069,1
+Telecommunications / Finance         ,-31.98714, -9219.571 ,9155.597,1
+Technology / Education              ,-194.97941, -9418.609 ,9028.651,1
+Retail / Education                 ,-1250.44022,-10363.764 ,7862.884,1
+Real Estate / Education             ,-107.70801, -9340.237 ,9124.821,1
+Media / Education                    ,100.9268, -9049.486 ,9251.339,1
+Manufacturing / Education            ,136.08543, -9201.015 ,9473.186,1
+Government / Education              ,-332.4817, -9585.263 ,8920.299,1
+Telecommunications / Education      ,-735.39211, -9990.443 ,8519.659,1
+Finance / Education                 ,-703.40497, -9988.334 ,8581.524,1
+Transportation / Automotive          ,850.56123, -8255.058 ,9956.181,1
+Telecommunications / Automotive     ,1304.17006,  -7801.450,10409.79,1
+Retail / Automotive                  ,789.12195, -8172.407 ,9750.651,1
+Healthcare / Automotive              ,446.64247, -8658.977 ,9552.262,1
+Gaming / Automotive                ,-1007.6662,-10184.436 ,8169.103,1
+Energy / Automotive                 ,1201.1953,  -7953.829,10356.219,1
+Energy / Education                  ,-838.36687,-10142.029 ,8465.295,1
+Transportation / Education         ,-1189.00094,-10444.052 ,8066.05,1
+Finance / Energy                     ,134.9619, -9101.588 ,9371.512,1
+Government / Energy                  ,505.88517, -8698.348 ,9710.118,1
+Technology / Finance                 ,508.42556, -8647.506 ,9664.357,1
+Retail / Finance                    ,-547.03525, -9591.835 ,8497.765,1
+Real Estate / Finance                ,595.69696, -8569.200 ,9760.593,1
+Media / Finance                      ,804.33177, -8277.837 ,9886.5,1
+Manufacturing / Finance              ,839.4904,  -8430.740,10109.721,1
+Transportation / Technology         ,-994.02153,-10119.653 ,8131.61,1
+Government / Finance                 ,370.92327, -8814.374 ,9556.221,1
+Transportation / Energy             ,-350.63407, -9557.149 ,8855.881,1
+Telecommunications / Energy          ,102.97476, -9103.540 ,9309.49,1
+Technology / Energy                  ,643.38746, -8531.541 ,9818.315,1
+Retail / Energy                     ,-412.07335, -9476.102 ,8651.956,1
+Real Estate / Energy                 ,730.65886, -8453.215 ,9914.533,1
+Media / Energy                       ,939.29367,  -8162.025,10040.612,1
+Manufacturing / Energy               ,974.4523,  -8314.541,10263.446,1
+Healthcare / Energy                 ,-754.55282, -9961.068 ,8451.962,1
+Transportation / Finance            ,-485.59597, -9673.180 ,8701.988,1
+Transportation / Telecommunications ,-453.60883, -9610.997 ,8703.78,1
