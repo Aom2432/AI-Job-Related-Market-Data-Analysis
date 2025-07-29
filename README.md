@@ -5,3 +5,7 @@ This project doesn't represents the real world data, but this analysis try to re
 
 
 https://spotty-month-0fa.notion.site/AI-Powered-Job-Market-Insights-21dc8885cd8f8063857ec8958be482fb#23bc8885cd8f80a9b5cfe7dbe1241b1e
+
+Here's the Power BI Executive Dashboard version.
+
+https://app.powerbi.com/links/_oMERgawe4?ctid=8c1832ea-a96d-413e-bf7d-9fe4d608e00b&pbi_source=linkShare
