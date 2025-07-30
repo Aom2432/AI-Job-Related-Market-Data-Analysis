@@ -1,7 +1,7 @@
 Please visit this notion site for all details of the analysis.
 - The first section is all behind the scenes works.
 - The last section is all about analysis(Started from Conclusion of the Analysis section)
-    - There is a pdf version for analysis only in the file. (AI-related jobs market Conclusion analysis.pdf)
+    - There is a PDF version for analysis only in the file. (AI-related jobs market Conclusion analysis.pdf)
 This project doesn't represents the real world data, but this analysis try to represent all insight close to the real world needs as possible.
 
 
