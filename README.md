@@ -1,6 +1,7 @@
 Please visit this notion site for all details of the analysis.
 - The first section is all behind the scenes works.
 - The last section is all about analysis(Started from Conclusion of the Analysis section)
+    - There is a pdf version for analysis only in the file. (AI-related jobs market Conclusion analysis.pdf)
 This project doesn't represents the real world data, but this analysis try to represent all insight close to the real world needs as possible.
 
 
@@ -9,3 +10,5 @@ https://spotty-month-0fa.notion.site/AI-Powered-Job-Market-Insights-21dc8885cd8f
 Here's the Power BI Executive Dashboard version.
 
 https://app.powerbi.com/links/_oMERgawe4?ctid=8c1832ea-a96d-413e-bf7d-9fe4d608e00b&pbi_source=linkShare
+
+
